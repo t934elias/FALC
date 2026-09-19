@@ -1,0 +1,681 @@
+#mistral_dpo
+
+Léa, pourquoi tu sembles triste aujourd'hui ? Ce matin, Clément se réveille heureux. C'est l'anniversaire de ta petite sœur Léa. Il court vers ta chambre pour te souhaiter bon anniversaire. Il est impatient de te voir. Il frappe doucement à la porte avant d'entrer en criant joyeusement : "Bon anniversaire, ma petite sœur !" Léa ouvre un œil. Elle a eu du mal à dormir cette nuit. C'est pourquoi, ce matin, elle est vraiment fatiguée. Elle aurait voulu se reposer encore un peu. Mais son frère ne s'arrête pas de sauter devant elle en disant gaiement : "Tu es grande maintenant !"
+/home/d3879/etr/etr-env/lib64/python3.9/site-packages/networkx/utils/backends.py:135: RuntimeWarning: networkx backend defined more than once: nx-loopback
+  backends.update(_get_backends("networkx.backends"))
+[nltk_data] Downloading package punkt to /home/d3879/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+BLEU Score: 10.2602
+ROUGE-L: 34.6154
+SARI Score: 39.5210
+
+BERTScore:
+Precision: 71.2998
+Recall:    84.7782
+F1:        77.4570
+
+Readability:
+flesch reading ease: 76.2213
+LIX:                 27.7917
+Compression Ratio:   16.5217
+
+Novelty:
+Novelty Score: 18.4211
+
+Combined Metric:
+SRB Score: 44.7079
+
+Number of Samples: 1
+Device set to use cuda:0
+
+Texte original :
+sad: 0.9346
+neutral: 0.0338
+anger: 0.0181
+joy: 0.0106
+surprise: 0.0020
+fear: 0.0009
+
+Texte FALC :
+sad: 0.8714
+neutral: 0.0773
+anger: 0.0265
+joy: 0.0171
+surprise: 0.0056
+fear: 0.0021
+
+Texte ref :
+sad: 0.8289
+joy: 0.1348
+neutral: 0.0231
+anger: 0.0105
+surprise: 0.0017
+fear: 0.0009
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.0632
+neutral: 0.0435
+anger: 0.0083
+joy: 0.0065
+surprise: 0.0037
+fear: 0.0012
+0.0014710076674501193
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.1057
+neutral: 0.0107
+anger: 0.0077
+joy: 0.1242
+surprise: 0.0002
+fear: 0.0000
+0.007828794651329685
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.0424
+neutral: 0.0542
+anger: 0.0160
+joy: 0.1177
+surprise: 0.0039
+fear: 0.0012
+0.002673834383258189
+
+
+
+
+
+
+
+
+
+
+#mistral:
+Texte original : 
+Léa, pourquoi es-tu triste ? Ce matin, Clément se réveille tout content. Aujourd'hui, c'est l'anniversaire de sa petite sœur Léa. Encore en pyjama, il saute de son lit et se précipite vers la chambre de Léa. Il est impatient de lui souhaiter son anniversaire. Arrivé devant sa porte, il frappe doucement avant d'entrer en criant joyeusement: « Bon anniversaire, petite sœur ! » Léa, encore un peu endormie, ouvre un œil. La petite fille a eu du mal à trouver le sommeil cette nuit. C'est pourquoi, ce matin elle est vraiment très fatiguée. Elle aurait voulu se reposer encore un peu. À la place, son frère n'arrête pas de sautiller devant elle en répétant gaiement : « Tu es grande maintenant! ».
+
+FALC predit : 
+ Léa, why are you sad? This morning, Clément wakes up happy. Today is Léa's birthday. Still in pajamas, he jumps out of bed and rushes to Léa's room. He can't wait to wish her a happy birthday. When he reaches her door, he softly knocks before entering and shouting happily: "Happy birthday, little sister!" Léa, still half asleep, opens one eye. The girl had trouble sleeping last night. That's why, this morning she is very tired. She wanted to rest a little more. Instead, her brother doesn't stop jumping in front of her, repeating cheerfully: "You're big now!"
+
+FALC ref : 
+Léa est triste Ce matin, Clément est tout content. C'est l'anniversaire de sa sœur Léa. Clément entre dans la chambre de Léa. « Bon anniversaire, petite sœur ! Tu as 8 ans aujourd'hui. Tu es grande maintenant! »
+Manual load failed: E:\python_envs\etr_env\Lib\site-packages\torch\lib\libiomp5md.dll: cannot open shared object file: No such file or directory
+[nltk_data] Downloading package punkt to /home/d3879/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+BLEU Score: 0.8769
+ROUGE-L: 14.2857
+SARI Score: 31.7002
+
+BERTScore:
+Precision: 65.9133
+Recall:    75.4297
+F1:        70.3512
+
+Readability:
+flesch reading ease: 84.0773
+LIX:                 24.4923
+Compression Ratio:   14.7826
+
+Novelty:
+Novelty Score: 97.2973
+
+Combined Metric:
+SRB Score: 25.9157
+
+Number of Samples: 1
+Device set to use cuda:0
+
+Texte original :
+sad: 0.9346
+neutral: 0.0338
+anger: 0.0181
+joy: 0.0106
+surprise: 0.0020
+fear: 0.0009
+
+Texte FALC :
+neutral: 0.6075
+sad: 0.1951
+joy: 0.1317
+surprise: 0.0409
+anger: 0.0141
+fear: 0.0108
+
+Texte ref :
+sad: 0.8289
+joy: 0.1348
+neutral: 0.0231
+anger: 0.0105
+surprise: 0.0017
+fear: 0.0009
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.7395
+neutral: 0.5736
+anger: 0.0041
+joy: 0.1211
+surprise: 0.0389
+fear: 0.0099
+0.05509281871884797
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.1057
+neutral: 0.0107
+anger: 0.0077
+joy: 0.1242
+surprise: 0.0002
+fear: 0.0000
+0.007828794651329685
+
+Distance euclidienne entre falc pred et falc ref
+neutral: 0.5844
+sad: 0.6338
+joy: 0.0031
+surprise: 0.0391
+anger: 0.0036
+fear: 0.0099
+0.027887523746941367
+
+
+
+
+
+
+
+
+#mistral few shots:
+
+Texte original : 
+Léa, pourquoi es-tu triste ? Ce matin, Clément se réveille tout content. Aujourd'hui, c'est l'anniversaire de sa petite sœur Léa. Encore en pyjama, il saute de son lit et se précipite vers la chambre de Léa. Il est impatient de lui souhaiter son anniversaire. Arrivé devant sa porte, il frappe doucement avant d'entrer en criant joyeusement: « Bon anniversaire, petite sœur ! » Léa, encore un peu endormie, ouvre un œil. La petite fille a eu du mal à trouver le sommeil cette nuit. C'est pourquoi, ce matin elle est vraiment très fatiguée. Elle aurait voulu se reposer encore un peu. À la place, son frère n'arrête pas de sautiller devant elle en répétant gaiement : « Tu es grande maintenant! ».
+
+FALC predit : 
+ Petit anniversaire, Léa !
+Le matin, Clément est content. C'est l'anniversaire de sa sœur Léa. Il veut souhaiter bon anniversaire à sa petite sœur.
+Léa ne se réveille pas tout de suite. Elle est triste aujourd'hui. Elle a eu du mal à dormir cette nuit-là.
+Clément danse devant Léa. Il dit qu'elle est grande maintenant !
+
+FALC ref : 
+Léa est triste Ce matin, Clément est tout content. C'est l'anniversaire de sa sœur Léa. Clément entre dans la chambre de Léa. « Bon anniversaire, petite sœur ! Tu as 8 ans aujourd'hui. Tu es grande maintenant! »
+Manual load failed: E:\python_envs\etr_env\Lib\site-packages\torch\lib\libiomp5md.dll: cannot open shared object file: No such file or directory
+[nltk_data] Downloading package punkt to /home/d3879/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+==================================================
+             NLP SCORE COMPARISON MATRIX
+==================================================
+Metric          | Pred vs Ref  | Pred vs Src  | Ref vs Src  
+--------------------------------------------------
+BLEU            | 22.4438      | 5.5058       | 5.1881      
+ROUGE-L         | 46.8468      | 34.8259      | 36.6667     
+BERTScore F1    | 79.8189      | 77.4032      | 77.5922     
+==================================================
+Device set to use cuda:0
+
+Texte original :
+sad: 0.9346
+neutral: 0.0338
+anger: 0.0181
+joy: 0.0106
+surprise: 0.0020
+fear: 0.0009
+
+Texte FALC :
+sad: 0.9536
+neutral: 0.0358
+anger: 0.0073
+joy: 0.0025
+fear: 0.0004
+surprise: 0.0004
+
+Texte ref :
+sad: 0.8289
+joy: 0.1348
+neutral: 0.0231
+anger: 0.0105
+surprise: 0.0017
+fear: 0.0009
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.0190
+neutral: 0.0020
+anger: 0.0108
+joy: 0.0080
+surprise: 0.0016
+fear: 0.0005
+0.00010865421323735802
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.1057
+neutral: 0.0107
+anger: 0.0077
+joy: 0.1242
+surprise: 0.0002
+fear: 0.0000
+0.007828794651329685
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.1246
+neutral: 0.0127
+anger: 0.0032
+joy: 0.1323
+fear: 0.0005
+surprise: 0.0014
+0.007874576916111042
+
+
+
+
+
+
+
+
+
+
+
+# llama prompt phrase :
+
+Texte original : 
+Léa, pourquoi es-tu triste ? Ce matin, Clément se réveille tout content. Aujourd'hui, c'est l'anniversaire de sa petite sœur Léa. Encore en pyjama, il saute de son lit et se précipite vers la chambre de Léa. Il est impatient de lui souhaiter son anniversaire. Arrivé devant sa porte, il frappe doucement avant d'entrer en criant joyeusement: « Bon anniversaire, petite sœur ! » Léa, encore un peu endormie, ouvre un œil. La petite fille a eu du mal à trouver le sommeil cette nuit. C'est pourquoi, ce matin elle est vraiment très fatiguée. Elle aurait voulu se reposer encore un peu. À la place, son frère n'arrête pas de sautiller devant elle en répétant gaiement : « Tu es grande maintenant! ».
+
+FALC predit : 
+« Bon anniversaire ! » Clément entre dans la chambre de Léa. Léa ouvre un œil. Elle est très fatiguée. Elle aurait voulu dormir encore un peu. Mais son frère continue à sautiller et à dire : « Tu es grande maintenant ! ».
+
+FALC ref : 
+Léa est triste Ce matin, Clément est tout content. C'est l'anniversaire de sa sœur Léa. Clément entre dans la chambre de Léa. « Bon anniversaire, petite sœur ! Tu as 8 ans aujourd'hui. Tu es grande maintenant! »
+Manual load failed: E:\python_envs\etr_env\Lib\site-packages\torch\lib\libiomp5md.dll: cannot open shared object file: No such file or directory
+[nltk_data] Downloading package punkt to /home/d3879/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+BLEU Score: 27.3219
+ROUGE-L: 34.8837
+SARI Score: 50.2429
+
+BERTScore:
+Precision: 75.7382
+Recall:    78.3228
+F1:        77.0088
+
+Readability:
+flesch reading ease: 83.9650
+LIX:                 25.0856
+Compression Ratio:   67.8261
+
+Novelty:
+Novelty Score: 14.2857
+
+Combined Metric:
+SRB Score: 48.7365
+
+Number of Samples: 1
+
+==================================================
+             NLP SCORE COMPARISON MATRIX
+==================================================
+Metric          | Pred vs Ref  | Pred vs Src  | Ref vs Src  
+--------------------------------------------------
+BLEU            | 27.3219      | 7.0713       | 5.1881      
+ROUGE-L         | 34.8837      | 36.3636      | 36.6667     
+BERTScore F1    | 77.0088      | 79.5613      | 77.5922     
+==================================================
+Device set to use cuda:0
+
+Texte original :
+sad: 0.9346
+neutral: 0.0338
+anger: 0.0181
+joy: 0.0106
+surprise: 0.0020
+fear: 0.0009
+
+Texte FALC :
+sad: 0.9413
+neutral: 0.0297
+anger: 0.0253
+fear: 0.0012
+joy: 0.0012
+surprise: 0.0012
+
+Texte ref :
+sad: 0.8289
+joy: 0.1348
+neutral: 0.0231
+anger: 0.0105
+surprise: 0.0017
+fear: 0.0009
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.0067
+neutral: 0.0041
+anger: 0.0072
+joy: 0.0093
+surprise: 0.0008
+fear: 0.0003
+8.853528093610841e-05
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.1057
+neutral: 0.0107
+anger: 0.0077
+joy: 0.1242
+surprise: 0.0002
+fear: 0.0000
+0.007828794651329685
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.1124
+neutral: 0.0066
+anger: 0.0148
+fear: 0.0003
+joy: 0.1335
+surprise: 0.0006
+0.008441052470503196
+
+
+
+
+
+Texte original : 
+Léa, pourquoi es-tu triste ? Ce matin, Clément se réveille tout content. Aujourd'hui, c'est l'anniversaire de sa petite sœur Léa. Encore en pyjama, il saute de son lit et se précipite vers la chambre de Léa. Il est impatient de lui souhaiter son anniversaire. Arrivé devant sa porte, il frappe doucement avant d'entrer en criant joyeusement: « Bon anniversaire, petite sœur ! » Léa, encore un peu endormie, ouvre un œil. La petite fille a eu du mal à trouver le sommeil cette nuit. C'est pourquoi, ce matin elle est vraiment très fatiguée. Elle aurait voulu se reposer encore un peu. À la place, son frère n'arrête pas de sautiller devant elle en répétant gaiement : « Tu es grande maintenant! ».
+
+FALC predit : 
+« Bon anniversaire Léa ! » Léa ouvre un œil. Elle est fatiguée. Elle aurait voulu se reposer. Mais Clément continue de sautiller. « Tu es grande maintenant ! »
+
+FALC ref : 
+Léa est triste Ce matin, Clément est tout content. C'est l'anniversaire de sa sœur Léa. Clément entre dans la chambre de Léa. « Bon anniversaire, petite sœur ! Tu as 8 ans aujourd'hui. Tu es grande maintenant! »
+Manual load failed: E:\python_envs\etr_env\Lib\site-packages\torch\lib\libiomp5md.dll: cannot open shared object file: No such file or directory
+[nltk_data] Downloading package punkt to /home/d3879/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+BLEU Score: 15.3940
+ROUGE-L: 30.1370
+SARI Score: 41.4908
+
+BERTScore:
+Precision: 76.1658
+Recall:    73.8715
+F1:        75.0011
+
+Readability:
+flesch reading ease: 70.1783
+LIX:                 31.8333
+Compression Ratio:   79.1304
+
+Novelty:
+Novelty Score: 8.3333
+
+Combined Metric:
+SRB Score: 42.4829
+
+Number of Samples: 1
+
+==================================================
+             NLP SCORE COMPARISON MATRIX
+==================================================
+Metric          | Pred vs Ref  | Pred vs Src  | Ref vs Src  
+--------------------------------------------------
+BLEU            | 15.3940      | 2.0858       | 5.1881      
+ROUGE-L         | 30.1370      | 28.2209      | 36.6667     
+BERTScore F1    | 75.0011      | 76.7308      | 77.5922     
+==================================================
+Device set to use cuda:0
+
+Texte original :
+sad: 0.9346
+neutral: 0.0338
+anger: 0.0181
+joy: 0.0106
+surprise: 0.0020
+fear: 0.0009
+
+Texte FALC :
+sad: 0.6391
+neutral: 0.3091
+joy: 0.0228
+anger: 0.0199
+surprise: 0.0065
+fear: 0.0026
+
+Texte ref :
+sad: 0.8289
+joy: 0.1348
+neutral: 0.0231
+anger: 0.0105
+surprise: 0.0017
+fear: 0.0009
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.2955
+neutral: 0.2752
+anger: 0.0017
+joy: 0.0123
+surprise: 0.0046
+fear: 0.0017
+0.08472932893614493
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.1057
+neutral: 0.0107
+anger: 0.0077
+joy: 0.1242
+surprise: 0.0002
+fear: 0.0000
+0.007828794651329685
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.1898
+neutral: 0.2860
+joy: 0.1120
+anger: 0.0094
+surprise: 0.0048
+fear: 0.0017
+0.04164629568299594
+
+
+
+
+
+
+
+# llama prompt falc + prompt emotions :
+
+FALC predit : 
+« Pourquoi es-tu triste Léa ? » Il est le matin, Clément se réveille heureux. C'est l'anniversaire de Léa ! Clément entre dans la chambre en criant : « Bon anniversaire ! Tu es grande maintenant ! »
+
+Texte original : 
+Léa, pourquoi es-tu triste ? Ce matin, Clément se réveille tout content. Aujourd'hui, c'est l'anniversaire de sa petite sœur Léa. Encore en pyjama, il saute de son lit et se précipite vers la chambre de Léa. Il est impatient de lui souhaiter son anniversaire. Arrivé devant sa porte, il frappe doucement avant d'entrer en criant joyeusement: « Bon anniversaire, petite sœur ! » Léa, encore un peu endormie, ouvre un œil. La petite fille a eu du mal à trouver le sommeil cette nuit. C'est pourquoi, ce matin elle est vraiment très fatiguée. Elle aurait voulu se reposer encore un peu. À la place, son frère n'arrête pas de sautiller devant elle en répétant gaiement : « Tu es grande maintenant! ».
+
+FALC avec emotions predit : 
+ Léa est fatiguée ce matin. Elle a du mal à trouver le sommeil. Clément saute de son lit, il est impatient de souhaiter heureux à sa sœur. Il lui dit joyeusement : « Bon anniversaire ! Tu es grande maintenant ! »
+
+FALC ref : 
+Léa est triste Ce matin, Clément est tout content. C'est l'anniversaire de sa sœur Léa. Clément entre dans la chambre de Léa. « Bon anniversaire, petite sœur ! Tu as 8 ans aujourd'hui. Tu es grande maintenant! »
+Manual load failed: E:\python_envs\etr_env\Lib\site-packages\torch\lib\libiomp5md.dll: cannot open shared object file: No such file or directory
+[nltk_data] Downloading package punkt to /home/d3879/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+BLEU Score: 17.6433
+ROUGE-L: 42.8571
+SARI Score: 42.4149
+
+BERTScore:
+Precision: 74.8343
+Recall:    79.0840
+F1:        76.9004
+
+Readability:
+flesch reading ease: 74.8191
+LIX:                 33.1937
+Compression Ratio:   67.8261
+
+Novelty:
+Novelty Score: 5.8824
+
+Combined Metric:
+SRB Score: 50.0720
+
+Number of Samples: 1
+
+==================================================
+             NLP SCORE COMPARISON MATRIX
+==================================================
+Metric          | Pred vs Ref  | Pred vs Src  | Ref vs Src  
+--------------------------------------------------
+BLEU            | 17.6433      | 5.1271       | 5.1881      
+ROUGE-L         | 42.8571      | 27.5862      | 36.6667     
+BERTScore F1    | 76.9004      | 79.0658      | 77.5922     
+==================================================
+Device set to use cuda:0
+
+Texte original :
+sad: 0.9346
+neutral: 0.0338
+anger: 0.0181
+joy: 0.0106
+surprise: 0.0020
+fear: 0.0009
+
+Texte FALC :
+sad: 0.9365
+neutral: 0.0309
+joy: 0.0246
+anger: 0.0064
+surprise: 0.0008
+fear: 0.0007
+
+Texte ref :
+sad: 0.8289
+joy: 0.1348
+neutral: 0.0231
+anger: 0.0105
+surprise: 0.0017
+fear: 0.0009
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.0019
+neutral: 0.0029
+anger: 0.0117
+joy: 0.0141
+surprise: 0.0011
+fear: 0.0002
+3.93200368800084e-05
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.1057
+neutral: 0.0107
+anger: 0.0077
+joy: 0.1242
+surprise: 0.0002
+fear: 0.0000
+0.007828794651329685
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.1076
+neutral: 0.0078
+joy: 0.1101
+anger: 0.0041
+surprise: 0.0009
+fear: 0.0002
+0.008216958664321039
+
+
+
+
+
+
+FALC predit : 
+« Pourquoi tu es triste ? » Clément est content aujourd'hui. C'est l'anniversaire de Léa ! Il chante : « Bon anniversaire, petite sœur ! Tu es grande maintenant ! » Léa est fatiguée ce matin. Elle voulait se reposer encore un peu.
+
+Texte original : 
+Léa, pourquoi es-tu triste ? Ce matin, Clément se réveille tout content. Aujourd'hui, c'est l'anniversaire de sa petite sœur Léa. Encore en pyjama, il saute de son lit et se précipite vers la chambre de Léa. Il est impatient de lui souhaiter son anniversaire. Arrivé devant sa porte, il frappe doucement avant d'entrer en criant joyeusement: « Bon anniversaire, petite sœur ! » Léa, encore un peu endormie, ouvre un œil. La petite fille a eu du mal à trouver le sommeil cette nuit. C'est pourquoi, ce matin elle est vraiment très fatiguée. Elle aurait voulu se reposer encore un peu. À la place, son frère n'arrête pas de sautiller devant elle en répétant gaiement : « Tu es grande maintenant! ».
+
+FALC avec emotions predit : 
+ "Tu sembles triste aujourd'hui ? Clément a le cœur joyeux aujourd'hui, car il fête l'anniversaire de sa petite sœur Léa ! Il chante : « Bon anniversaire, ma petite sœur ! Maintenant tu es grande ! » Léa est épuisée ce matin. Elle souhaitait dormir encore un peu.
+
+FALC ref : 
+Léa est triste Ce matin, Clément est tout content. C'est l'anniversaire de sa sœur Léa. Clément entre dans la chambre de Léa. « Bon anniversaire, petite sœur ! Tu as 8 ans aujourd'hui. Tu es grande maintenant! »
+Manual load failed: E:\python_envs\etr_env\Lib\site-packages\torch\lib\libiomp5md.dll: cannot open shared object file: No such file or directory
+[nltk_data] Downloading package punkt to /home/d3879/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+BLEU Score: 11.2954
+ROUGE-L: 41.2371
+SARI Score: 43.5361
+
+BERTScore:
+Precision: 74.9272
+Recall:    80.0014
+F1:        77.3812
+
+Readability:
+flesch reading ease: 79.7031
+LIX:                 23.5201
+Compression Ratio:   66.0870
+
+Novelty:
+Novelty Score: 44.4444
+
+Combined Metric:
+SRB Score: 49.8815
+
+Number of Samples: 1
+
+==================================================
+             NLP SCORE COMPARISON MATRIX
+==================================================
+Metric          | Pred vs Ref  | Pred vs Src  | Ref vs Src  
+--------------------------------------------------
+BLEU            | 11.2954      | 5.2172       | 5.1881      
+ROUGE-L         | 41.2371      | 32.0856      | 36.6667     
+BERTScore F1    | 77.3812      | 75.0800      | 77.5922     
+==================================================
+Device set to use cuda:0
+
+Texte original :
+sad: 0.9346
+neutral: 0.0338
+anger: 0.0181
+joy: 0.0106
+surprise: 0.0020
+fear: 0.0009
+
+Texte FALC :
+sad: 0.9365
+neutral: 0.0510
+anger: 0.0059
+joy: 0.0056
+surprise: 0.0005
+fear: 0.0005
+
+Texte ref :
+sad: 0.8289
+joy: 0.1348
+neutral: 0.0231
+anger: 0.0105
+surprise: 0.0017
+fear: 0.0009
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.0019
+neutral: 0.0172
+anger: 0.0122
+joy: 0.0050
+surprise: 0.0015
+fear: 0.0004
+0.0002683470323242565
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.1057
+neutral: 0.0107
+anger: 0.0077
+joy: 0.1242
+surprise: 0.0002
+fear: 0.0000
+0.007828794651329685
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.1076
+neutral: 0.0279
+anger: 0.0046
+joy: 0.1292
+surprise: 0.0013
+fear: 0.0005
+0.005933834529763593

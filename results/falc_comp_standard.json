@@ -1,0 +1,3722 @@
+[
+    {
+        "sentence_id": 1,
+        "original_text": "L\u00e9a, pourquoi es-tu triste ? Ce matin, Cl\u00e9ment se r\u00e9veille tout content. Aujourd'hui, c'est l'anniversaire de sa petite s\u0153ur L\u00e9a. Encore en pyjama, il saute de son lit et se pr\u00e9cipite vers la chambre de L\u00e9a. Il est impatient de lui souhaiter son anniversaire. Arriv\u00e9 devant sa porte, il frappe doucement avant d'entrer en criant joyeusement: \u00ab Bon anniversaire, petite s\u0153ur ! \u00bb L\u00e9a, encore un peu endormie, ouvre un \u0153il. La petite fille a eu du mal \u00e0 trouver le sommeil cette nuit. C'est pourquoi, ce matin elle est vraiment tr\u00e8s fatigu\u00e9e. Elle aurait voulu se reposer encore un peu. \u00c0 la place, son fr\u00e8re n'arr\u00eate pas de sautiller devant elle en r\u00e9p\u00e9tant gaiement : \u00ab Tu es grande maintenant! \u00bb.",
+        "falc": "L\u00e9a est triste Ce matin, Cl\u00e9ment est tout content. C'est l'anniversaire de sa s\u0153ur L\u00e9a. Cl\u00e9ment entre dans la chambre de L\u00e9a. \u00ab Bon anniversaire, petite s\u0153ur ! Tu as 8 ans aujourd'hui. Tu es grande maintenant! \u00bb",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Cl\u00e9ment entre dans la chambre de L\u00e9a. Il dit : \"Bon anniversaire, petite s\u0153ur ! \" L\u00e9a ouvre un \u0153il. Elle est fatigu\u00e9e. Son fr\u00e8re saute autour d'elle. Il r\u00e9p\u00e8te : \"Tu es grande maintenant !\"",
+                "metrics": {
+                    "bleu": 34.3922,
+                    "rouge1": 49.4118,
+                    "rouge2": 40.9639,
+                    "rougeL": 42.3529,
+                    "rougeLsum": 49.4118,
+                    "sari": 56.618,
+                    "bertscore_precision": 78.6702,
+                    "bertscore_recall": 78.9802,
+                    "bertscore_f1": 78.8249,
+                    "fre": 88.2825,
+                    "lix": 20.004,
+                    "compression_ratio": 73.0435,
+                    "novelty": 13.3333,
+                    "srb": 55.5971,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9346186518669128
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.033833157271146774
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.018148787319660187
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.01055243518203497
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.001951868529431522
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0008951440686360002
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.734866738319397
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.2251763641834259
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.02290743589401245
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.012547830119729042
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0026985732838511467
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0018030351493507624
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.8289478421211243
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.1347719132900238
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.023107396438717842
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.010498401708900928
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0017485268181189895
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0009260650840587914
+                    }
+                ],
+                "dis_ori_pred": {
+                    "sad": 0.19975191354751587,
+                    "neutral": 0.19134320691227913,
+                    "anger": 0.004758648574352264,
+                    "joy": 0.0019953949376940727,
+                    "surprise": 0.0007467047544196248,
+                    "fear": 0.0009078910807147622
+                },
+                "dis_ori_ref": {
+                    "sad": 0.10567080974578857,
+                    "neutral": 0.010725760832428932,
+                    "anger": 0.007650385610759258,
+                    "joy": 0.12421947810798883,
+                    "surprise": 0.00020334171131253242,
+                    "fear": 3.092101542279124e-05
+                },
+                "cosine_ori_pred": 0.03394651923584768,
+                "cosine_ori_ref": 0.007828794651329685
+            }
+        ]
+    },
+    {
+        "sentence_id": 2,
+        "original_text": "Cl\u00e9ment ne comprend pas l'attitude \u00e9trange de sa s\u0153ur car lui adore les f\u00eates d'anniversaire. Les cadeaux, les surprises, les jeux, les bougies, il aime tout ce qui fait de cette journ\u00e9e, une journ\u00e9e sp\u00e9ciale. Il se souvient de la f\u00eate d'anniversaire de son ami Maxime. Ses parents avaient organis\u00e9 une chasse au tr\u00e9sor \u00e0 travers tout le parc de jeu qui se situait derri\u00e8re sa maison. Cl\u00e9ment avait ador\u00e9. Quand la journ\u00e9e fut finie, il \u00e9tait reparti avec un petit sachet de bonbons et il l'avait partag\u00e9 avec sa s\u0153ur. Elle l'avait remerci\u00e9 de sa gentillesse avec un sourire. Pas comme ce matin\u2026 Ce qui l'avait le plus marqu\u00e9, durant cette fameuse f\u00eate, c'\u00e9tait le g\u00e2teau. Cl\u00e9ment n'avait jamais vu un g\u00e2teau de la sorte : un g\u00e2teau en forme de ch\u00e2teau fort avec des chevaliers en armure qui se tenaient pr\u00e8s du pont-levis et des bougies qui surplombaient les tours.",
+        "falc": "Cl\u00e9ment est heureux. Cl\u00e9ment aime les f\u00eates d'anniversaire. Il aime surtout les g\u00e2teaux d'anniversaire. Les g\u00e2teaux d'anniversaire sont tr\u00e8s beaux. On met de jolies bougies sur le g\u00e2teau. \u00ab Superbe ! Toutes ces petites lumi\u00e8res! \u00bb",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Cl\u00e9ment aime les f\u00eates d'anniversaire ! Il se souvient d'une superbe f\u00eate \u00e0 son ami Maxime. Il y avait une chasse au tr\u00e9sor dans le parc de jeu. Cl\u00e9ment a ador\u00e9 ! Il est reparti avec des bonbons et l'a partag\u00e9 avec sa s\u0153ur.",
+                "metrics": {
+                    "bleu": 10.5979,
+                    "rouge1": 38.2979,
+                    "rouge2": 19.5652,
+                    "rougeL": 25.5319,
+                    "rougeLsum": 36.1702,
+                    "sari": 41.8939,
+                    "bertscore_precision": 71.8947,
+                    "bertscore_recall": 75.3234,
+                    "bertscore_f1": 73.5691,
+                    "fre": 85.509,
+                    "lix": 27.4476,
+                    "compression_ratio": 72.1854,
+                    "novelty": 5.5556,
+                    "srb": 39.1496,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.9949306845664978
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0024118549190461636
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0013382351025938988
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.0008996133110485971
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.00022273711510933936
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.00019681693811435252
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.9971216320991516
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0010075888130813837
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0008456167997792363
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.0005939807160757482
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0002426297141937539
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0001885805104393512
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.9968661665916443
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0011142713483422995
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0009077941067516804
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.000691544555593282
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.00023606655304320157
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.00018411604105494916
+                    }
+                ],
+                "dis_ori_pred": {
+                    "joy": 0.0021909475326538086,
+                    "neutral": 0.0015662381192669272,
+                    "surprise": 0.00033064628951251507,
+                    "sad": 0.0003056325949728489,
+                    "anger": 1.9892599084414542e-05,
+                    "fear": 8.236427675001323e-06
+                },
+                "dis_ori_ref": {
+                    "joy": 0.0019354820251464844,
+                    "neutral": 0.001297583570703864,
+                    "surprise": 0.0004304409958422184,
+                    "sad": 0.0002080687554553151,
+                    "anger": 1.332943793386221e-05,
+                    "fear": 1.270089705940336e-05
+                },
+                "cosine_ori_pred": 1.1705025954045212e-06,
+                "cosine_ori_ref": 9.699651788430685e-07
+            }
+        ]
+    },
+    {
+        "sentence_id": 3,
+        "original_text": "Les courses sans Lila Pendant une bonne partie de la matin\u00e9e, Cl\u00e9ment, L\u00e9a et maman cherchent partout. Sous le canap\u00e9, dans les caisses de jeux, dans la voiture de maman, aucune trace de Lila nulle part. \u2014 Non ma ch\u00e9rie, je ne vois vraiment pas o\u00f9 elle peut \u00eatre, lui dit doucement maman apr\u00e8s avoir cherch\u00e9 dans toute la maison. \u00c0 ces mots, L\u00e9a est encore plus triste. Elle avait esp\u00e9r\u00e9 retrouver Lila ce matin. Elle ravale un sanglot et fait tout pour que ses larmes ne coulent pas le long de ses joues.",
+        "falc": "Les courses sans Lila Cl\u00e9ment, L\u00e9a et maman cherchent Lila dans toute la maison. Pas de trace de Lila. L\u00e9a est tr\u00e8s triste. Mais elle ne pleure pas.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "\u00ab Non, maman, je ne la vois vraiment pas partout. \u00bb L\u00e9a est triste. Elle a esp\u00e9r\u00e9 retrouver Lila ce matin. L\u00e9a s'efforce de ne pas pleurer.",
+                "metrics": {
+                    "bleu": 4.8921,
+                    "rouge1": 49.1803,
+                    "rouge2": 10.1695,
+                    "rougeL": 32.7869,
+                    "rougeLsum": 45.9016,
+                    "sari": 35.1954,
+                    "bertscore_precision": 74.5835,
+                    "bertscore_recall": 77.8382,
+                    "bertscore_f1": 76.1761,
+                    "fre": 80.7818,
+                    "lix": 24.1667,
+                    "compression_ratio": 73.1183,
+                    "novelty": 15.3846,
+                    "srb": 41.6434,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9827776551246643
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.014618715271353722
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0011706934310495853
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0005945056327618659
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0005919738323427737
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.00024635990848764777
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9878397583961487
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.006927390582859516
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.00327668827958405
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0013434330467134714
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0003732279874384403
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.00023952696938067675
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9883444309234619
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.007701466791331768
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0027091936208307743
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0006777006201446056
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.00037586799589917064
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0001914656750159338
+                    }
+                ],
+                "dis_ori_pred": {
+                    "sad": 0.005062103271484375,
+                    "anger": 0.0076913246884942055,
+                    "neutral": 0.002105994848534465,
+                    "fear": 0.00022127764532342553,
+                    "joy": 0.0007514592143706977,
+                    "surprise": 6.8329391069710255e-06
+                },
+                "dis_ori_ref": {
+                    "sad": 0.005566775798797607,
+                    "anger": 0.006917248480021954,
+                    "neutral": 0.001538500189781189,
+                    "fear": 0.00021863763686269522,
+                    "joy": 8.572678780183196e-05,
+                    "surprise": 5.489423347171396e-05
+                },
+                "cosine_ori_pred": 3.346912887891573e-05,
+                "cosine_ori_ref": 2.6305502665135982e-05
+            }
+        ]
+    },
+    {
+        "sentence_id": 4,
+        "original_text": "La jeune fille tend la main et touche le visage de la poup\u00e9e \u00e0 la robe rouge du bout des doigts. \u2014 J'ai une poup\u00e9e qui te ressemble, lui chuchotet-elle. Elle s'appelle Lila et elle est tr\u00e8s gentille. Je suis certaine que si vous vous connaissiez vous pourriez \u00eatre amies toutes les deux. Quelques larmes finissent par appara\u00eetre aux coins des yeux de L\u00e9a. Elle les s\u00e8che avec le dos de sa main. Elle s'est d\u00e9j\u00e0 attard\u00e9e trop longtemps ici, il faut qu'elle aille retrouver sa m\u00e8re et Cl\u00e9ment.",
+        "falc": "\u00ab Tu es jolie avec ta robe rouge. Tu ressembles \u00e0 ma poup\u00e9e Lila. Ma poup\u00e9e Lila a une robe bleue. Elle est tr\u00e8s gentille. Tu pourrais \u00eatre son amie. J'ai perdu ma poup\u00e9e Lila. Je suis tr\u00e8s triste. Elle me manque beaucoup. Au revoir, jolie poup\u00e9e. Je dois partir. Cl\u00e9ment et maman vont s'inqui\u00e9ter. \u00bb",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "\u00ab J'ai une poup\u00e9e qui te ressemble. Elle s'appelle Lila. Elle est tr\u00e8s gentille. Je suis s\u00fbr que si vous vous connaissiez, vous pourriez \u00eatre amies. \u00bb",
+                "metrics": {
+                    "bleu": 7.7826,
+                    "rouge1": 40.8602,
+                    "rouge2": 15.3846,
+                    "rougeL": 23.6559,
+                    "rougeLsum": 36.5591,
+                    "sari": 48.7554,
+                    "bertscore_precision": 78.3715,
+                    "bertscore_recall": 76.0371,
+                    "bertscore_f1": 77.1866,
+                    "fre": 93.472,
+                    "lix": 25.0,
+                    "compression_ratio": 71.9101,
+                    "novelty": 0.0,
+                    "srb": 39.6097,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.5759754180908203
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.40426307916641235
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.010881206952035427
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.005989999510347843
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0016118857311084867
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0012783887796103954
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.9516560435295105
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.04323572292923927
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.0025255337823182344
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0018234879244118929
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0003927938232664019
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.00036647586966864765
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9857454299926758
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.009278975427150726
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0021575228311121464
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.002148521365597844
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0004099989018868655
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.00025963402003981173
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.532739695161581,
+                    "sad": 0.4017375453840941,
+                    "joy": 0.9407748365774751,
+                    "anger": 0.0056235236406791955,
+                    "surprise": 0.00021160219330340624,
+                    "fear": 0.0008855949563439935
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.5738178952597082,
+                    "sad": 0.5814823508262634,
+                    "joy": 0.008732685586437583,
+                    "anger": 0.003288975916802883,
+                    "surprise": 0.001352251711068675,
+                    "fear": 0.0008683898777235299
+                },
+                "cosine_ori_pred": 0.15634062994837572,
+                "cosine_ori_ref": 0.17620071588692
+            }
+        ]
+    },
+    {
+        "sentence_id": 5,
+        "original_text": "Cette fois, le g\u00e2teau est bel et bien termin\u00e9. Maman se charge de verser la p\u00e2te dans un moule en forme d'ours.",
+        "falc": "Cl\u00e9ment et L\u00e9a ont fini. Maman verse la p\u00e2te dans un joli moule. Un moule en forme d'ours!",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Maman fait un g\u00e2teau en forme d'ours pour L\u00e9a.",
+                "metrics": {
+                    "bleu": 6.426,
+                    "rouge1": 47.0588,
+                    "rouge2": 25.0,
+                    "rougeL": 35.2941,
+                    "rougeLsum": 47.0588,
+                    "sari": 38.6722,
+                    "bertscore_precision": 83.5697,
+                    "bertscore_recall": 77.8612,
+                    "bertscore_f1": 80.6145,
+                    "fre": 94.3,
+                    "lix": 9.0,
+                    "compression_ratio": 59.0909,
+                    "novelty": 20.0,
+                    "srb": 45.0475,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9763109087944031
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.010797503404319286
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.009095529094338417
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0018824600847437978
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0010211084736511111
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0008924318244680762
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9233025312423706
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.062263865023851395
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.009524836204946041
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0030860821716487408
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0010827373480424285
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.000740082177799195
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.8721035718917847
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.11499002575874329
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.007429943419992924
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.004028773866593838
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0008354291203431785
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.000612244475632906
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.05300837755203247,
+                    "joy": 0.05146636161953211,
+                    "sad": 0.00042930711060762405,
+                    "surprise": 0.001203622086904943,
+                    "fear": 6.162887439131737e-05,
+                    "anger": 0.00015234964666888118
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.8613208830356598,
+                    "joy": 0.8613060684874654,
+                    "sad": 0.0016655856743454933,
+                    "surprise": 0.00214631378185004,
+                    "fear": 0.00040886399801820517,
+                    "anger": 5.700270412489772e-05
+                },
+                "cosine_ori_pred": 0.0015843363072528538,
+                "cosine_ori_ref": 0.007199209234383885
+            }
+        ]
+    },
+    {
+        "sentence_id": 6,
+        "original_text": "Lorsqu'\u00c9milie entra dans la salle d'examens, sa m\u00e8re vaccinait un jeune labrador alors que son p\u00e8re mettait \u00e0 jour, sur son ordinateur portable, la fiche de l'animal. \u2013 Papa, maman, on a une urgence ! dit-elle en arrivant et elle leur raconta toute l'histoire. D\u00e8s qu'elle en eut termin\u00e9 avec le labrador, la m\u00e8re d'\u00c9milie se dirigea vers la salle d'attente pour pr\u00e9venir les personnes pr\u00e9sentes. Mais, quelle ne fut pas sa surprise en constatant que tout le monde \u00e9tait d\u00e9j\u00e0 au courant. Gr\u00e2ce \u00e0 Pierre, ils se montr\u00e8rent m\u00eame tr\u00e8s compr\u00e9hensifs. Aussi, lorsque Dimitri et Nicolas arriv\u00e8rent avec le renard, tout \u00e9tait pr\u00eat pour op\u00e9rer l'animal. Nicolas entra dans la salle d'op\u00e9rations, aussit\u00f4t suivi de Dimitri et \u00c9milie. Leur p\u00e8re les arr\u00eata dans leur \u00e9lan et leur dit en refermant la porte sur eux : \u2013 Je suis d\u00e9sol\u00e9, les enfants, mais seul Nicolas peut assister \u00e0 l'op\u00e9ration puisqu'il a l'intention de devenir, lui aussi, v\u00e9t\u00e9rinaire.",
+        "falc": "\u00c9milie entre dans la salle d'examens. La m\u00e8re d'\u00c9milie fait des vaccins \u00e0 un chien. \u00ab Papa, maman, c'est urgent. Nous avons trouv\u00e9 un renard bless\u00e9. Il faut sauver notre renard. \u00bb \u00ab Calme-toi, \u00c9milie. Papa et moi allons tout pr\u00e9parer pour op\u00e9rer ce petit animal bless\u00e9. \u00bb Dimitri et Nicolas arrivent avec le renard. Tout est pr\u00eat pour l'op\u00e9ration. Nicolas aide ses parents car il veut \u00eatre v\u00e9t\u00e9rinaire.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Maman vaccinait un chien. Papa mettait \u00e0 jour les informations sur son ordinateur. \u00c9milie arrive : \"On a une urgence ! Je suis perdue.\" Maman va pr\u00e9venir tout le monde. Mais elle se rend compte que tout le monde est d\u00e9j\u00e0 au courant. Ils sont tr\u00e8s compr\u00e9hensifs gr\u00e2ce \u00e0 Pierre. Quand Nicolas et Dimitri arrivent avec un renard, tout est pr\u00eat pour l'op\u00e9ration. Papa dit : \"Seul Nicolas peut \u00eatre pr\u00e9sent \u00e0 l'op\u00e9ration car il veut devenir v\u00e9t\u00e9rinaire.\"",
+                "metrics": {
+                    "bleu": 8.9305,
+                    "rouge1": 44.7205,
+                    "rouge2": 20.1258,
+                    "rougeL": 31.0559,
+                    "rougeLsum": 43.4783,
+                    "sari": 40.3908,
+                    "bertscore_precision": 76.7415,
+                    "bertscore_recall": 76.643,
+                    "bertscore_f1": 76.6922,
+                    "fre": 67.2465,
+                    "lix": 30.1667,
+                    "compression_ratio": 51.2987,
+                    "novelty": 27.5862,
+                    "srb": 42.8588,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "surprise",
+                        "score": 0.7669121623039246
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.13761332631111145
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.047590792179107666
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.018911607563495636
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.01645621471107006
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.012515837326645851
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9235430359840393
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.024080080911517143
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.021191313862800598
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.015451308339834213
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.010376411490142345
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.005357866641134024
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9209715127944946
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.05443517491221428
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.008099128492176533
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.006274355109781027
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.006047791801393032
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.004172003362327814
+                    }
+                ],
+                "dis_ori_pred": {
+                    "surprise": 0.745720848441124,
+                    "fear": 0.12216201797127724,
+                    "neutral": 0.8759522438049316,
+                    "anger": 0.00853519607335329,
+                    "joy": 0.011098348069936037,
+                    "sad": 0.011564243584871292
+                },
+                "dis_ori_ref": {
+                    "surprise": 0.7606378071941435,
+                    "fear": 0.12951419781893492,
+                    "neutral": 0.873380720615387,
+                    "anger": 0.012863815762102604,
+                    "joy": 0.012284211348742247,
+                    "sad": 0.04191933758556843
+                },
+                "cosine_ori_pred": 0.012269992408091457,
+                "cosine_ori_ref": 0.008681688768897411
+            }
+        ]
+    },
+    {
+        "sentence_id": 7,
+        "original_text": "Ses parents se regard\u00e8rent, r\u00e9fl\u00e9chissant quelques minutes \u00e0 la proposition d'\u00c9milie. Pouvaient-ils lui confier cette importante responsabilit\u00e9 m\u00eame si elle semblait tr\u00e8s motiv\u00e9e et tenait toujours ses promesses ? \u2013 C'est d'accord, finit par dire son p\u00e8re. Les trois premiers jours, le renard resta dans une grande cage \u00e0 l'int\u00e9rieur m\u00eame de la salle d'op\u00e9rations. \u00c9milie venait tous les jours pour s'occuper de lui. Le quatri\u00e8me jour, sa m\u00e8re l'ausculta de nouveau. \u2013 Il a l'air d'aller mieux, ce petit renard. On va tenter de le remettre en libert\u00e9 peu \u00e0 peu.",
+        "falc": "\u00ab C'est important de s'occuper d'un animal malade. \u00bb \u00ab Je sais, papa. Je ferai tr\u00e8s attention. \u00bb \u00ab Alors, c'est d'accord. \u00bb \u00c9milie vient tous les jours pour soigner le renard. Au bout de 4 jours, le renard va mieux. \u00ab Tu vas pouvoir amener le renard \u00e0 la ferme. \u00bb \u00ab Super ! Merci, maman. \u00bb",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Les parents pensent un moment. Puis papa dit : \u00ab Oui, c'est d'accord. \u00c9milie, tu vas prendre soin du petit renard pendant trois jours. \u00bb Le quatri\u00e8me jour, maman regarde le renard. Il se sent mieux. Papa dit : \u00ab On va le laisser sortir un peu \u00e0 la fois. \u00bb",
+                "metrics": {
+                    "bleu": 7.7913,
+                    "rouge1": 42.4242,
+                    "rouge2": 14.433,
+                    "rougeL": 30.303,
+                    "rougeLsum": 40.404,
+                    "sari": 43.4909,
+                    "bertscore_precision": 75.2144,
+                    "bertscore_recall": 76.0867,
+                    "bertscore_f1": 75.6481,
+                    "fre": 88.96,
+                    "lix": 20.5556,
+                    "compression_ratio": 50.0,
+                    "novelty": 52.6316,
+                    "srb": 43.3448,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9811386466026306
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.01001709047704935
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.004014988895505667
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0027760136872529984
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0013040101621299982
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0007491817814297974
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9620078206062317
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.027024485170841217
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.006057376973330975
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0029315536376088858
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0011484472779557109
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0008302374626509845
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.5425044298171997
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.4346795082092285
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.013579525984823704
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.006172888446599245
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0015596224693581462
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0015040583675727248
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.019130825996398926,
+                    "joy": 0.017007394693791866,
+                    "sad": 0.002042388077825308,
+                    "surprise": 0.0001555399503558874,
+                    "fear": 0.00015556288417428732,
+                    "anger": 8.105568122118711e-05
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.5464591383934021,
+                    "joy": 0.5324873393401504,
+                    "sad": 0.009564537089318037,
+                    "surprise": 0.0033968747593462467,
+                    "fear": 0.0002000482054427266,
+                    "anger": 0.0008104406879283488
+                },
+                "cosine_ori_pred": 0.00016221064716992473,
+                "cosine_ori_ref": 0.21334864458767488
+            }
+        ]
+    },
+    {
+        "sentence_id": 8,
+        "original_text": "Enfin, la lumi\u00e8re diminua d'intensit\u00e9 et la sc\u00e8ne s'\u00e9claira de bleu et de rouge. Au milieu d'une fum\u00e9e blanche apparut soudain la star qu'ils attendaient tous. \u2013 C'est Lucas! C'est Lucas! cria \u00c9milie toute excit\u00e9e en prenant le bras de Nicolas pour lui montrer celui qu'elle attendait depuis des mois. \u2013 \u00cates-vous pr\u00eats ? hurla le chanteur. Alors, la batterie entama la premi\u00e8re chanson, bient\u00f4t rejointe par la guitare \u00e9lectrique et la basse. Rapidement, l'ambiance devint \u00e9lectrique. La foule dansait, tapait des mains et des pieds. \u00c9milie et ses fr\u00e8res chantaient \u00e0 pleins poumons, ravis d'assister \u00e0 ce concert. Au bout de deux heures de spectacle, malgr\u00e9 les cris de la foule et plusieurs rappels, le chanteur d\u00e9clara : \u2013 Merci d'\u00eatre venus aussi nombreux ce soir ! On a pass\u00e9 une super soir\u00e9e tous ensemble ! \u00c0 bient\u00f4t! Et il quitta d\u00e9finitivement la sc\u00e8ne, marquant ainsi la fin du concert.",
+        "falc": "Soudain, le chanteur du groupe appara\u00eet dans une fum\u00e9e blanche. Le concert est top. Tout le public chante et danse. Dimitri, Nicolas et \u00c9milie sont tr\u00e8s heureux. Au bout de 2 heures, le concert est termin\u00e9. Le chanteur salue le public et quitte la sc\u00e8ne.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "La lumi\u00e8re diminue. La fum\u00e9e blanche dispara\u00eet. Lucas apparait ! \u00ab C'est Lucas ! \u00bb \u00c9milie est tr\u00e8s excit\u00e9e. Elle prend le bras de Nicolas pour montrer Lucas. Le chanteur crie : \u00ab \u00cates-vous pr\u00eats ? ! La musique commence. La foule danse, tapine et hurle de joie. \u00c9milie, ses fr\u00e8res et la foule chantent fort ! Apr\u00e8s deux heures, le chanteur dit : \"Merci ! Nous avons pass\u00e9 une super soir\u00e9e !\" Et il s'en va.",
+                "metrics": {
+                    "bleu": 4.5126,
+                    "rouge1": 36.5079,
+                    "rouge2": 9.6774,
+                    "rougeL": 20.6349,
+                    "rougeLsum": 33.3333,
+                    "sari": 41.0141,
+                    "bertscore_precision": 70.1924,
+                    "bertscore_recall": 77.0959,
+                    "bertscore_f1": 73.4824,
+                    "fre": 81.191,
+                    "lix": 24.7739,
+                    "compression_ratio": 54.4828,
+                    "novelty": 40.625,
+                    "srb": 34.7013,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.9934403300285339
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.002343281637877226
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0017228182405233383
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.0016631385078653693
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0004953187890350819
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0003351470222696662
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.995153546333313
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.001959410961717367
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.0012033350067213178
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0008032093173824251
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0005621900781989098
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0003183583030477166
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.9629889130592346
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.026500018313527107
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.007167021278291941
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.002330383053049445
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0005770485149696469
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0004365848726592958
+                    }
+                ],
+                "dis_ori_pred": {
+                    "joy": 0.0017132163047790527,
+                    "surprise": 0.0003838706761598587,
+                    "neutral": 0.0009196089231409132,
+                    "sad": 0.00045980350114405155,
+                    "anger": 6.68712891638279e-05,
+                    "fear": 1.6788719221949577e-05
+                },
+                "dis_ori_ref": {
+                    "joy": 0.030451416969299316,
+                    "surprise": 1.2898584827780724e-05,
+                    "neutral": 0.02477720007300377,
+                    "sad": 0.005503882770426571,
+                    "anger": 8.172972593456507e-05,
+                    "fear": 0.0001014378503896296
+                },
+                "cosine_ori_pred": 5.919717265268076e-07,
+                "cosine_ori_ref": 0.00033286907815888167
+            }
+        ]
+    },
+    {
+        "sentence_id": 9,
+        "original_text": "Soudain, une forme \u00e9trange, sombre et indistincte apparut dans le ciel. Plissant les yeux, \u00c9milie crut voir un aigle. \u00ab C'est impossible, se dit-elle, il n'y a pas d'aigle dans la r\u00e9gion. \u00bb Ce n'\u00e9tait vraiment pas le moment de se demander ce qu'un aigle pouvait bien faire au concert de son groupe pr\u00e9f\u00e9r\u00e9 car l'animal fon\u00e7ait droit sur eux, serres en avant. \u2013 Baisse-toi, \u00c9milie ! cria son fr\u00e8re. Nicolas appuya alors sur la t\u00eate d'\u00c9milie pour l'obliger \u00e0 se baisser rapidement et l'oiseau referma ses griffes dans le vide, juste au-dessus de sa t\u00eate. \u2013 Va-t'en ! hurla Nicolas de toutes ses forces, en lui lan\u00e7ant des pierres pour l'effrayer et essayer de le faire fuir. Il toucha la t\u00eate de l'aigle mais l'oiseau ne sembla pas avoir peur.",
+        "falc": "Soudain, un aigle appara\u00eet dans le ciel. L'aigle fonce droit sur Nicolas et \u00c9milie. \u00ab Baisse-toi, \u00c9milie ! \u00bb \u00c9milie se baisse, juste \u00e0 temps. L'aigle ne r\u00e9ussit pas \u00e0 attraper \u00c9milie. Nicolas lance des pierres pour faire fuir l'aigle.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Un oiseau sombre apparait dans le ciel. \u00c9milie pense que c'est un aigle. Mais il n'y a pas d'aigles l\u00e0 ! L'oiseau descend vers eux, serres en avant. \u00ab Baisse-toi \u00c9milie ! \u00bb Nicolas pousse la t\u00eate d'\u00c9milie pour qu'elle se baisse vite. L'aigle passe juste au-dessus de sa t\u00eate. \u00ab Va-t'en ! \u00bb hurle Nicolas en l\u00e2chant des pierres pour le faire fuir. Mais l'aigle ne semble pas avoir peur.",
+                "metrics": {
+                    "bleu": 8.6459,
+                    "rouge1": 48.3333,
+                    "rouge2": 22.0339,
+                    "rougeL": 35.0,
+                    "rougeLsum": 48.3333,
+                    "sari": 45.1911,
+                    "bertscore_precision": 74.9438,
+                    "bertscore_recall": 80.4229,
+                    "bertscore_f1": 77.5867,
+                    "fre": 96.9177,
+                    "lix": 16.6061,
+                    "compression_ratio": 48.4375,
+                    "novelty": 36.3636,
+                    "srb": 47.1784,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "fear",
+                        "score": 0.3862932324409485
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.223030686378479
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.20840983092784882
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.14472432434558868
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.03207933157682419
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.005462574306875467
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "surprise",
+                        "score": 0.34831610321998596
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.3383239209651947
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.17519304156303406
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.08139972388744354
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.04661456495523453
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.010152648203074932
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.3728938102722168
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.20840489864349365
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.1586104780435562
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.1250351220369339
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.12334567308425903
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.011710125021636486
+                    }
+                ],
+                "dis_ori_pred": {
+                    "fear": 0.047969311475753784,
+                    "surprise": 0.12528541684150696,
+                    "anger": 0.03321678936481476,
+                    "sad": 0.06332460045814514,
+                    "neutral": 0.01453523337841034,
+                    "joy": 0.004690073896199465
+                },
+                "dis_ori_ref": {
+                    "fear": 0.17788833379745483,
+                    "surprise": 0.09968501329421997,
+                    "anger": 0.08337470889091492,
+                    "sad": 0.01388615369796753,
+                    "neutral": 0.3408144786953926,
+                    "joy": 0.006247550714761019
+                },
+                "cosine_ori_pred": 0.03700341989010758,
+                "cosine_ori_ref": 0.021833970364116606
+            }
+        ]
+    },
+    {
+        "sentence_id": 10,
+        "original_text": "\u00c0 l'or\u00e9e du bois, \u00c9milie remarqua que le ciel avait chang\u00e9 de couleur. Il \u00e9tait d\u00e9sormais nimb\u00e9 de longues traces orang\u00e9es, semblables \u00e0 celles qui z\u00e8brent le ciel lorsque le Soleil se couche. \u2013 \u00c9milie, ce que tu vois, ce sont des traces de magie, expliqua L\u00e9o. La magie est particuli\u00e8rement forte au coucher du Soleil, c'est pourquoi les humains peuvent la voir \u00e0 ce moment-l\u00e0. Maintenant, gr\u00e2ce \u00e0 la pierre, tu la verras tout le temps et partout. L\u00e9o et \u00c9milie p\u00e9n\u00e9tr\u00e8rent dans la for\u00eat. \u00c9milie d\u00e9couvrit une for\u00eat bien diff\u00e9rente de celle qu'elle connaissait. Les arbres n'\u00e9taient pas seulement verts, ils \u00e9taient aussi rouges, orange et m\u00eame parfois violets. Dans l'eau de la rivi\u00e8re, elle sembla apercevoir la forme d'un visage. \u00ab Une autre nymphe comme M\u00e9lody ? \u00bb pensa-t-elle. Le visage lui sourit avant de dispara\u00eetre sous l'eau.",
+        "falc": "\u00ab Regarde les traces orange dans le ciel. Ce sont des traces de magie. La pierre du Soleil va te faire voir la magie partout et tout le temps. \u00bb L\u00e9o a raison. \u00c9milie voit dans la for\u00eat : \u2013 des arbres rouges ou violets, \u2013 un visage dans l'eau.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "\u00ab Regarde, \u00c9milie ! Voil\u00e0 des traces de magie dans le ciel. Maintenant que tu as la pierre, tu vas voir cela partout. \u00bb L\u00e9o et \u00c9milie entrent dans la for\u00eat. Elle voit des arbres avec des feuilles rouges, orange et violet. Dans l'eau, elle voit un visage qui sourit avant de dispara\u00eetre.",
+                "metrics": {
+                    "bleu": 14.1081,
+                    "rouge1": 60.7843,
+                    "rouge2": 28.0,
+                    "rougeL": 45.098,
+                    "rougeLsum": 56.8627,
+                    "sari": 49.0795,
+                    "bertscore_precision": 78.8718,
+                    "bertscore_recall": 82.5936,
+                    "bertscore_f1": 80.6898,
+                    "fre": 88.3967,
+                    "lix": 20.3333,
+                    "compression_ratio": 64.2857,
+                    "novelty": 23.8095,
+                    "srb": 54.6029,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9019568562507629
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.06592865288257599
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.02060004323720932
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.0054198396392166615
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.00473997974768281
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0013546670088544488
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.8562118411064148
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.06703159213066101
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.06592445820569992
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.00533055467531085
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.0038726655766367912
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0016288668848574162
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.7996100783348083
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.18155328929424286
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.011520078405737877
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.004275547340512276
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0019269370241090655
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0011140720453113317
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.8349252641201019,
+                    "joy": 0.7902831882238388,
+                    "surprise": 0.0453244149684906,
+                    "sad": 0.0015471740625798702,
+                    "fear": 0.0005905749276280403,
+                    "anger": 0.00027419987600296736
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.7204035669565201,
+                    "joy": 0.7336814254522324,
+                    "surprise": 0.009079964831471443,
+                    "sad": 0.0011442922987043858,
+                    "fear": 0.0028130427235737443,
+                    "anger": 0.00024059496354311705
+                },
+                "cosine_ori_pred": 0.0014623680160079644,
+                "cosine_ori_ref": 0.011311994984540052
+            }
+        ]
+    },
+    {
+        "sentence_id": 11,
+        "original_text": "Alors qu'ils s'enfon\u00e7aient toujours plus profond\u00e9ment dans les bois, \u00c9milie demanda : \u2013 O\u00f9 allons-nous ? \u2013 Nous allons voir la reine du monde magique. Je dois te pr\u00e9senter \u00e0 elle. En outre, elle pourra certainement nous aider \u00e0 retrouver ton fr\u00e8re, lui r\u00e9pondit-il. Bient\u00f4t, ils arriv\u00e8rent devant une grotte qu'\u00c9milie n'avait jamais vue auparavant. Sans doute, cette grotte devait \u00eatre invisible aux humains. L\u00e9o y entra sans h\u00e9sitation. \u00c9milie le suivit. Mais, plus ils avan\u00e7aient dans la grotte, plus il faisait sombre et bient\u00f4t \u00c9milie ne parvint plus \u00e0 distinguer quoi que ce soit. \u2013 L\u00e9o, L\u00e9o ? appela-t-elle \u00e0 plusieurs reprises. S'il te pla\u00eet, L\u00e9o, aide-moi \u00e0 trouver mon chemin dans le noir. Ce n'est pas dr\u00f4le. L\u00e9o lui r\u00e9pondit: \u2013 Prends la pierre du soleil dans ta poche et demandelui de t'aider. Suivant ses conseils, \u00c9milie glissa sa main dans sa poche et en ressortit la pierre. Elle brillait doucement, \u00e9clairant la paume de sa main.",
+        "falc": "\u00ab O\u00f9 allons-nous, L\u00e9o ? \u00bb \u00ab Nous allons voir la reine du monde magique. Notre reine peut nous aider. \u00bb \u00c9milie et L\u00e9o arrivent devant une grotte. Ils entrent dans la grotte. Il fait tout noir. \u00ab J'ai peur dans le noir. \u00bb \u00ab Sors la pierre du Soleil de ta poche. La pierre du Soleil va t'\u00e9clairer.\u00bb \u00c9milie prend la pierre du Soleil dans sa main.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "\u00ab O\u00f9 allons-nous ? \u00bb \u2013 Nous allons voir la reine du monde magique. \u2013 Pourquoi ? \u2013 C'est l\u00e0 qu'elle peut nous aider \u00e0 trouver ton fr\u00e8re. Dans une grotte invisible, ils entrent dans le noir. \u00c9milie appelle L\u00e9o : \u00ab L\u00e9o, s'il te pla\u00eet, aide-moi ! \u00bb L\u00e9o r\u00e9pond : \u00ab Prends la pierre du soleil et demande-lui d'aider. \u00bb",
+                "metrics": {
+                    "bleu": 20.6246,
+                    "rouge1": 56.0,
+                    "rouge2": 35.7724,
+                    "rougeL": 43.2,
+                    "rougeLsum": 54.4,
+                    "sari": 57.6945,
+                    "bertscore_precision": 76.9742,
+                    "bertscore_recall": 80.6556,
+                    "bertscore_f1": 78.7719,
+                    "fre": 91.3801,
+                    "lix": 17.9755,
+                    "compression_ratio": 67.5159,
+                    "novelty": 17.3913,
+                    "srb": 56.4168,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.8893736004829407
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.05530644580721855
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.019155265763401985
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.01771315187215805
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.01562378741800785
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0028278089594095945
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9554749131202698
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.019594376906752586
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.010728343389928341
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.00696211401373148
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.004541550762951374
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0026987181045114994
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "fear",
+                        "score": 0.6969594359397888
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.16903771460056305
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.048276301473379135
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.039541907608509064
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.037924569100141525
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.008260069414973259
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.0661013126373291,
+                    "sad": 0.04834433179348707,
+                    "anger": 0.016456547658890486,
+                    "fear": 0.013171601109206676,
+                    "surprise": 0.00489544402807951,
+                    "joy": 0.016766567947342992
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.8514490313827991,
+                    "sad": 0.015764538198709488,
+                    "anger": 0.02912103570997715,
+                    "fear": 0.6792462840676308,
+                    "surprise": 0.1534139271825552,
+                    "joy": 0.0054322604555636644
+                },
+                "cosine_ori_pred": 0.0010781186429511536,
+                "cosine_ori_ref": 0.017636527080599484
+            }
+        ]
+    },
+    {
+        "sentence_id": 12,
+        "original_text": "L\u00e9o et \u00c9milie furent soulag\u00e9s. Ouf ! Ils \u00e9taient en s\u00e9curit\u00e9 pour le moment! Ils sortirent de derri\u00e8re les sacs et se dirig\u00e8rent au bout de la ruelle. Arriv\u00e9s \u00e0 l'extr\u00e9mit\u00e9, L\u00e9o poussa quelques branches et un trou sans fond apparut \u00e0 leurs pieds. \u00c9milie se pencha au-dessus de la fosse et dit: \u2013 Ce ne sont quand m\u00eame pas les\u2026 \u2013 \u2026 \u00c9gouts ? Si, si, termina L\u00e9o. Si nous voulons nous en sortir, c'est la seule solution. Suis-moi mais fais attention ! On ne sait jamais sur qui on peut tomber dans cet endroit. Tout ceci ne rassurait pas vraiment \u00c9milie. Elle grima\u00e7a mais ce n'\u00e9tait pas le moment de jouer les princesses. Elle se glissa donc dans le trou \u00e0 la suite du renard. Heureusement, la pierre \u00e0 son cou brillait toujours et lui permettait de voir devant elle. Ils passaient d'un couloir \u00e0 l'autre. \u00c9milie se demandait bien comment L\u00e9o arrivait \u00e0 se rep\u00e9rer parmi toutes ces galeries toutes plus sales les unes que les autres. Alors qu'ils poursuivaient leur chemin, \u00c9milie finit par poser \u00e0 L\u00e9o la question qui lui br\u00fblait les l\u00e8vres depuis qu'ils avaient quitt\u00e9 le palais. \u2013 Que s'est-il pass\u00e9 ? Qu'avons-nous fait de mal pour que les loups nous attaquent ainsi ? Tu m'avais bien dit qu'ils n'attaquaient que sur ordre de la reine ?",
+        "falc": "Ouf ! \u00c9milie et L\u00e9o sont sauv\u00e9s. \u00ab Il y a les \u00e9gouts au bout de la rue. Nous allons passer par les \u00e9gouts. Les loups ne pourront pas nous suivre. \u00bb \u00ab Es-tu vraiment s\u00fbr ? \u00bb \u00ab Oui. C'est la seule solution. \u00bb \u00ab Bon, je te suis. \u00bb \u00c9milie et L\u00e9o entrent dans les \u00e9gouts. Il fait tout noir mais la pierre du Soleil \u00e9claire leur chemin. \u00ab Pourquoi les loups nous ont-ils attaqu\u00e9s ? \u00bb",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "\u00c9milie se sentait stress\u00e9e. Elle suivit L\u00e9o dans le trou sombre. La pierre \u00e0 son cou l'\u00e9clairait un peu. L\u00e9o connaissait les tunnels. Il savait o\u00f9 aller. \u00c9milie pensait : \" Comment fait-il pour trouver son chemin ?\" Plus loin, elle demanda : \u00ab Qu'est-ce qui s'est pass\u00e9 ? Pourquoi les loups nous attaquent-ils comme \u00e7a ? Tu m'avais dit qu'ils n'attaquaient que sur ordre de la reine. \u00bb",
+                "metrics": {
+                    "bleu": 4.7638,
+                    "rouge1": 35.6164,
+                    "rouge2": 9.7222,
+                    "rougeL": 20.5479,
+                    "rougeLsum": 32.8767,
+                    "sari": 39.3304,
+                    "bertscore_precision": 75.9202,
+                    "bertscore_recall": 77.1146,
+                    "bertscore_f1": 76.5127,
+                    "fre": 84.6045,
+                    "lix": 24.5682,
+                    "compression_ratio": 70.5069,
+                    "novelty": 55.1724,
+                    "srb": 34.4186,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.41190239787101746
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.29191070795059204
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.21228080987930298
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.041525907814502716
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.040001627057790756
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0023785133380442858
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "anger",
+                        "score": 0.6381470561027527
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.14130434393882751
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0924123078584671
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.06961700320243835
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.05507051572203636
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.003448684699833393
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.347271591424942
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.2736930549144745
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.13013099133968353
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.1202332079410553
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.11961682885885239
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.00905429944396019
+                    }
+                ],
+                "dis_ori_pred": {
+                    "sad": 0.3422853946685791,
+                    "anger": 0.34623634815216064,
+                    "neutral": 0.15721029415726662,
+                    "fear": 0.0997784361243248,
+                    "surprise": 0.052410680800676346,
+                    "joy": 0.0010701713617891073
+                },
+                "dis_ori_ref": {
+                    "sad": 0.29228556901216507,
+                    "anger": 0.018217653036117554,
+                    "neutral": 0.13499078154563904,
+                    "fear": 0.07870730012655258,
+                    "surprise": 0.09012936428189278,
+                    "joy": 0.006675786105915904
+                },
+                "cosine_ori_pred": 0.10352831818462083,
+                "cosine_ori_ref": 0.03751563853739115
+            }
+        ]
+    },
+    {
+        "sentence_id": 13,
+        "original_text": "Lorsqu'ils furent tous les deux enti\u00e8rement recouverts de boue, L\u00e9o dessina sur le sol une carte avec ses pattes pour expliquer son plan \u00e0 \u00c9milie car ils devraient ensuite rester silencieux tout le long de la travers\u00e9e. Il fit d'abord deux croix et expliqua : \u2013 Nous sommes ici et nous devons aller l\u00e0-bas. Puis, en dessinant un rond, il ajouta : \u2013 Les renifleurs sont ici. Enfin, il tra\u00e7a une ligne et conclut : \u2013 Cette ligne repr\u00e9sente le chemin que nous devrons prendre pour que le vent nous aide \u00e0 cacher notre odeur. Je pense que tu avais d\u00e9j\u00e0 devin\u00e9 pourquoi nous les appelons ainsi. \u00c9milie commen\u00e7ait \u00e0 trouver que ce monde magique n'avait rien de dr\u00f4le : tout d'abord, les loups scorpions, puis les poubelles, les \u00e9gouts et maintenant, les taupes \u00ab renifleuses \u00bb. Cependant, elle faisait confiance \u00e0 L\u00e9o et son plan semblait parfait. Les deux complices se mirent \u00e0 plat ventre et commenc\u00e8rent \u00e0 avancer en silence en s'appuyant sur les genoux et les coudes.",
+        "falc": "L\u00e9o dessine une carte sur le sol pour expliquer son plan \u00e0 \u00c9milie. \u00ab Il n'est pas dr\u00f4le ton monde, L\u00e9o. Les loups scorpions, les poubelles, les \u00e9gouts\u2026 Et les taupes renifleuses. \u00bb \u00ab La reine nous a pr\u00e9venus des dangers. Mais fais-moi confiance. \u00bb \u00ab OK, je te suis. \u00bb \u00c9milie et L\u00e9o se couchent sur le ventre. Ils avancent tout doucement sans faire de bruit.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "L\u00e9o fait une carte avec ses pattes. Il dit : \u00ab Nous sommes l\u00e0. Nous devons aller l\u00e0-bas. Les mauvaises b\u00eates sont ici. Le chemin pour nous cacher est l\u00e0. \u00bb \u00c9milie \u00e9coute L\u00e9o. Ils vont en silence sur le sol, mains et genoux.",
+                "metrics": {
+                    "bleu": 4.3867,
+                    "rouge1": 33.9286,
+                    "rouge2": 9.0909,
+                    "rougeL": 23.2143,
+                    "rougeLsum": 33.9286,
+                    "sari": 37.917,
+                    "bertscore_precision": 75.6107,
+                    "bertscore_recall": 73.9184,
+                    "bertscore_f1": 74.755,
+                    "fre": 101.384,
+                    "lix": 9.4286,
+                    "compression_ratio": 74.0741,
+                    "novelty": 23.5294,
+                    "srb": 36.2199,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.939802348613739
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.050148677080869675
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0044043343514204025
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.002592995995655656
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.002148263156414032
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0009034615941345692
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9788492918014526
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.008182791993021965
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.006433822214603424
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.003195175202563405
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0018383465940132737
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.001500635757111013
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9346874952316284
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.04127558693289757
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.010515473783016205
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.005387299694120884
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.005197946913540363
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0029362549539655447
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.03904694318771362,
+                    "sad": 0.04196588508784771,
+                    "anger": 0.0029036985943093896,
+                    "fear": 0.0007546494016423821,
+                    "surprise": 0.001046912046149373,
+                    "joy": 0.005530360620468855
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.005114853382110596,
+                    "sad": 0.008873090147972107,
+                    "anger": 0.006111139431595802,
+                    "fear": 0.0026049509178847075,
+                    "surprise": 0.003239036537706852,
+                    "joy": 0.0020327933598309755
+                },
+                "cosine_ori_pred": 0.0010122405612243979,
+                "cosine_ori_ref": 7.586828614125629e-05
+            }
+        ]
+    },
+    {
+        "sentence_id": 14,
+        "original_text": "\u2013 Nicolas! Nicolas! appela alors \u00c9milie car elle seule pouvait utiliser les pouvoirs de la pierre du Soleil et parler avec L\u00e9o. Nicolas, assis au fond du nid, leva la t\u00eate en entendant la voix d'\u00c9milie. Et quelle ne fut pas sa surprise en voyant L\u00e9o assis sur le bord du nid. \u2013 Mais que faites-vous ici ? demanda Nicolas. \u00c9milie lui r\u00e9pondit simplement: \u2013 Nous n'avons pas beaucoup de temps. Il faut qu'on te sorte de l\u00e0, tr\u00e8s vite avant que l'aigle ne revienne. Je t'expliquerai plus tard toute cette histoire. Nicolas essaya de se lever sans y parvenir. \u2013 Je crois que ma jambe est cass\u00e9e, dit-il. Impossible d'escalader le nid avec une jambe cass\u00e9e ! \u2013 \u00c9milie, nous allons encore avoir besoin de l'eau de la fontaine magique ! proposa L\u00e9o. Aussit\u00f4t, \u00c9milie fouilla dans son sac et donna \u00e0 L\u00e9o la gourde qui contenait le reste de l'eau de la fontaine magique. Celui-ci la prit et grimpa \u00e0 nouveau sur les \u00e9paules d'\u00c9milie avant de sauter dans le nid. \u2013 Bois l'eau de la gourde que t'apporte L\u00e9o. Fais-moi confiance, elle va gu\u00e9rir ta jambe, cria \u00c9milie \u00e0 Nicolas.",
+        "falc": "Nicolas est tr\u00e8s surpris de voir L\u00e9o. \u00ab Que fais-tu l\u00e0, L\u00e9o ?\u00bb \u00ab L\u00e9o et moi sommes venus te chercher. Nous devons nous sauver tr\u00e8s vite avant le retour de l'aigle. \u00bb \u00ab Je ne peux pas bouger. J'ai la jambe cass\u00e9e. \u00bb \u00ab Bois l'eau de cette gourde. Fais-moi confiance. Cette eau va gu\u00e9rir ta jambe. \u00bb",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Nicolas ! \u00c9milie appelle. Nicolas regarde et voit L\u00e9o sur le bord du nid. \u2013 Qu'est-ce que tu fais l\u00e0 ? demande Nicolas. \u00c9milie r\u00e9pond : \u2013 On ne peut pas attendre. Il faut sortir toi de l\u00e0 avant que l'aigle revienne. Je te dirai tout plus tard. Nicolas essaie de se lever, mais il est trop fatigu\u00e9. \u2013 J'ai la jambe cass\u00e9e, dit-il. \u2013 \u00c9milie, on a besoin de l'eau de la fontaine magique ! propose L\u00e9o. \u00c9milie donne \u00e0 L\u00e9o une gourde et il grimpe sur ses \u00e9paules. Il saute dans le nid. Bois l'eau que j'apporte, Nicolas. C'est pour gu\u00e9rir ta jambe.",
+                "metrics": {
+                    "bleu": 5.9623,
+                    "rouge1": 44.8276,
+                    "rouge2": 18.6047,
+                    "rougeL": 29.8851,
+                    "rougeLsum": 43.6782,
+                    "sari": 39.4011,
+                    "bertscore_precision": 72.0461,
+                    "bertscore_recall": 77.1373,
+                    "bertscore_f1": 74.5048,
+                    "fre": 86.7434,
+                    "lix": 21.6616,
+                    "compression_ratio": 47.3404,
+                    "novelty": 42.1053,
+                    "srb": 41.5148,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "surprise",
+                        "score": 0.5985347032546997
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.14801332354545593
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.0963287502527237
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.07523038983345032
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.07114117592573166
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.01075166929513216
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.8519907593727112
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.1033659502863884
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.022274017333984375
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.009118994697928429
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.007843435741961002
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.005406819749623537
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "surprise",
+                        "score": 0.6750561594963074
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.2022460401058197
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.05663399398326874
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.040973734110593796
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.014813598245382309
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.01027651596814394
+                    }
+                ],
+                "dis_ori_pred": {
+                    "surprise": 0.5906912675127387,
+                    "fear": 0.1426065037958324,
+                    "sad": 0.007037200033664703,
+                    "anger": 0.05295637249946594,
+                    "neutral": 0.7808495834469795,
+                    "joy": 0.0016326745972037315
+                },
+                "dis_ori_ref": {
+                    "surprise": 0.07652145624160767,
+                    "fear": 0.05423271656036377,
+                    "sad": 0.039694756269454956,
+                    "anger": 0.03425665572285652,
+                    "neutral": 0.05632757768034935,
+                    "joy": 0.0004751533269882202
+                },
+                "cosine_ori_pred": 0.026751929229854143,
+                "cosine_ori_ref": 0.01002401318368551
+            }
+        ]
+    },
+    {
+        "sentence_id": 15,
+        "original_text": "Nicolas, \u00c9milie et L\u00e9o retenaient leur souffle. Il ne fallait surtout pas faire de bruit sinon l'aigle risquait de les rep\u00e9rer. Soudain, il passa au-dessus d'eux sans les voir. L\u00e9o fit signe \u00e0 ses deux amis qu'il \u00e9tait temps de filer et il se mit \u00e0 courir devant eux pour leur indiquer le chemin. Cependant, Nicolas ne pouvait pas courir aussi vite que les autres car sa jambe, m\u00eame gu\u00e9rie, restait fragile. Alors qu'il tentait de les rattraper, l'aigle le vit et fon\u00e7a sur lui, serres en avant, pr\u00eat \u00e0 l'attraper. \u2013 Oh non ! g\u00e9mit \u00c9milie. Nicolas eut tout juste le temps de se pr\u00e9cipiter derri\u00e8re un nid avant que les serres ne se referment sur son dos. \u2013 Ouf ! Il s'en est fallu de peu. Il ne va certainement pas en rester l\u00e0. Il va revenir. Heureusement, j'ai une id\u00e9e ! dit \u00c9milie. Elle prit dans sa main la pierre du Soleil qui pendait \u00e0 son cou. La pierre r\u00e9agit imm\u00e9diatement et se mit \u00e0 briller fortement. Comme avec le renifleur, \u00c9milie esp\u00e9rait \u00e9blouir l'elki avec la pierre. Elle leva le bras le plus haut qu'elle put et dirigea la pierre en direction des yeux de l'elki. Celui-ci, agac\u00e9 d'avoir laiss\u00e9 \u00e9chapper sa proie, volait dans tous les sens et elle se trouvait relativement loin de lui. Elle faisait du mieux qu'elle pouvait mais elle n'\u00e9tait pas s\u00fbre d'y parvenir !",
+        "falc": "\u00ab Nous devons partir tr\u00e8s vite. \u00bb Les 3 amis partent en courant. Mais Nicolas ne peut pas courir car il a encore mal \u00e0 sa jambe. Soudain, l'aigle fonce sur Nicolas. Ouf ! Nicolas a pu se cacher avant l'arriv\u00e9e de l'aigle. \u00ab L'aigle va revenir. J'ai une id\u00e9e pour \u00e9chapper \u00e0 l'aigle. Je vais \u00e9blouir l'aigle avec la pierre du Soleil. \u00bb",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Nicolas, \u00c9milie et L\u00e9o restent tranquilles pour ne pas \u00eatre vus. Mais l'aigle les voit et s'approche de Nicolas qui a une jambe fragile. Il se pr\u00e9cipite dans un nid \u00e0 temps. \u2013 Oh non ! g\u00e9mit \u00c9milie. \u00c9milie prend la pierre du Soleil et la brandit vers l'elki. La pierre brille fort et \u00e9blouit l'aigle. L'elki volait en tous sens, loin de Nicolas.",
+                "metrics": {
+                    "bleu": 6.0415,
+                    "rouge1": 39.7059,
+                    "rouge2": 8.9552,
+                    "rougeL": 17.6471,
+                    "rougeLsum": 38.2353,
+                    "sari": 42.0255,
+                    "bertscore_precision": 72.5126,
+                    "bertscore_recall": 72.9613,
+                    "bertscore_f1": 72.7362,
+                    "fre": 86.5879,
+                    "lix": 23.0179,
+                    "compression_ratio": 72.9258,
+                    "novelty": 37.037,
+                    "srb": 31.8438,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.7675244212150574
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.1256045401096344
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.03488396853208542
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.03467204049229622
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.03313117101788521
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.004183951765298843
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.726387619972229
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.12681809067726135
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.05366269126534462
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.048722922801971436
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0327988937497139
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.01160984393209219
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.5602466464042664
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.23658646643161774
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.08286542445421219
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.06413576006889343
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.04822749271988869
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.007938181981444359
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.04113680124282837,
+                    "sad": 0.07688161730766296,
+                    "anger": 0.02327412459999323,
+                    "fear": 0.0189906507730484,
+                    "surprise": 0.09368691965937614,
+                    "joy": 0.028614941984415054
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.20727777481079102,
+                    "sad": 0.11098192632198334,
+                    "anger": 0.013343524187803268,
+                    "fear": 0.04819338396191597,
+                    "surprise": 0.031004589051008224,
+                    "joy": 0.0037542302161455154
+                },
+                "cosine_ori_pred": 0.0007219467789315592,
+                "cosine_ori_ref": 0.033950362311181426
+            }
+        ]
+    },
+    {
+        "sentence_id": 16,
+        "original_text": "Nous sommes en 1872. Phileas Fogg est un gentleman anglais. On ne sait pas grand-chose de lui. Il est assez myst\u00e9rieux. Phileas Fogg n'a pas quitt\u00e9 Londres depuis des ann\u00e9es.",
+        "falc": "L'histoire se passe en 1872. Phileas Fogg est le h\u00e9ros anglais de l'histoire. Phileas Fogg vit \u00e0 Londres. Londres est une ville en Angleterre. lhistoire le h\u00e9ros anglais Londres l'Angleterre",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Phileas Fogg est un gentleman secret. Personne ne sait vraiment qui il est. Il vit \u00e0 Londres et n'est pas sorti de la ville en des ann\u00e9es. Quelque chose le retient l\u00e0, mais personne ne peut dire quoi.",
+                "metrics": {
+                    "bleu": 7.0937,
+                    "rouge1": 30.137,
+                    "rouge2": 11.2676,
+                    "rougeL": 27.3973,
+                    "rougeLsum": 30.137,
+                    "sari": 39.48,
+                    "bertscore_precision": 65.0886,
+                    "bertscore_recall": 71.2201,
+                    "bertscore_f1": 68.0165,
+                    "fre": 90.3293,
+                    "lix": 30.5526,
+                    "compression_ratio": -26.6667,
+                    "novelty": 58.3333,
+                    "srb": 39.1995,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9873465895652771
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.003342777257785201
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0031016592402011156
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0029065452981740236
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.002448430983349681
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0008540604030713439
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9766131639480591
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.013591957278549671
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0029550453182309866
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0026868735440075397
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0024936094414442778
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0016593304462730885
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9735466837882996
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.01821971870958805
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0030992254614830017
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.002813966479152441
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0016857002628967166
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0006346268928609788
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.010733425617218018,
+                    "sad": 0.01024918002076447,
+                    "surprise": 0.00041478569619357586,
+                    "fear": 0.00041293585672974586,
+                    "joy": 0.0005066143348813057,
+                    "anger": 0.0008052700432017446
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.013799905776977539,
+                    "sad": 0.00052881077863276,
+                    "surprise": 2.4337787181138992e-06,
+                    "fear": 0.001220845035277307,
+                    "joy": 0.01577128772623837,
+                    "anger": 0.00021943351021036506
+                },
+                "cosine_ori_pred": 5.582408043913745e-05,
+                "cosine_ori_ref": 0.00011775859725893234
+            }
+        ]
+    },
+    {
+        "sentence_id": 17,
+        "original_text": "Sept jours apr\u00e8s le d\u00e9part des 2 hommes, le d\u00e9tective Fix fait para\u00eetre une d\u00e9p\u00eache demandant l'arrestation de Phileas Fogg. Le d\u00e9tective Fix pense que Phileas Fogg est le gentleman qui a cambriol\u00e9 la banque d'Angleterre et qu'il a entrepris ce tour du monde dans le seul but d'\u00e9chapper \u00e0 la police.",
+        "falc": "un d\u00e9tective Il a cambriol\u00e9. la banque la police 7 jours apr\u00e8s le d\u00e9part de Phileas Fogg et Passepartout, le d\u00e9tective Fix accuse Phileas Fogg : \u00ab C'est Phileas Fogg qui a cambriol\u00e9 la banque d'Angleterre. Je suis s\u00fbr que Phileas Fogg fait le tour du monde pour \u00e9chapper \u00e0 la police ! \u00bb",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Un d\u00e9tective dit : \u00ab Arr\u00eatez Phileas Fogg ! Il a peut-\u00eatre vol\u00e9 de l'argent. Il pense que si il voyage, personne ne le trouvera. \u00bb",
+                "metrics": {
+                    "bleu": 2.1342,
+                    "rouge1": 24.3902,
+                    "rouge2": 10.0,
+                    "rougeL": 19.5122,
+                    "rougeLsum": 24.3902,
+                    "sari": 32.1887,
+                    "bertscore_precision": 73.1243,
+                    "bertscore_recall": 71.7611,
+                    "bertscore_f1": 72.4363,
+                    "fre": 74.3525,
+                    "lix": 32.7727,
+                    "compression_ratio": 57.6923,
+                    "novelty": 62.5,
+                    "srb": 31.2103,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.7293247580528259
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.10933879017829895
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.07719136774539948
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.053408876061439514
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.028461135923862457
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0022750613279640675
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "anger",
+                        "score": 0.5500752329826355
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.1830148696899414
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.11499102413654327
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.07605448365211487
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.06827173382043839
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.007592641282826662
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "anger",
+                        "score": 0.331503689289093
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.2662298083305359
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.2009439915418625
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.11500706523656845
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.07671557366847992
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0095998989418149
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.5463098883628845,
+                    "sad": 0.005652233958244324,
+                    "anger": 0.472883865237236,
+                    "fear": 0.022645607590675354,
+                    "surprise": 0.03981059789657593,
+                    "joy": 0.005317579954862595
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.46309494972229004,
+                    "sad": 0.03262321650981903,
+                    "anger": 0.25431232154369354,
+                    "fear": 0.14753511548042297,
+                    "surprise": 0.086545929312706,
+                    "joy": 0.007324837613850832
+                },
+                "cosine_ori_pred": 0.02278691478206818,
+                "cosine_ori_ref": 0.19191395219222973
+            }
+        ]
+    },
+    {
+        "sentence_id": 18,
+        "original_text": "A Hong-Kong, Phileas Fogg, Passepartout, Fix et Aouda manquent le d\u00e9part pour le Japon. Passepartout va sur le port pour r\u00e9server le bateau. Passepartout rencontre l'inspecteur Fix sur le port. \u00ab Le 28 septembre un vol a \u00e9t\u00e9 commis \u00e0 la banque d' Angleterre par un individu ressemblant \u00e9trangement \u00e0 Mr Fogg - Mon ma\u00eetre est le plus honn\u00eate homme du monde. \u00bb L'inspecteur Fix glisse dans la main de Passepartout une pipe charg\u00e9e d'opium. Passepartout s'endort.",
+        "falc": "Le train arrive \u00e0 Hong-Kong. Phileas Fogg, Passepartout et Aouda veulent prendre le bateau pour le Japon. L'inspecteur Fix parle avec Passepartout. \u00ab Phileas Fogg a vol\u00e9 la banque d'Angleterre. Il faut m'aider \u00e0 l'arr\u00eater. - Phileas Fogg n'est pas un voleur ! \u00bb L'inspecteur Fix donne de la drogue \u00e0 Passepartout. Passepartout s'endort. Hong-Kong Il parle. de la drogue . Il s'endort.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Passepartout va au port pour r\u00e9server un bateau. Il rencontre l'inspecteur Fix. \u00ab Mon ma\u00eetre est tr\u00e8s honn\u00eate \u00bb, dit Passepartout. Mais Fix glisse une pipe d'opium dans la main de Passepartout et il s'endort.",
+                "metrics": {
+                    "bleu": 2.1412,
+                    "rouge1": 37.7358,
+                    "rouge2": 9.6154,
+                    "rougeL": 22.6415,
+                    "rougeLsum": 33.9623,
+                    "sari": 34.7835,
+                    "bertscore_precision": 74.7427,
+                    "bertscore_recall": 71.1817,
+                    "bertscore_f1": 72.9187,
+                    "fre": 71.9542,
+                    "lix": 27.8121,
+                    "compression_ratio": 56.0,
+                    "novelty": 0.0,
+                    "srb": 34.6301,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.788770854473114
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.19811668992042542
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.007546203676611185
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0022937851026654243
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0016515854513272643
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0016208449378609657
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.6874843239784241
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.30171722173690796
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.004771838430315256
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.003502611769363284
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0013353914255276322
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.001188686117529869
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.7536202669143677
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.23122522234916687
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.008740080520510674
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0027584307827055454
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0019339409191161394
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0017221501329913735
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.10128653049468994,
+                    "sad": 0.10360053181648254,
+                    "anger": 0.002774365246295929,
+                    "fear": 0.0009583936771377921,
+                    "surprise": 0.00046289933379739523,
+                    "joy": 0.0018817668315023184
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.03515058755874634,
+                    "sad": 0.033108532428741455,
+                    "anger": 0.0011938768438994884,
+                    "fear": 0.00035984418354928493,
+                    "surprise": 7.056468166410923e-05,
+                    "joy": 0.0011375858448445797
+                },
+                "cosine_ori_pred": 0.013996938144836824,
+                "cosine_ori_ref": 0.001333841650153822
+            }
+        ]
+    },
+    {
+        "sentence_id": 19,
+        "original_text": "Comment Phileas Fogg a-t-il pu se tromper d'un jour ? En voyageant vers l'Est, il a vu le soleil se lever 80 fois alors que ses amis rest\u00e9s \u00e0 Londres ne l'ont vu se lever que 79 fois. Peu importe ! En faisant son tour du monde en 80 jours Phileas Fogg a v\u00e9cu de nombreuses aventures. Il a gagn\u00e9 son pari, mais il a surtout rencontr\u00e9 Aouda, sa charmante \u00e9pouse, qui le rend le plus heureux des hommes. Ne ferait-on pas pour moins que cela le tour du monde ?",
+        "falc": "des aventures Il a gagn\u00e9. Il est tr\u00e8s heureux. le tour du monde Phileas Fogg a v\u00e9cu beaucoup d'aventures. Il a gagn\u00e9 son pari. Il a rencontr\u00e9 Aouda. Il est tr\u00e8s heureux. Il a bien fait de faire le tour du monde ! F I N",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Phileas Fogg erre d'un jour ! Il voit le soleil se lever 80 fois alors qu'\u00e0 Londres il y en a 79. Mais c'est bien fait ! Phileas Fogg gagne son pari et rencontre Aouda, l'\u00e9pouse de r\u00eave. Il est heureux !",
+                "metrics": {
+                    "bleu": 5.0257,
+                    "rouge1": 41.3043,
+                    "rouge2": 13.3333,
+                    "rougeL": 28.2609,
+                    "rougeLsum": 41.3043,
+                    "sari": 37.8961,
+                    "bertscore_precision": 67.3852,
+                    "bertscore_recall": 67.5363,
+                    "bertscore_f1": 67.4606,
+                    "fre": 96.9642,
+                    "lix": 20.6205,
+                    "compression_ratio": 57.1429,
+                    "novelty": 23.5294,
+                    "srb": 39.1666,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.932253360748291
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.03992976248264313
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.016535257920622826
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.004871183540672064
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.004207127261906862
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0022032535634934902
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.9963971972465515
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.001826077583245933
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0008407810237258673
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.0004342409083619714
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0002865274145733565
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.00021522319002542645
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.996981680393219
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0009309447486884892
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0009252486634068191
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.0007278352277353406
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0002596867270767689
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.00017464312259107828
+                    }
+                ],
+                "dis_ori_pred": {
+                    "joy": 0.0641438364982605,
+                    "surprise": 0.038103684899397194,
+                    "neutral": 0.01569447689689696,
+                    "sad": 0.0044369426323100924,
+                    "anger": 0.003920599847333506,
+                    "fear": 0.0019880303734680638
+                },
+                "dis_ori_ref": {
+                    "joy": 0.06472831964492798,
+                    "surprise": 0.03900451381923631,
+                    "neutral": 0.015604313171934336,
+                    "sad": 0.004143348312936723,
+                    "anger": 0.003947440534830093,
+                    "fear": 0.002028610440902412
+                },
+                "cosine_ori_pred": 0.0010041276553872658,
+                "cosine_ori_ref": 0.0010387660551357536
+            }
+        ]
+    },
+    {
+        "sentence_id": 20,
+        "original_text": "\u2013 Monsieur de Peyrehorade nous dit \u00e0 Jean Coll et moi de d\u00e9raciner un vieil olivier qui \u00e9tait gel\u00e9. Jean Coll qui y allait de tout c\u0153ur, il donne un coup de pioche et j'entends bimm... Et voil\u00e0 qu'il para\u00eet une main noire, qui semblait la main d'un mort. Moi, la peur me prend. Je m'en vais \u00e0 Monsieur et je lui dis : \u2013 Des morts, sous l'olivier ! Il vient et il s'\u00e9crie. Vous auriez cru qu'il avait trouv\u00e9 un tr\u00e9sor. Et le voil\u00e0, avec la pioche, avec les mains, qui se d\u00e9m\u00e8ne.",
+        "falc": "\u00ab L'arbre \u00e9tait gel\u00e9. Monsieur de Peyrehorade a dit d'enlever l'arbre avec Jean. Jean a tap\u00e9 sur quelque chose avec une pelle. Quand Jean a tap\u00e9, il y a eu un bruit. Une main noire sortait de la terre. J'avais tr\u00e8s peur. Je vais voir Monsieur de Peyrehorade. Je dis \u00e0 Monsieur de Peyrehorade que j'ai vu un mort. Monsieur de Peyrehorade est content. Il dit que c'est un tr\u00e9sor. Il creuse \u00bb.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "\u00ab Monsieur de Peyrehorade dit \u00e0 Jean Coll et moi de couper un arbre gel\u00e9. Jean Coll enl\u00e8ve une racine et je vois une main noire. Je suis effray\u00e9 ! Je vais dire \u00e0 Monsieur : \"Il y a des morts sous l'arbre !\" Il vient et il rit. \"C'est une d\u00e9couverte !\" Il prend la pioche et les mains, et se met au travail. \u00bb",
+                "metrics": {
+                    "bleu": 4.0926,
+                    "rouge1": 42.8571,
+                    "rouge2": 13.0435,
+                    "rougeL": 25.7143,
+                    "rougeLsum": 41.4286,
+                    "sari": 43.8224,
+                    "bertscore_precision": 72.4531,
+                    "bertscore_recall": 74.517,
+                    "bertscore_f1": 73.4705,
+                    "fre": 97.1383,
+                    "lix": 16.6667,
+                    "compression_ratio": 34.0659,
+                    "novelty": 45.4545,
+                    "srb": 39.8305,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "fear",
+                        "score": 0.6320108771324158
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.23308797180652618
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.06449523568153381
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.04899480193853378
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.014635566622018814
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0067755901254713535
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "surprise",
+                        "score": 0.5706714391708374
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.359712690114975
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.025423094630241394
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.017704971134662628
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.013759022578597069
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.01272878609597683
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "fear",
+                        "score": 0.6619142889976501
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.20903922617435455
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.041245896369218826
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.039782751351594925
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.03905768692493439
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.008960098959505558
+                    }
+                ],
+                "dis_ori_pred": {
+                    "fear": 0.2722981870174408,
+                    "surprise": 0.3375834673643112,
+                    "anger": 0.03907214105129242,
+                    "sad": 0.031289830803871155,
+                    "neutral": 0.0019067805260419846,
+                    "joy": 0.006983432453125715
+                },
+                "dis_ori_ref": {
+                    "fear": 0.029903411865234375,
+                    "surprise": 0.02404874563217163,
+                    "anger": 0.023249339312314987,
+                    "sad": 0.009937115013599396,
+                    "neutral": 0.02514718472957611,
+                    "joy": 0.0021845088340342045
+                },
+                "cosine_ori_pred": 0.024350920003581855,
+                "cosine_ori_ref": 0.002469758201445349
+            }
+        ]
+    },
+    {
+        "sentence_id": 21,
+        "original_text": "Au milieu des all\u00e9es et venues de ses parents, M. Alphonse de Peyrehorade ne bougeait pas. C'\u00e9tait un grand jeune homme de vingt-six ans, d'une physionomie belle et r\u00e9guli\u00e8re, mais manquant d'expression. Sa taille et ses formes athl\u00e9tiques justifiaient bien la r\u00e9putation d'infatigable joueur de paume qu'on lui faisait dans le pays. Il \u00e9tait ce soir-l\u00e0 habill\u00e9 avec \u00e9l\u00e9gance. Mais il me semblait g\u00ean\u00e9 dans ses v\u00eatements. Ses mains grosses et h\u00e2l\u00e9es contrastaient singuli\u00e8rement avec son costume. Il ne m'adressa qu'une seule fois la parole dans toute la soir\u00e9e, ce fut pour me demander o\u00f9 j'avais achet\u00e9 la cha\u00eene de ma montre.",
+        "falc": "Monsieur et Madame de Peyrehorade sont agit\u00e9s. Alphonse est le fils de Monsieur et Madame de Peyrehorade. Alphonse ne bouge pas Alphonse est jeune. Il est beau. Il est muscl\u00e9. Il est bien habill\u00e9. Mais Alphonse est mal \u00e0 l'aise. Ses mains sont moches. Alphonse ne parle pas beaucoup.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Un grand gar\u00e7on de 26 ans s'assoit sans bouger. Son visage est beau, mais il n'a pas l'air heureux. Il est tr\u00e8s muscl\u00e9 et a une r\u00e9putation de joueur de paume. Il est habill\u00e9 avec \u00e9l\u00e9gance, mais ses mains sont sales et grandes en comparaison de son costume. Il me parle juste une fois : \u00ab O\u00f9 as-tu achet\u00e9 ta montre ? \u00bb",
+                "metrics": {
+                    "bleu": 5.2196,
+                    "rouge1": 37.6068,
+                    "rouge2": 8.6957,
+                    "rougeL": 25.641,
+                    "rougeLsum": 37.6068,
+                    "sari": 40.0647,
+                    "bertscore_precision": 69.5,
+                    "bertscore_recall": 72.0256,
+                    "bertscore_f1": 70.7403,
+                    "fre": 89.525,
+                    "lix": 21.6667,
+                    "compression_ratio": 41.7476,
+                    "novelty": 47.8261,
+                    "srb": 38.4143,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9837679266929626
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.010653762146830559
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0015892402734607458
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0014569925842806697
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0014074543723836541
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0011245615314692259
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.8935373425483704
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.08845407515764236
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.016568714752793312
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0007650905754417181
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.00038219831185415387
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0002924857253674418
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9196669459342957
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0423460453748703
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.03615467622876167
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0012759011005982757
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.00036349616129882634
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.00019280270498711616
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.8953138515353203,
+                    "sad": 0.8828835804015398,
+                    "fear": 0.0008241496980190277,
+                    "surprise": 0.0010747942724265158,
+                    "anger": 0.015161260380409658,
+                    "joy": 0.0008320758061017841
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.9414218813180923,
+                    "sad": 0.9090131837874651,
+                    "fear": 0.00031333917286247015,
+                    "surprise": 0.0010934964229818434,
+                    "anger": 0.03474722185637802,
+                    "joy": 0.0009317588264821097
+                },
+                "cosine_ori_pred": 0.0039977469781443675,
+                "cosine_ori_ref": 0.0013275025790050465
+            }
+        ]
+    },
+    {
+        "sentence_id": 22,
+        "original_text": "\u2013 Samedi, les jeunes gens mari\u00e9s, je suis libre, nous nous mettons en course. Je vous r\u00e9serve une fi\u00e8re surprise pour demain. \u2013 Je crois deviner la surprise que vous me pr\u00e9parez, lui dis-je. Mais si c'est de votre statue qu'il s'agit, la description que mon guide m'en a faite n'a servi qu'\u00e0 exciter ma curiosit\u00e9. \u2013 Demain, au grand jour, vous la verrez, et vous me direz si j'ai raison de la croire un chef-d'\u0153uvre. Je suis bien curieux de savoir comment vous traduirez cette inscription sur le socle : CAVE\u2026 Mais je ne veux rien vous demander encore ! \u00c0 demain, \u00e0 demain ! Pas un mot sur la V\u00e9nus aujourd'hui !",
+        "falc": "\u00ab Samedi les deux jeunes seront mari\u00e9s. Demain je vous montre une surprise \u00bb \u00ab Si la surprise c'est la statue, je suis content. Le guide m'a parl\u00e9 de la statue. \u00bb \u00ab Demain vous verrez la statue le jour. Vous me direz si vous la trouvez tr\u00e8s belle. Moi je la trouve tr\u00e8s belle. La statue est pos\u00e9e sur un bloc de pierre. Sur le bloc de pierre, il y a des \u00e9critures. Vous me direz demain ce que veulent dire les \u00e9critures \u00bb.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "\u00ab Demain, il y aura une surprise. Je pense que je sais ce que c'est. Est-ce ma statue ? Demain, on verra si j'ai raison. Il y a \u00e9crit : CAVE\u2026 Mais pas de mots sur cela pour l'instant. \u00c0 demain ! \u00bb",
+                "metrics": {
+                    "bleu": 2.3507,
+                    "rouge1": 30.1587,
+                    "rouge2": 9.6774,
+                    "rougeL": 19.0476,
+                    "rougeLsum": 30.1587,
+                    "sari": 37.1173,
+                    "bertscore_precision": 72.9648,
+                    "bertscore_recall": 70.1427,
+                    "bertscore_f1": 71.5259,
+                    "fre": 94.415,
+                    "lix": 9.0282,
+                    "compression_ratio": 63.8889,
+                    "novelty": 54.5455,
+                    "srb": 32.1121,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.8251237273216248
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.08146168291568756
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0628720298409462
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.011754234321415424
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0099648954346776
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.008823367767035961
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "surprise",
+                        "score": 0.5017716288566589
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.35037961602211
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0996992364525795
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.02867792546749115
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.009744998067617416
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.00972653552889824
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.7843684554100037
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.1965111345052719
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.01465955376625061
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.002259383676573634
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0014285219367593527
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0007729605422355235
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.47474411129951477,
+                    "joy": 0.05278375744819641,
+                    "surprise": 0.43889959901571274,
+                    "sad": 0.002027698792517185,
+                    "fear": 0.0897343410179019,
+                    "anger": 0.0009216303005814552
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.6286125928163528,
+                    "joy": 0.7029067724943161,
+                    "surprise": 0.04821247607469559,
+                    "sad": 0.00949485064484179,
+                    "fear": 0.008536373497918248,
+                    "anger": 0.008050407224800438
+                },
+                "cosine_ori_pred": 0.12981474454047914,
+                "cosine_ori_ref": 0.012579251170944827
+            }
+        ]
+    },
+    {
+        "sentence_id": 23,
+        "original_text": "Le souper finit. J'\u00e9tais fatigu\u00e9. Mme de Peyrehorade s'en aper\u00e7ut et remarqua qu'il \u00e9tait temps d'aller dormir. Je montai enfin \u00e0 la chambre qui m'\u00e9tait destin\u00e9e, accompagn\u00e9 de M. de Peyrehorade. L'escalier, dont les marches \u00e9taient en bois, aboutissait au milieu d'un corridor, sur lequel donnaient plusieurs chambres. \u2013 \u00c0 droite, me dit mon h\u00f4te, c'est l'appartement que je destine \u00e0 la future Mme Alphonse. Votre chambre est au bout du corridor oppos\u00e9. Nous entr\u00e2mes dans une chambre bien meubl\u00e9e, avec un lit long et si haut qu'il fallait un escabeau. Mon h\u00f4te, m'ayant indiqu\u00e9 la position de la sonnette, me souhaita une bonne nuit et me laissa seul.",
+        "falc": "Je suis fatigu\u00e9. \u00ab Vous \u00eates fatigu\u00e9. Allez dormir. \u00bb Je monte dans ma chambre avec M de Peyrehorade. Il y a un escalier. L'escalier va \u00e0 plusieurs chambres. \u00ab \u00c0 droite c'est la chambre de la future femme d'Alphonse. Votre chambre est loin \u00e0 gauche. \u00bb La chambre est grande. Dans la chambre il y a un grand lit. M de Peyrehorade me montre la sonnette pour appeler si j'ai besoin de quelque chose. \u00ab Bonne nuit ! \u00bb",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Je suis fatigu\u00e9. Mme de Peyrehorade dit que c'est temps de dormir. Je monte \u00e0 ma chambre avec M. de Peyrehorade. L'escalier est en bois. Mon h\u00f4te me dit : \u00ab Ton lit est loin \u00e0 la fin du corridor. \u00bb Il me laisse tout seul et me souhaite une bonne nuit.",
+                "metrics": {
+                    "bleu": 9.0732,
+                    "rouge1": 45.1613,
+                    "rouge2": 22.9508,
+                    "rougeL": 35.4839,
+                    "rougeLsum": 43.5484,
+                    "sari": 44.7786,
+                    "bertscore_precision": 78.5811,
+                    "bertscore_recall": 76.2712,
+                    "bertscore_f1": 77.4089,
+                    "fre": 89.7744,
+                    "lix": 22.4524,
+                    "compression_ratio": 54.6296,
+                    "novelty": 26.3158,
+                    "srb": 47.2945,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9707522392272949
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.021695639938116074
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0024676641914993525
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0017815937753766775
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0017473604530096054
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0015554468845948577
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.7544161081314087
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.23346461355686188
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.006722383201122284
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.002026909962296486
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.001892780070193112
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0014772657305002213
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.5023505091667175
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.4752045273780823
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.015887022018432617
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.00300297187641263
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.002016437239944935
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0015385540900751948
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.21633613109588623,
+                    "sad": 0.2117689736187458,
+                    "joy": 0.0005748841213062406,
+                    "anger": 0.004940789425745606,
+                    "surprise": 0.00027009472250938416,
+                    "fear": 0.0004714630777016282
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.49554771184921265,
+                    "sad": 0.48065486922860146,
+                    "joy": 0.0009291101014241576,
+                    "anger": 0.01410542824305594,
+                    "surprise": 0.00026907678693532944,
+                    "fear": 0.0014475249918177724
+                },
+                "cosine_ori_pred": 0.03834726497309937,
+                "cosine_ori_ref": 0.2585023233204191
+            }
+        ]
+    },
+    {
+        "sentence_id": 24,
+        "original_text": "Ils s'arr\u00eat\u00e8rent pour regarder la statue ; un d'eux l'apostropha m\u00eame \u00e0 haute voix. \u2013 Te voil\u00e0 donc, coquine ! Te voil\u00e0 ! Disait-il. C'est donc toi qui as cass\u00e9 la jambe \u00e0 Jean Coll ! Si tu \u00e9tais \u00e0 moi, je te casserais le cou. \u2013 Bah !, avec quoi ? dit l'autre. Elle est de cuivre, et si dure qu'\u00c9tienne a cass\u00e9 sa lime dessus, essayant de l'entamer. C'est plus dur que je ne sais quoi. \u2013 Si j'avais mon ciseau \u00e0 froid je lui ferais bient\u00f4t sauter ses grands yeux blancs, comme je tirerais une amande de sa coquille. Il y a pour plus de cent sous d'argent. Ils firent quelques pas en s'\u00e9loignant.",
+        "falc": "\u00ab Tu es l\u00e0 coquine ! C'est toi qui as cass\u00e9 la jambe de Jean. Si tu \u00e9tais \u00e0 moi, je te casserai le cou \u00bb \u00ab Tu lui casserais le cou avec quoi ? Un gar\u00e7on a essay\u00e9 de casser la statue avec un outil. Mais la statue est tr\u00e8s dure. La statue a cass\u00e9 l'outil. \u00bb \u00ab Si j'avais mes outils, j'enl\u00e8verai les grands yeux blancs de la statue. Je gagnerais beaucoup d'argent si je vends les yeux de la statue. \u00bb Les gar\u00e7ons partent.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Ils s'arr\u00eatent pour voir la statue. Un des deux dit : \u00ab H\u00e9, coquine ! Tu as cass\u00e9 la jambe \u00e0 Jean Coll ! Si c'\u00e9tait \u00e0 moi, je te casquerait le cou ! \u00bb L'autre r\u00e9pond : \u00ab Bah ! Elle est en cuivre et c'est tr\u00e8s dure. \u00c9tienne l'a m\u00eame essay\u00e9 de gravir avec sa lime. C'est plus dur que quoi que ce soit. \u00bb",
+                "metrics": {
+                    "bleu": 10.5334,
+                    "rouge1": 38.1579,
+                    "rouge2": 16.0,
+                    "rougeL": 23.6842,
+                    "rougeLsum": 38.1579,
+                    "sari": 45.7854,
+                    "bertscore_precision": 75.321,
+                    "bertscore_recall": 76.2743,
+                    "bertscore_f1": 75.7946,
+                    "fre": 102.4488,
+                    "lix": 13.3509,
+                    "compression_ratio": 47.7064,
+                    "novelty": 35.0,
+                    "srb": 38.8315,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "anger",
+                        "score": 0.5200071930885315
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.45837926864624023
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.01168754231184721
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.005113903433084488
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.003458013292402029
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.00135409168433398
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.7005999088287354
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.21515297889709473
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.06556543707847595
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.007979098707437515
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.006257129367440939
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.004445514641702175
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "anger",
+                        "score": 0.5984088778495789
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.3497634530067444
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.03435641899704933
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.008120733313262463
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.006121044512838125
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.003229466499760747
+                    }
+                ],
+                "dis_ori_pred": {
+                    "anger": 0.30485421419143677,
+                    "sad": 0.24222064018249512,
+                    "neutral": 0.05387789476662874,
+                    "fear": 0.001143225934356451,
+                    "surprise": 0.004521085415035486,
+                    "joy": 0.003091422957368195
+                },
+                "dis_ori_ref": {
+                    "anger": 0.07840168476104736,
+                    "sad": 0.10861581563949585,
+                    "neutral": 0.02266887668520212,
+                    "fear": 0.0030068298801779747,
+                    "surprise": 0.002663031220436096,
+                    "joy": 0.0018753748154267669
+                },
+                "cosine_ori_pred": 0.0910279503963507,
+                "cosine_ori_ref": 0.01919874874764871
+            }
+        ]
+    },
+    {
+        "sentence_id": 25,
+        "original_text": "\u2013 Il faut que je souhaite le bonsoir \u00e0 l'idole, dit le plus grand des apprentis, s'arr\u00eatant tout \u00e0 coup. Il se baissa, et probablement ramassa une pierre. Je le vis d\u00e9ployer le bras, lancer quelque chose, et aussit\u00f4t un coup sonore retentit sur le bronze. Au m\u00eame instant l'apprenti porta la main \u00e0 sa t\u00eate en poussant un cri de douleur. \u2013 Elle me l'a rejet\u00e9e ! s'\u00e9cria-t-il. Et mes deux polissons prirent la fuite \u00e0 toutes jambes. Il \u00e9tait \u00e9vident que la pierre avait rebondi sur le m\u00e9tal, et avait puni ce dr\u00f4le. Je fermai la fen\u00eatre en riant de bon c\u0153ur. \u2013 Encore un Vandale puni par V\u00e9nus ! Je m'endormis.",
+        "falc": "\u00ab Je dois dire bonsoir \u00e0 la statue \u00bb. Le gar\u00e7on s'arr\u00eate. Le gar\u00e7on se baisse. Il prend une pierre. Il jette la pierre sur la statue. On entend un grand bruit. Un gar\u00e7on met sa main sur sa t\u00eate. Le gar\u00e7on a mal. \u00ab La statue m'a rejet\u00e9 la pierre ! \u00bb Les deux gar\u00e7ons partent en courant. La pierre a rebondi sur la statue. C'est bien fait pour eux. La statue a puni les deux gar\u00e7ons. Je m'endors.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "\u00ab Oh mon dieu ! Je me suis fait bless\u00e9 ! \u00bb dit l'apprenti en se massant le cr\u00e2ne. \u00ab Elle m'a rejet\u00e9 ma pierre ! \u00bb Les deux autres fuient en courant. J'ai ferm\u00e9 la fen\u00eatre et ri de bon c\u0153ur.",
+                "metrics": {
+                    "bleu": 4.6735,
+                    "rouge1": 22.0472,
+                    "rouge2": 8.0,
+                    "rougeL": 20.4724,
+                    "rougeLsum": 20.4724,
+                    "sari": 38.4441,
+                    "bertscore_precision": 75.5292,
+                    "bertscore_recall": 73.2292,
+                    "bertscore_f1": 74.3614,
+                    "fre": 96.9282,
+                    "lix": 14.9286,
+                    "compression_ratio": 68.4685,
+                    "novelty": 66.6667,
+                    "srb": 33.9728,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9535626769065857
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.028835391625761986
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.01473239902406931
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0013518835185095668
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0007602212717756629
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0007574164774268866
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9700435996055603
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.020380575209856033
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0050049121491611
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0030156366992741823
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0008046998991630971
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0007505682879127562
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9372238516807556
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.03988702967762947
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.020500173792243004
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0011075675720348954
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0006509801023639739
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0006303198169916868
+                    }
+                ],
+                "dis_ori_pred": {
+                    "sad": 0.01648092269897461,
+                    "anger": 0.008454816415905952,
+                    "neutral": 0.009727486874908209,
+                    "joy": 0.0016637531807646155,
+                    "surprise": 9.652983862906694e-06,
+                    "fear": 4.7283421736210585e-05
+                },
+                "dis_ori_ref": {
+                    "sad": 0.016338825225830078,
+                    "anger": 0.011051638051867485,
+                    "neutral": 0.005767774768173695,
+                    "joy": 0.00072156370151788,
+                    "surprise": 0.00010924116941168904,
+                    "fear": 0.00035015109460800886
+                },
+                "cosine_ori_pred": 9.683350379452449e-05,
+                "cosine_ori_ref": 9.622367457284842e-05
+            }
+        ]
+    },
+    {
+        "sentence_id": 26,
+        "original_text": "En cinq minutes je fus pr\u00eat, c'est-\u00e0-dire \u00e0 moiti\u00e9 ras\u00e9, mal boutonn\u00e9, et br\u00fbl\u00e9 par le chocolat que j'avalai bouillant. Je descendis dans le jardin, et me trouvai devant une admirable statue. C'\u00e9tait bien une V\u00e9nus et d'une merveilleuse beaut\u00e9. Elle avait le haut du corps nu ; la main droite, lev\u00e9e \u00e0 la hauteur du sein, \u00e9tait tourn\u00e9e. L'autre main, rapproch\u00e9e de la hanche, soutenait la draperie qui couvrait la partie inf\u00e9rieure du corps.",
+        "falc": "Je me pr\u00e9pare vite. Je descends dans le jardin. Dans le jardin je vois une belle statue. La statue est tr\u00e8s jolie. La statue a les seins nus. La statue a la main droite lev\u00e9e. La main gauche de la statue tient le tissu qui couvre le bas. Le corps de la statue est parfait.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Je me h\u00e2te un peu et je descend dans le jardin. Et voil\u00e0 ! Une belle statue de V\u00e9nus. Elle est nue au-dessus ; sa main droite est lev\u00e9e. Sa main gauche soutient une robe qui cache sa jambe.",
+                "metrics": {
+                    "bleu": 6.5576,
+                    "rouge1": 42.4242,
+                    "rouge2": 20.6186,
+                    "rougeL": 36.3636,
+                    "rougeLsum": 42.4242,
+                    "sari": 59.7412,
+                    "bertscore_precision": 78.7652,
+                    "bertscore_recall": 78.1752,
+                    "bertscore_f1": 78.4691,
+                    "fre": 95.3975,
+                    "lix": 14.2748,
+                    "compression_ratio": 51.3158,
+                    "novelty": 62.5,
+                    "srb": 52.6475,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.5396710634231567
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.23615413904190063
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.20784814655780792
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.00818200595676899
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.006400139536708593
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.001744439359754324
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.7249304056167603
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.19288398325443268
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.061706144362688065
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.009374824352562428
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.0075428723357617855
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0035618215333670378
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "joy",
+                        "score": 0.7949758768081665
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.19724206626415253
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.003602620679885149
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.00308602093718946
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0006625661626458168
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0004308358475100249
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.4779649190604687,
+                    "joy": 0.4887762665748596,
+                    "sad": 0.20030527422204614,
+                    "surprise": 0.1847019772976637,
+                    "anger": 0.0028383180033415556,
+                    "fear": 0.0076303849928081036
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.3424289971590042,
+                    "joy": 0.5588217377662659,
+                    "sad": 0.20476212562061846,
+                    "surprise": 0.0045793852768838406,
+                    "anger": 0.0059693036891985685,
+                    "fear": 0.0010818731971085072
+                },
+                "cosine_ori_pred": 0.043763494393766034,
+                "cosine_ori_ref": 0.0690844401038796
+            }
+        ]
+    },
+    {
+        "sentence_id": 27,
+        "original_text": "\u2013 Humph ! dit M. de Peyrehorade, Oui, c'est un sens admirable ; mais je pr\u00e9f\u00e8re la premi\u00e8re traduction \u2013 C'est une terrible langue que le latin \u00bb, observai-je. Et je reculai de quelques pas afin de mieux contempler la statue. \u2013 Un instant, dit monsieur de Peyrehorade, il y a encore une autre inscription. Montez sur le socle et regardez au bras droit.\" Je m'accrochai au cou de la V\u00e9nus. Je lus donc. \u2013 Ce qui veut dire, me demanda mon h\u00f4te souriant avec malice ? \u2013 TURBUL m'embarrasse fort. \u2013 Voyons, que diriez-vous de TVRBVLENTA ? V\u00e9nus qui trouble, qui agite\u2026 Vous vous apercevez que je suis toujours pr\u00e9occup\u00e9 de son expression m\u00e9chante \u00bb.",
+        "falc": "\u00ab Oui ! C'est un beau sens. Mais sans vous emb\u00eater, je pr\u00e9f\u00e8re la premi\u00e8re traduction \u00bb. \u00ab Le latin est une langue ancienne. Le latin est difficile. \u00bb Je recule pour voir la statue. \u00ab Regardez, il y a une autre \u00e9criture au bras droit \u00bb. Je vais regarder. Sur le bras, je vois une \u00e9criture ancienne. Je la lis. \u00ab \u00c7a veut dire quoi ? \u00bb Monsieur de Peyrehorade s'amuse. \u00ab Je r\u00e9fl\u00e9chis \u00e0 son air m\u00e9chant. \u00c7a veut dire : femme agit\u00e9e ! \u00bb",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "\u00ab C'est une langue difficile. Je pr\u00e9f\u00e8re la premi\u00e8re traduction. \u00bb Monsieur dit : \u00ab Regarde au bras droit. Lise \u00e7a. \u00bb J'augmente mon regard. \u00ab TURBUL m'embarrasse fort. V\u00e9nus qui trouble, qui agite... Elle est m\u00e9chante ! \u00bb",
+                "metrics": {
+                    "bleu": 4.2453,
+                    "rouge1": 38.0165,
+                    "rouge2": 23.5294,
+                    "rougeL": 26.4463,
+                    "rougeLsum": 38.0165,
+                    "sari": 47.785,
+                    "bertscore_precision": 76.2314,
+                    "bertscore_recall": 70.9994,
+                    "bertscore_f1": 73.5224,
+                    "fre": 78.4391,
+                    "lix": 35.0762,
+                    "compression_ratio": 70.7547,
+                    "novelty": 30.0,
+                    "srb": 41.4704,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9603231549263
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.013036724179983139
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.01268638763576746
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.006618640851229429
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.00415037851780653
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.003184769069775939
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "anger",
+                        "score": 0.8465986847877502
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.11705145984888077
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.012692986987531185
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.011275984346866608
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.008608542382717133
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.003772314405068755
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9546904563903809
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.021428031846880913
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.008106359280645847
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.007665290962904692
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.005305770318955183
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.002804194577038288
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.9517146125435829,
+                    "sad": 0.10401473566889763,
+                    "surprise": 0.0014104032889008522,
+                    "joy": 0.002846326446160674,
+                    "fear": 0.008542608469724655,
+                    "anger": 0.8434139157179743
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.0056326985359191895,
+                    "sad": 0.008391307666897774,
+                    "surprise": 0.0045800283551216125,
+                    "joy": 0.0010466501116752625,
+                    "fear": 0.0013461839407682419,
+                    "anger": 0.002121001249179244
+                },
+                "cosine_ori_pred": 0.007690716557081756,
+                "cosine_ori_ref": 5.1917328820372255e-05
+            }
+        ]
+    },
+    {
+        "sentence_id": 28,
+        "original_text": "\u2013 Avez-vous appris quelque chose de Mme Alphonse ? demandai-je au procureur. \u2013 Cette malheureuse jeune personne est devenue folle, me dit-il. Voici ce qu'elle conte : elle \u00e9tait couch\u00e9e, dit-elle, lorsque la porte de sa chambre s'ouvrit, et quelqu'un entra. Alors Mme Alphonse \u00e9tait dans la ruelle du lit. Elle ne fit pas un mouvement, persuad\u00e9e que c'\u00e9tait son mari. Au bout d'un instant, le lit cria comme s'il \u00e9tait charg\u00e9 d'un poids \u00e9norme. Elle eut grand peur, mais n'osa pas tourner la t\u00eate. Cinq minutes, dix minutes peut-\u00eatre\u2026 elle ne peut se rendre compte du temps\u2026 se pass\u00e8rent de la sorte.",
+        "falc": "Je parle avec la police. \u00ab La mari\u00e9e vous a dit quelque chose ? \u00bb \u00ab Cette jeune personne est devenue folle ! Elle m'a racont\u00e9 ce qu'elle a vu. \u00bb \u00ab Je me suis couch\u00e9e dans la chambre. La porte de la chambre s'ouvre. Quelqu'un entre dans la chambre. Je ne bouge pas. Je pense que la personne est Alphonse. Le lit fait beaucoup de bruit. Le lit fait du bruit comme si une personne \u00e9norme \u00e9tait dessus. J'ai tr\u00e8s peur. Je ne regarde pas. \u00bb",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "\u00ab Mme Alphonse est folle. Elle dit que quelqu'un est entr\u00e9 dans sa chambre alors qu'elle \u00e9tait couch\u00e9e. Le lit cria comme si quelque chose y \u00e9tait tomb\u00e9. Elle avait peur mais ne voulait pas regarder. Il s'est pass\u00e9 un moment, peut-\u00eatre plusieurs minutes... avant de sortir de l\u00e0. \u00bb",
+                "metrics": {
+                    "bleu": 2.7068,
+                    "rouge1": 42.8571,
+                    "rouge2": 11.5942,
+                    "rougeL": 22.8571,
+                    "rougeLsum": 41.4286,
+                    "sari": 39.2208,
+                    "bertscore_precision": 73.4958,
+                    "bertscore_recall": 72.5518,
+                    "bertscore_f1": 73.0208,
+                    "fre": 91.2025,
+                    "lix": 26.75,
+                    "compression_ratio": 53.3981,
+                    "novelty": 35.2941,
+                    "srb": 36.1701,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "fear",
+                        "score": 0.5704467296600342
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.1667329967021942
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.13586290180683136
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.08013403415679932
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.04216410592198372
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.004659221041947603
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "fear",
+                        "score": 0.5905970931053162
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.1871035099029541
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.08891256153583527
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.07045584917068481
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.05688757076859474
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.006043414585292339
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "fear",
+                        "score": 0.7062340378761292
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.12685443460941315
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.068308025598526
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.06816976517438889
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.024621864780783653
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.005811837501823902
+                    }
+                ],
+                "dis_ori_pred": {
+                    "fear": 0.020150363445281982,
+                    "sad": 0.07782043516635895,
+                    "surprise": 0.05124060809612274,
+                    "anger": 0.009678184986114502,
+                    "neutral": 0.014723464846611023,
+                    "joy": 0.001384193543344736
+                },
+                "dis_ori_ref": {
+                    "fear": 0.13578730821609497,
+                    "sad": 0.09842497110366821,
+                    "surprise": 0.009008467197418213,
+                    "anger": 0.011964268982410431,
+                    "neutral": 0.017542241141200066,
+                    "joy": 0.001152616459876299
+                },
+                "cosine_ori_pred": 0.0039501742142565854,
+                "cosine_ori_ref": 0.014962141393056294
+            }
+        ]
+    },
+    {
+        "sentence_id": 29,
+        "original_text": "Quelques heures apr\u00e8s les fun\u00e9railles de M. Alphonse, je me disposai \u00e0 quitter llle. La voiture de M. de Peyrehorade devait me conduire \u00e0 Perpignan. Malgr\u00e9 son \u00e9tat de faiblesse, le pauvre vieillard voulut m'accompagner jusqu'\u00e0 la porte de son jardin. Nous le travers\u00e2mes en silence. Au moment de nous s\u00e9parer, je jetai un dernier regard sur la V\u00e9nus. M. de Peyrehorade tourna machinalement la t\u00eate du c\u00f4t\u00e9 o\u00f9 il me voyait regarder fixement. Il aper\u00e7ut la statue et aussit\u00f4t fondit en larmes. Je l'embrassai, et, sans oser lui dire un seul mot, je montai dans la voiture.",
+        "falc": "C'est l'enterrement d'Alphonse. Je m'en vais. Je marche avec M. de Peyrehorade. Monsieur de Peyrehorade regarde la statue Monsieur de Peyrehorade se met \u00e0 pleurer. J'embrasse Monsieur de Peyrehorade. Je pars.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "Apr\u00e8s les fun\u00e9railles, je suis pr\u00eat \u00e0 partir. M. de Peyrehorade est malade, mais il veut m'accompagner jusqu'\u00e0 la porte de son jardin. Nous marchons en silence. Lorsque je parte, M. de Peyrehorade regarde fixement le c\u00f4t\u00e9 o\u00f9 j'\u00e9tais. Il voit la V\u00e9nus et se met \u00e0 pleurer. Je l'embrasse et monte dans la voiture.",
+                "metrics": {
+                    "bleu": 12.0111,
+                    "rouge1": 43.75,
+                    "rouge2": 12.766,
+                    "rougeL": 27.0833,
+                    "rougeLsum": 41.6667,
+                    "sari": 43.3527,
+                    "bertscore_precision": 74.6436,
+                    "bertscore_recall": 80.4181,
+                    "bertscore_f1": 77.4233,
+                    "fre": 77.5527,
+                    "lix": 30.9848,
+                    "compression_ratio": 43.8776,
+                    "novelty": 50.0,
+                    "srb": 41.149,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9369757175445557
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.05256078764796257
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.006683805957436562
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0023514411877840757
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0007741620647720993
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0006541474722325802
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9646955132484436
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.026868415996432304
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.005730662494897842
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0018137737642973661
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0005198903381824493
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.0003716585342772305
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "sad",
+                        "score": 0.9869988560676575
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.005701268091797829
+                    },
+                    {
+                        "label": "neutral",
+                        "score": 0.0056698438711464405
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.0011284156935289502
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0003136244777124375
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.00018778216326609254
+                    }
+                ],
+                "dis_ori_pred": {
+                    "sad": 0.02771979570388794,
+                    "neutral": 0.025692371651530266,
+                    "anger": 0.0009531434625387192,
+                    "joy": 0.0005376674234867096,
+                    "fear": 0.0002542717265896499,
+                    "surprise": 0.0002824889379553497
+                },
+                "dis_ori_ref": {
+                    "sad": 0.05002313852310181,
+                    "neutral": 0.04689094377681613,
+                    "anger": 0.000982537865638733,
+                    "joy": 0.0012230254942551255,
+                    "fear": 0.00046053758705966175,
+                    "surprise": 0.00046636530896648765
+                },
+                "cosine_ori_pred": 0.000398362859105883,
+                "cosine_ori_ref": 0.0012649026950105613
+            }
+        ]
+    },
+    {
+        "sentence_id": 30,
+        "original_text": "On fait, \u00e0 New York, les pr\u00e9paratifs d'une exp\u00e9dition. Le commandant Farragut presse activement l'armement de sa fr\u00e9gate \u00ab l'Abraham-Lincoln \u00bb Trois heures avant que \u00ab l'Abrahm-Lincoln \u00bb ne quitte le port de Brooklyn, Pierre Aronnax, professeur au mus\u00e9um de Paris re\u00e7oit une lettre : \u00ab Si vous voulez vous joindre \u00e0 l'exp\u00e9dition de \u00ab l'Abraham-Lincoln \u00bb, le commandant Farragut tient une cabine \u00e0 votre disposition. \u00bb",
+        "falc": "Le commandant Farragut est am\u00e9ricain. Le commandant Farragut a un bateau. Pierre Aronnax est : \u2022 fran\u00e7ais \u2022 professeur dans un mus\u00e9e \u2022 journaliste Le commandant invite Pierre Aronnax pour chasser la chose bizarre.",
+        "model": "em_phrase",
+        "runs": [
+            {
+                "summary": "New York pr\u00e9pare une exp\u00e9dition. Le commandant Farragut arm\u00e9 sa fr\u00e9gate \"l'Abraham-Lincoln\". Pierre Aronnax, un professeur parisien, re\u00e7oit un message : \u00ab Rejoignez l'exp\u00e9dition de \"l'Abraham-Lincoln\". La cabine est \u00e0 votre disposition. \u00bb",
+                "metrics": {
+                    "bleu": 9.0078,
+                    "rouge1": 27.7778,
+                    "rouge2": 8.5714,
+                    "rougeL": 22.2222,
+                    "rougeLsum": 25.0,
+                    "sari": 48.4187,
+                    "bertscore_precision": 66.3917,
+                    "bertscore_recall": 72.7647,
+                    "bertscore_f1": 69.4323,
+                    "fre": 36.4265,
+                    "lix": 56.4,
+                    "compression_ratio": 47.541,
+                    "novelty": 26.3158,
+                    "srb": 37.4739,
+                    "n_samples": 1
+                },
+                "ori_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9661141633987427
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.017758306115865707
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.007448995485901833
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.003981268499046564
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.003666721284389496
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0010306622134521604
+                    }
+                ],
+                "pred_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9255412817001343
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.057591330260038376
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.009366186335682869
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0035932250320911407
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.003004084574058652
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0009039324941113591
+                    }
+                ],
+                "ref_em": [
+                    {
+                        "label": "neutral",
+                        "score": 0.9744807481765747
+                    },
+                    {
+                        "label": "joy",
+                        "score": 0.01347485650330782
+                    },
+                    {
+                        "label": "surprise",
+                        "score": 0.005482906941324472
+                    },
+                    {
+                        "label": "sad",
+                        "score": 0.003240052843466401
+                    },
+                    {
+                        "label": "fear",
+                        "score": 0.0025834382977336645
+                    },
+                    {
+                        "label": "anger",
+                        "score": 0.0007381122559309006
+                    }
+                ],
+                "dis_ori_pred": {
+                    "neutral": 0.0405728816986084,
+                    "joy": 0.03983302414417267,
+                    "surprise": 0.0019171908497810364,
+                    "fear": 0.00038804346695542336,
+                    "sad": 0.0006626367103308439,
+                    "anger": 0.00012672971934080124
+                },
+                "dis_ori_ref": {
+                    "neutral": 0.008366584777832031,
+                    "joy": 0.004283449612557888,
+                    "surprise": 0.00196608854457736,
+                    "fear": 0.0013978302013128996,
+                    "sad": 0.00042666844092309475,
+                    "anger": 0.0002925499575212598
+                },
+                "cosine_ori_pred": 0.00096048769926671,
+                "cosine_ori_ref": 1.3548281044495347e-05
+            }
+        ]
+    }
+]

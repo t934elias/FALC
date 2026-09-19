@@ -1,0 +1,737 @@
+[
+  {
+    "sentence_id":1,
+    "chosen":"La cloche sonne. Les élèves sortent du collège en chantant. Lucas sourit. « Salut, bonnes vacances ! » Mais il pense : « Qu'est-ce que je vais faire pendant les vacances ? Mon père ouvre le magasin tout l'été, alors nous ne partons pas. Mes amis partiront à la campagne. Et Manon, elle va au safari en Afrique avec ses parents. Elle est si contente ! Mais... je suis déçu de ne pas revoir Manon. Elle me manque beaucoup. »",
+    "rejected":"« Salut, bonnes vacances ! » Les amis de Lucas crient en le faisant des signes. Mais Lucas pense : « Qu'est-ce que je vais faire ? Mon père ouvre son magasin pendant l'été. Mes copains partiront à la campagne. Et Manon ne viendra pas au village non plus. Elle part pour un safari ! »",
+    "chosen_score":40.9690070755,
+    "rejected_score":39.1707409166
+  },
+  {
+    "sentence_id":1,
+    "chosen":"La cloche sonne. Les élèves sortent du collège en chantant. Lucas sourit. « Salut, bonnes vacances ! » Mais il pense : « Qu'est-ce que je vais faire pendant les vacances ? Mon père ouvre le magasin tout l'été, alors nous ne partons pas. Mes amis partiront à la campagne. Et Manon, elle va au safari en Afrique avec ses parents. Elle est si contente ! Mais... je suis déçu de ne pas revoir Manon. Elle me manque beaucoup. »",
+    "rejected":"La cloche sonne ! Les élèves sortent du collège en criant de joie. Lucas marche dans la cour. « Salut, bonnes vacances ! » Les amis crient après lui. Mais Lucas pense : « Qu'est-ce que je vais faire ? Mon magasin ouvert l'été, pas de vacance pour nous. Mes copains partent en voyage. Et Manon ne vient pas au village cet été. Elle va faire un safari-photo ! Je suis heureux pour elle, mais... j'ai envie de la voir. Elle me manque beaucoup. »",
+    "chosen_score":40.9690070755,
+    "rejected_score":38.1612173287
+  },
+  {
+    "sentence_id":1,
+    "chosen":"La cloche sonne. Les élèves sortent du collège en chantant. Lucas sourit. « Salut, bonnes vacances ! » Mais il pense : « Qu'est-ce que je vais faire pendant les vacances ? Mon père ouvre le magasin tout l'été, alors nous ne partons pas. Mes amis partiront à la campagne. Et Manon, elle va au safari en Afrique avec ses parents. Elle est si contente ! Mais... je suis déçu de ne pas revoir Manon. Elle me manque beaucoup. »",
+    "rejected":" La cloche sonne. C'est la fin de l'année. Les élèves sont heureux. Lucas traverse la cour avec un pas léger. « Bonnes vacances ! » crient ses amis. Mais Lucas ne sait pas ce qu'il va faire de ses journées. Son magasin reste ouvert tout l'été, mais ses copains partent pour des vacances. Pire encore, Manon, la petite-fille des voisins, ne vient pas au village cet été. Elle a appelé Lucas de l'aéroport pour lui dire qu'elle ratait deux jours de classe pour partir en Afrique avec ses parents. Elle était contente de faire un safari-photo ! Lucas est heureux pour elle, mais il manque Manon terriblement.",
+    "chosen_score":40.9690070755,
+    "rejected_score":38.1450614232
+  },
+  {
+    "sentence_id":1,
+    "chosen":"La cloche sonne. Les élèves sortent du collège en chantant. Lucas sourit. « Salut, bonnes vacances ! » Mais il pense : « Qu'est-ce que je vais faire pendant les vacances ? Mon père ouvre le magasin tout l'été, alors nous ne partons pas. Mes amis partiront à la campagne. Et Manon, elle va au safari en Afrique avec ses parents. Elle est si contente ! Mais... je suis déçu de ne pas revoir Manon. Elle me manque beaucoup. »",
+    "rejected":"« Salut, bonne vacances ! » Les amis de Lucas crient. Mais Lucas pense : « Qu'est-ce que je vais faire ? Mes parents ouvrent le magasin. Pas d'aventures pour moi. Et Manon ne vient pas au village cet été. Elle part en safari avec ses parents. »",
+    "chosen_score":40.9690070755,
+    "rejected_score":37.9256774719
+  },
+  {
+    "sentence_id":1,
+    "chosen":"La cloche sonne. Les élèves sortent du collège en chantant. Lucas sourit. « Salut, bonnes vacances ! » Mais il pense : « Qu'est-ce que je vais faire pendant les vacances ? Mon père ouvre le magasin tout l'été, alors nous ne partons pas. Mes amis partiront à la campagne. Et Manon, elle va au safari en Afrique avec ses parents. Elle est si contente ! Mais... je suis déçu de ne pas revoir Manon. Elle me manque beaucoup. »",
+    "rejected":" Été est arrivé ! C'est le temps des vacances. Les élèves sont heureux. Lucas traverse la cour du collège avec ses amis. « Bonnes vacances! » dit-il. Mais il n'a pas de plan pour ces journées. Le magasin de ses parents reste ouvert tout l'été. Son copain, eh bien, il va partir en camping. Il est déçu que sa meilleure amie, Manon, ne revienne pas au village. Elle a appelé Lucas de l'aéroport pour lui dire qu'elle ratait deux jours d'école pour aller en Afrique. Elle a l'air très heureuse. Mais il est triste de ne pas la voir. Il manque terriblement Manon.",
+    "chosen_score":40.9690070755,
+    "rejected_score":36.8744112026
+  },
+  {
+    "sentence_id":1,
+    "chosen":"La cloche sonne. Les élèves sortent du collège en chantant. Lucas sourit. « Salut, bonnes vacances ! » Mais il pense : « Qu'est-ce que je vais faire pendant les vacances ? Mon père ouvre le magasin tout l'été, alors nous ne partons pas. Mes amis partiront à la campagne. Et Manon, elle va au safari en Afrique avec ses parents. Elle est si contente ! Mais... je suis déçu de ne pas revoir Manon. Elle me manque beaucoup. »",
+    "rejected":" Voici l'été. Écoles fermées. Les enfants sont heureux. Lucas marche vers le collège. « Bonne journée, bonnes vacances ! » lui disent ses amis. Lucas ne sait pas ce qu'il va faire de ses jours. Son magasin familial reste ouvert toute l'année, donc la famille ne part pas. Ses copains iront tous en vacances. Pire encore, Manon, la petite-fille des voisins ne viendra pas au village cette année. Elle a appelé Lucas de l'aéroport pour lui dire qu'elle rate deux jours de classe pour aller faire un safari photo en Afrique avec ses parents. Lucas est heureux pour elle, mais il manque terriblement Manon.",
+    "chosen_score":40.9690070755,
+    "rejected_score":36.1809657707
+  },
+  {
+    "sentence_id":1,
+    "chosen":"La cloche sonne. Les élèves sortent du collège en chantant. Lucas sourit. « Salut, bonnes vacances ! » Mais il pense : « Qu'est-ce que je vais faire pendant les vacances ? Mon père ouvre le magasin tout l'été, alors nous ne partons pas. Mes amis partiront à la campagne. Et Manon, elle va au safari en Afrique avec ses parents. Elle est si contente ! Mais... je suis déçu de ne pas revoir Manon. Elle me manque beaucoup. »",
+    "rejected":" Manon part en Afrique ce été. Elle ne reviendra pas au village. Elle manque beaucoup à Lucas.",
+    "chosen_score":40.9690070755,
+    "rejected_score":33.0748772164
+  },
+  {
+    "sentence_id":2,
+    "chosen":"Lucas rentre chez lui et s'allonge sur le canapé avec sa console. Son téléphone sonne. C'est sa maman ! Mais non, c'est Manon ! Elle hurle : « Au secours, Lucas ! ». Lucas répond : « Manon, où es-tu ? » Il attend une réponse, mais il y a silence. Lucas est perdu. Comment peut-il aider Manon si elle est loin de là ?",
+    "rejected":"Lucas arrive chez lui et s'allonge sur le canapé avec sa console. Son téléphone sonne. C'est sa maman ! Mais non, c'est Manon ! Elle hurle : « Au secours Lucas ! ». Il répond : « Manon, tu es où ? ». Il attend une réponse, mais il y a silence.",
+    "chosen_score":45.1836520382,
+    "rejected_score":44.1760196285
+  },
+  {
+    "sentence_id":2,
+    "chosen":"Lucas rentre chez lui et s'allonge sur le canapé avec sa console. Son téléphone sonne. C'est sa maman ! Mais non, c'est Manon ! Elle hurle : « Au secours, Lucas ! ». Lucas répond : « Manon, où es-tu ? » Il attend une réponse, mais il y a silence. Lucas est perdu. Comment peut-il aider Manon si elle est loin de là ?",
+    "rejected":"Lucas rentre chez lui et s'allonge sur le canapé avec sa console. Son téléphone sonne. C'est Manon ! Elle hurle : « Au secours, Lucas ! J'ai besoin de toi ! ». Lucas est médusé. Il répond : « Manon, tu es où ? ». Pas de réponse. Un silence étrange.",
+    "chosen_score":45.1836520382,
+    "rejected_score":43.286541592
+  },
+  {
+    "sentence_id":2,
+    "chosen":"Lucas rentre chez lui et s'allonge sur le canapé avec sa console. Son téléphone sonne. C'est sa maman ! Mais non, c'est Manon ! Elle hurle : « Au secours, Lucas ! ». Lucas répond : « Manon, où es-tu ? » Il attend une réponse, mais il y a silence. Lucas est perdu. Comment peut-il aider Manon si elle est loin de là ?",
+    "rejected":"Lucas rentre chez lui, las. Il mange un peu et s'allonge sur le canapé avec sa console. Son téléphone sonne. C'est sa maman ! Mais non, c'est Manon ! Elle hurle : « Au secours, Lucas ! ». Lucas répond vite mais il n'obtient pas de réponse. Un silence étrange. Comment peut-il aider Manon si elle est à des milliers de kilomètres loin ?",
+    "chosen_score":45.1836520382,
+    "rejected_score":41.6732530294
+  },
+  {
+    "sentence_id":2,
+    "chosen":"Lucas rentre chez lui et s'allonge sur le canapé avec sa console. Son téléphone sonne. C'est sa maman ! Mais non, c'est Manon ! Elle hurle : « Au secours, Lucas ! ». Lucas répond : « Manon, où es-tu ? » Il attend une réponse, mais il y a silence. Lucas est perdu. Comment peut-il aider Manon si elle est loin de là ?",
+    "rejected":" Lucas arrive chez lui. Il jette son sac à dos dans l'entrée. Il mange trois pains au lait et une tablette de chocolat. Il se couche sur le canapé avec sa console de jeux. Puis son téléphone sonne, c'est sa mère qui veut savoir comment il a passé sa dernière journée à l'école. Lucas répond. C'est Manon qui appelle. Elle pleure : « Aide-moi, Lucas ! Je suis en danger ! » Lucas est surpris : « Manon, où es-tu ? » Pas de réponse. Silence mortel. Lucas reste perplexe. Comment peut-il aider Manon si elle se trouve à des milliers de kilomètres ?",
+    "chosen_score":45.1836520382,
+    "rejected_score":36.8966765005
+  },
+  {
+    "sentence_id":2,
+    "chosen":"Lucas rentre chez lui et s'allonge sur le canapé avec sa console. Son téléphone sonne. C'est sa maman ! Mais non, c'est Manon ! Elle hurle : « Au secours, Lucas ! ». Lucas répond : « Manon, où es-tu ? » Il attend une réponse, mais il y a silence. Lucas est perdu. Comment peut-il aider Manon si elle est loin de là ?",
+    "rejected":" Manon appelle Lucas en urgence. Elle est dans le détresse. Lucas ne sait pas où elle est mais il va la chercher. Il aime Manon et il veut l'aider.",
+    "chosen_score":45.1836520382,
+    "rejected_score":36.5787960373
+  },
+  {
+    "sentence_id":2,
+    "chosen":"Lucas rentre chez lui et s'allonge sur le canapé avec sa console. Son téléphone sonne. C'est sa maman ! Mais non, c'est Manon ! Elle hurle : « Au secours, Lucas ! ». Lucas répond : « Manon, où es-tu ? » Il attend une réponse, mais il y a silence. Lucas est perdu. Comment peut-il aider Manon si elle est loin de là ?",
+    "rejected":" Lucas arrive chez lui. Il jette son sac scolaire et mange trois pains au lait et une barre chocolatée. Il se couche sur le canapé avec sa console de jeux. Ah, bonne pause ! Son téléphone sonne, c'est peut-être sa mère qui veut savoir comment a été la dernière journée d'école. Oui, pensait Lucas, elle pourrait attendre ce soir. Allez, il va être sympathique, il répondra quand même. Il met sa console de jeux à côté et prend son téléphone. Le nom qui s'affiche sur l'écran le surprend : Manon. Lucas répond rapidement. Il entend Manon crier : « Aidez-moi, Lucas ! Je suis en danger ! ». Lucas est bouche bée. Comment peut-il aider Manon qui se trouve loin de chez lui ?",
+    "chosen_score":45.1836520382,
+    "rejected_score":35.7592563051
+  },
+  {
+    "sentence_id":2,
+    "chosen":"Lucas rentre chez lui et s'allonge sur le canapé avec sa console. Son téléphone sonne. C'est sa maman ! Mais non, c'est Manon ! Elle hurle : « Au secours, Lucas ! ». Lucas répond : « Manon, où es-tu ? » Il attend une réponse, mais il y a silence. Lucas est perdu. Comment peut-il aider Manon si elle est loin de là ?",
+    "rejected":" Lucas laisse son sac à dos derrière lui. Il mange trois pains au lait et une tablette de chocolat avant de s'allonger sur le canapé avec sa console de jeux. Bonne pause ! Son téléphone sonne, cela doit être sa mère qui veut savoir comment est passée la dernière journée à l'école. Alors, Lucas répondra peut-être demain soir. Il met sa console de côté et prend le téléphone. Le nom d'un ami lui surprend : Manon. Lucas répond rapidement. Il entend un cri de détresse: \"Au secours, Lucas! J'ai besoin de toi!\" Lucas s'étonne : « Manon ! Où es-tu ? » Pas de réponse. Un silence funeste. Le jeune homme reste sans parler. Comment peut-il aider Manon, qui doit être loin de là ?",
+    "chosen_score":45.1836520382,
+    "rejected_score":34.1790192447
+  },
+  {
+    "sentence_id":3,
+    "chosen":" Lucas prend son visage entre ses mains. Il doit demander conseil à Flairtout, le chien détective. Il court jusqu'à la clairière. Flairtout est déjà là avec sa soucoupe volante. « Viens vite, Lucas ! » crie Flairtout. « Manon est en danger ! ». Les yeux de Lucas remplissent de larmes. Il ne veut pas que quelque chose se passe à son amie. « Nous allons l'aider », dit Flairtout. Lucas n'a jamais quitté son pays, mais il décide d'aller en Afrique pour sauver Manon. Il compose un message sur le répondeur de sa maison pour rassurer ses parents : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous ! » Flairtout donne un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…",
+    "rejected":" Lucas pleure. Il doit quitter son pays pour sauver son amie, Manon. Il appelle sa maison pour rassurer ses parents : \"C'est Lucas, je suis invité par un copain à dormir chez lui.\" Lucas et Flairtout vont en Afrique pour une aventure.",
+    "chosen_score":40.0294309744,
+    "rejected_score":37.9413768594
+  },
+  {
+    "sentence_id":3,
+    "chosen":" Lucas prend son visage entre ses mains. Il doit demander conseil à Flairtout, le chien détective. Il court jusqu'à la clairière. Flairtout est déjà là avec sa soucoupe volante. « Viens vite, Lucas ! » crie Flairtout. « Manon est en danger ! ». Les yeux de Lucas remplissent de larmes. Il ne veut pas que quelque chose se passe à son amie. « Nous allons l'aider », dit Flairtout. Lucas n'a jamais quitté son pays, mais il décide d'aller en Afrique pour sauver Manon. Il compose un message sur le répondeur de sa maison pour rassurer ses parents : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous ! » Flairtout donne un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…",
+    "rejected":" Lucas prend son visage entre ses mains et réfléchit. Il doit trouver une solution. Seul son ami chien, Flairtout, peut l'aider. Il court jusqu'à la clairière. Flairtout est déjà là avec sa soucoupe volante. « Viens vite », dit-il, « Manon est en danger ! ». Lucas ne supporte pas que quelque chose s'arrive à son amie. Ils vont en Afrique pour la retrouver. Lucas n'a jamais quitté son pays! Il se décide rapidement et prévoit de rassurer ses parents par un message : « C'est Lucas, je suis invité chez un copain, bisous ! » Il ment souvent, mais il ne peut pas dire que partent pour l'Afrique. Flairtout lui donne un signe. Luna prend son envol. Voici Lucas et Flairtout en route pour une nouvelle aventure…",
+    "chosen_score":40.0294309744,
+    "rejected_score":37.8971197219
+  },
+  {
+    "sentence_id":3,
+    "chosen":" Lucas prend son visage entre ses mains. Il doit demander conseil à Flairtout, le chien détective. Il court jusqu'à la clairière. Flairtout est déjà là avec sa soucoupe volante. « Viens vite, Lucas ! » crie Flairtout. « Manon est en danger ! ». Les yeux de Lucas remplissent de larmes. Il ne veut pas que quelque chose se passe à son amie. « Nous allons l'aider », dit Flairtout. Lucas n'a jamais quitté son pays, mais il décide d'aller en Afrique pour sauver Manon. Il compose un message sur le répondeur de sa maison pour rassurer ses parents : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous ! » Flairtout donne un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…",
+    "rejected":"Lucas prend son visage entre ses mains et pense. Il doit demander conseil à Flairtout, son chien ami détective. Il court jusqu'à la clairière où Flairtout est déjà avec sa soucoupe volante. « Viens vite, Lucas! Manon est en danger ! » dit Flairtout. Lucas a peur pour son amie et ses yeux se remplissent de larmes. Il ne veut pas que quelque chose arrive à elle. « Nous allons la rejoindre en Afrique », poursuit Flairtout. Mais Lucas n'a jamais quitté son pays! Il rattrape ses esprits et compose un message pour rassurer ses parents : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous ! » Lucas ne ment pas souvent, mais il a peur de leur stupéfaction si ils apprennent qu'il part pour le continent africain. Il imagine leur étonnement ! Flairtout lui donne un clin d'œil complice et Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…",
+    "chosen_score":40.0294309744,
+    "rejected_score":37.8833916623
+  },
+  {
+    "sentence_id":3,
+    "chosen":" Lucas prend son visage entre ses mains. Il doit demander conseil à Flairtout, le chien détective. Il court jusqu'à la clairière. Flairtout est déjà là avec sa soucoupe volante. « Viens vite, Lucas ! » crie Flairtout. « Manon est en danger ! ». Les yeux de Lucas remplissent de larmes. Il ne veut pas que quelque chose se passe à son amie. « Nous allons l'aider », dit Flairtout. Lucas n'a jamais quitté son pays, mais il décide d'aller en Afrique pour sauver Manon. Il compose un message sur le répondeur de sa maison pour rassurer ses parents : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous ! » Flairtout donne un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…",
+    "rejected":"Lucas pense fort. Il doit aider Manon. Il court voir Flairtout. « Viens vite, nous devons aller en Afrique ! » Lucas pleure. Il laisse un message à ses parents. « Je dors chez un copain, bisous ! » Flairtout sourit. Luna décolle.",
+    "chosen_score":40.0294309744,
+    "rejected_score":37.3684828787
+  },
+  {
+    "sentence_id":3,
+    "chosen":" Lucas prend son visage entre ses mains. Il doit demander conseil à Flairtout, le chien détective. Il court jusqu'à la clairière. Flairtout est déjà là avec sa soucoupe volante. « Viens vite, Lucas ! » crie Flairtout. « Manon est en danger ! ». Les yeux de Lucas remplissent de larmes. Il ne veut pas que quelque chose se passe à son amie. « Nous allons l'aider », dit Flairtout. Lucas n'a jamais quitté son pays, mais il décide d'aller en Afrique pour sauver Manon. Il compose un message sur le répondeur de sa maison pour rassurer ses parents : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous ! » Flairtout donne un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…",
+    "rejected":"Lucas court voir Flairtout. « Manon est en danger ! » Flairtout dit. Lucas pleure. Il ne veut pas que sa amie soit en danger. Ils partent à Afrique. Lucas appelle son répondeur. « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous ! »",
+    "chosen_score":40.0294309744,
+    "rejected_score":35.8004949147
+  },
+  {
+    "sentence_id":3,
+    "chosen":" Lucas prend son visage entre ses mains. Il doit demander conseil à Flairtout, le chien détective. Il court jusqu'à la clairière. Flairtout est déjà là avec sa soucoupe volante. « Viens vite, Lucas ! » crie Flairtout. « Manon est en danger ! ». Les yeux de Lucas remplissent de larmes. Il ne veut pas que quelque chose se passe à son amie. « Nous allons l'aider », dit Flairtout. Lucas n'a jamais quitté son pays, mais il décide d'aller en Afrique pour sauver Manon. Il compose un message sur le répondeur de sa maison pour rassurer ses parents : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous ! » Flairtout donne un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…",
+    "rejected":"« C'est Lucas, je vais dormir chez un copain, bisous ! » Lucas est prêt à partir avec Flairtout et Luna.",
+    "chosen_score":40.0294309744,
+    "rejected_score":34.5111770481
+  },
+  {
+    "sentence_id":3,
+    "chosen":" Lucas prend son visage entre ses mains. Il doit demander conseil à Flairtout, le chien détective. Il court jusqu'à la clairière. Flairtout est déjà là avec sa soucoupe volante. « Viens vite, Lucas ! » crie Flairtout. « Manon est en danger ! ». Les yeux de Lucas remplissent de larmes. Il ne veut pas que quelque chose se passe à son amie. « Nous allons l'aider », dit Flairtout. Lucas n'a jamais quitté son pays, mais il décide d'aller en Afrique pour sauver Manon. Il compose un message sur le répondeur de sa maison pour rassurer ses parents : « C'est Lucas, je suis invité par un copain à dormir chez lui, bisous ! » Flairtout donne un clin d'œil complice. Luna décolle. Voici Lucas et Flairtout en route pour une nouvelle aventure…",
+    "rejected":"« Mon copain m'a invité à dormir chez lui, bisous ! »",
+    "chosen_score":40.0294309744,
+    "rejected_score":30.9156719109
+  },
+  {
+    "sentence_id":4,
+    "chosen":"Luna atterrit dans la savane. Flairtout et Lucas descendent. C'est très chaud et humide. Ils marchent vers le village. Le jeune homme voit les palmiers, les bananiers, le coucher de soleil. Il voit des champs d'ananas.",
+    "rejected":" Dans la savane, Luna a atterri. Flairtout et Lucas ont descendu de la soucoupe. Le paysage est beau et il fait très chaud. Ils marchent vers le village. Lucas voit des palmiers, des bananiers et un magnifique coucher de soleil. Il reconnaît aussi des champs d'ananas.",
+    "chosen_score":46.9720603553,
+    "rejected_score":44.8247462996
+  },
+  {
+    "sentence_id":4,
+    "chosen":"Luna atterrit dans la savane. Flairtout et Lucas descendent. C'est très chaud et humide. Ils marchent vers le village. Le jeune homme voit les palmiers, les bananiers, le coucher de soleil. Il voit des champs d'ananas.",
+    "rejected":" Luna descend dans la savane. Flairtout et Lucas sortent de l'avion. Le paysage est beau avec des palmiers, des bananiers et un coucher de soleil magnifique. Ils se dirigent vers le village qu'ils voient au loin.",
+    "chosen_score":46.9720603553,
+    "rejected_score":44.0519206361
+  },
+  {
+    "sentence_id":4,
+    "chosen":"Luna atterrit dans la savane. Flairtout et Lucas descendent. C'est très chaud et humide. Ils marchent vers le village. Le jeune homme voit les palmiers, les bananiers, le coucher de soleil. Il voit des champs d'ananas.",
+    "rejected":"Luna atterrit dans la savane chaude et humide. Flairtout et Lucas descendent. Ils marchent vers le village loin derrière eux. Le jeune homme regarde autour de lui : les palmiers, les bananiers, le coucher de soleil, les champs d'ananas... C'est magnifique !",
+    "chosen_score":46.9720603553,
+    "rejected_score":43.7546677924
+  },
+  {
+    "sentence_id":4,
+    "chosen":"Luna atterrit dans la savane. Flairtout et Lucas descendent. C'est très chaud et humide. Ils marchent vers le village. Le jeune homme voit les palmiers, les bananiers, le coucher de soleil. Il voit des champs d'ananas.",
+    "rejected":" Luna atterrit dans la savane. Flairtout et Lucas descendront du vaisseau. Le paysage est beau : palmiers et bananiers, sous le soleil couchant magnifique. Ils sont près de village.\n\nCette journée est chaude et humide. Il y a des ananas dans les champs.",
+    "chosen_score":46.9720603553,
+    "rejected_score":42.5931918913
+  },
+  {
+    "sentence_id":4,
+    "chosen":"Luna atterrit dans la savane. Flairtout et Lucas descendent. C'est très chaud et humide. Ils marchent vers le village. Le jeune homme voit les palmiers, les bananiers, le coucher de soleil. Il voit des champs d'ananas.",
+    "rejected":"Luna atterrit dans la savane chaude et humide. Flairtout et Lucas descendent. « C'est si beau ! Les palmiers, les bananiers... La terre est verte et jaune. J'aime cet endroit. »",
+    "chosen_score":46.9720603553,
+    "rejected_score":41.8802426848
+  },
+  {
+    "sentence_id":4,
+    "chosen":"Luna atterrit dans la savane. Flairtout et Lucas descendent. C'est très chaud et humide. Ils marchent vers le village. Le jeune homme voit les palmiers, les bananiers, le coucher de soleil. Il voit des champs d'ananas.",
+    "rejected":"Luna arrive dans une savane chaude et humide. Flairtout et Lucas descendent. Ils marchent jusqu'au village qu'ils voient loin. Lucas regarde les palmiers, bananiers, ananas et le coucher de soleil. Il est impressionné par la beauté du paysage.",
+    "chosen_score":46.9720603553,
+    "rejected_score":36.9873550255
+  },
+  {
+    "sentence_id":4,
+    "chosen":"Luna atterrit dans la savane. Flairtout et Lucas descendent. C'est très chaud et humide. Ils marchent vers le village. Le jeune homme voit les palmiers, les bananiers, le coucher de soleil. Il voit des champs d'ananas.",
+    "rejected":" Je suis Luna. J'ai atterri sur la savane. Flairtout et Lucas sont avec moi. Nous descends du vaisseau. C'est très chaud. Nous marchons vers le village, loin devant nous. J'aime beaucoup ce paysage : palmiers, bananiers, coucher de soleil magnifique. Je reconnais aussi des champs d'ananas. J'aime ça.",
+    "chosen_score":46.9720603553,
+    "rejected_score":36.1765333917
+  },
+  {
+    "sentence_id":5,
+    "chosen":"Lucas regarde les animaux qui boivent à l'étang. Il voit des girafes, des éléphants et des antilopes. « Je n'ai jamais vu ça avant ! »",
+    "rejected":"Lucas regarde avec émerveillement des girafes, des éléphants et des antilopes qui boivent à l'étang. « C'est incroyable ! Je n'ai jamais vu ça avant. » Il oublie presque pourquoi il est là.",
+    "chosen_score":47.068893841,
+    "rejected_score":44.8611463329
+  },
+  {
+    "sentence_id":5,
+    "chosen":"Lucas regarde les animaux qui boivent à l'étang. Il voit des girafes, des éléphants et des antilopes. « Je n'ai jamais vu ça avant ! »",
+    "rejected":"Lucas regarde avec ses yeux écarquillés : des girafes, des éléphants et des antilopes s'abreuvent dans l'étang. Je n'ai jamais vu ça àilleurs ! Il oublié pourquoi il est venu là-bas.",
+    "chosen_score":47.068893841,
+    "rejected_score":43.7588132299
+  },
+  {
+    "sentence_id":5,
+    "chosen":"Lucas regarde les animaux qui boivent à l'étang. Il voit des girafes, des éléphants et des antilopes. « Je n'ai jamais vu ça avant ! »",
+    "rejected":"Lucas regarde. Les girafes et les éléphants boivent à l'étang. Des antilopes aussi. Lucas est étonné. C'est comme au zoo ! Il oubliquerait même pourquoi il est là.",
+    "chosen_score":47.068893841,
+    "rejected_score":37.6697338805
+  },
+  {
+    "sentence_id":5,
+    "chosen":"Lucas regarde les animaux qui boivent à l'étang. Il voit des girafes, des éléphants et des antilopes. « Je n'ai jamais vu ça avant ! »",
+    "rejected":" Girafes, éléphants et antilopes s'abreuvent dans l'étang. Lucas regarde, les yeux brillants. Il n'a jamais vu des animaux comme ça autre part que dans un zoo. Il oublie presque pourquoi il est venu en pleine brousse.",
+    "chosen_score":47.068893841,
+    "rejected_score":36.0776777165
+  },
+  {
+    "sentence_id":5,
+    "chosen":"Lucas regarde les animaux qui boivent à l'étang. Il voit des girafes, des éléphants et des antilopes. « Je n'ai jamais vu ça avant ! »",
+    "rejected":" Girafes, éléphants et antilopes se font abreuver dans l'étang. Lucas regarde. « J'ai jamais vu ces animaux ailleurs qu'en zoo. »",
+    "chosen_score":47.068893841,
+    "rejected_score":36.0704324302
+  },
+  {
+    "sentence_id":5,
+    "chosen":"Lucas regarde les animaux qui boivent à l'étang. Il voit des girafes, des éléphants et des antilopes. « Je n'ai jamais vu ça avant ! »",
+    "rejected":" Girafes, éléphants et antilopes s'abreuvent dans l'étang. Lucas est étonné. « J'ai jamais vu des animaux pareils. »",
+    "chosen_score":47.068893841,
+    "rejected_score":36.0454923962
+  },
+  {
+    "sentence_id":5,
+    "chosen":"Lucas regarde les animaux qui boivent à l'étang. Il voit des girafes, des éléphants et des antilopes. « Je n'ai jamais vu ça avant ! »",
+    "rejected":" Girafes, éléphants et antilopes à l'étang. Oui ! Cela est magnifique. Je n'avais jamais vu des animaux aussi beaux qu'à un zoo, pense Lucas. Il n'a presque pas pensé à la raison de son voyage dans la brousse. Joyeux de voir ces animaux vivants.",
+    "chosen_score":47.068893841,
+    "rejected_score":34.1858412509
+  },
+  {
+    "sentence_id":6,
+    "chosen":" La famille de Manon arrive sur place. Ils ressemblent à Manon. Les parents sont bruns et ont des yeux clairs comme eux. Lucas voit que leurs mains se touchent : « Bonjour, Lucas, nous avons appelé Flairtout pour dire qu'il a disparu notre fille pendant la nuit ! » Les gens ont de l'angoisse sur le visage. Lucas leur promet qu'il va les trouver Manon. Ils sont peinés de voir que Lucas ne sait pas comment la trouver. Il leur donne son serment : « J'ai promis à vous que je vous retrouverai Manon ! »",
+    "rejected":" La famille de Manon est là. Le père et la mère ressemblent à Manon. Ils disent : \"Bonjour Lucas ! Nous avons appelé Flairtout pour dire qu'elle a disparu durant la nuit. Elle a simplement volatilisé ! La police a cherché dans tout le village mais ne l'a pas trouvée.\" Ils ont de grandes peurs pour leur fille. Lucas dit : \"Ne vous inquiétez pas, je vous promets que je retrouverai Manon !\" Il force un sourire pour ne pas montrer qu'il n'a aucune idée de ce qui se passera.",
+    "chosen_score":38.6015277232,
+    "rejected_score":38.4766147511
+  },
+  {
+    "sentence_id":6,
+    "chosen":" La famille de Manon arrive sur place. Ils ressemblent à Manon. Les parents sont bruns et ont des yeux clairs comme eux. Lucas voit que leurs mains se touchent : « Bonjour, Lucas, nous avons appelé Flairtout pour dire qu'il a disparu notre fille pendant la nuit ! » Les gens ont de l'angoisse sur le visage. Lucas leur promet qu'il va les trouver Manon. Ils sont peinés de voir que Lucas ne sait pas comment la trouver. Il leur donne son serment : « J'ai promis à vous que je vous retrouverai Manon ! »",
+    "rejected":" Maman et papa de Manon sont là. Ils ressemblent à Manon. Lucas voit que c'est eux. « Bonjour Lucas, tu es gentil d'être venu si rapidement. Nous avons appelé Flairtout pour dire qu'il était disparue notre fille. Elle s'est volatilisée pendant la nuit ! La police a fouillé tout le village mais elle n'a pas été trouvée. » Lucas voit que les parents de Manon sont inquiets. Ils comptent sur lui pour retrouver leur fille. « Ne vous inquiétez pas, je vous donne ma parole que vous reverrez Manon ! » Lucas souriait pour ne pas montrer qu'il n'a pas d'idée de comment le faire. Il veut les aider à trouver leur fille.",
+    "chosen_score":38.6015277232,
+    "rejected_score":38.3545036221
+  },
+  {
+    "sentence_id":6,
+    "chosen":" La famille de Manon arrive sur place. Ils ressemblent à Manon. Les parents sont bruns et ont des yeux clairs comme eux. Lucas voit que leurs mains se touchent : « Bonjour, Lucas, nous avons appelé Flairtout pour dire qu'il a disparu notre fille pendant la nuit ! » Les gens ont de l'angoisse sur le visage. Lucas leur promet qu'il va les trouver Manon. Ils sont peinés de voir que Lucas ne sait pas comment la trouver. Il leur donne son serment : « J'ai promis à vous que je vous retrouverai Manon ! »",
+    "rejected":"« Bonjour ! Je suis Lucas. Je viens aider à retrouver votre fille Manon. Elle a disparu ? La police a cherché partout, mais personne ne l'a trouvée. Ne vous inquiétez pas, je vais la trouver ! »",
+    "chosen_score":38.6015277232,
+    "rejected_score":37.779009129
+  },
+  {
+    "sentence_id":6,
+    "chosen":" La famille de Manon arrive sur place. Ils ressemblent à Manon. Les parents sont bruns et ont des yeux clairs comme eux. Lucas voit que leurs mains se touchent : « Bonjour, Lucas, nous avons appelé Flairtout pour dire qu'il a disparu notre fille pendant la nuit ! » Les gens ont de l'angoisse sur le visage. Lucas leur promet qu'il va les trouver Manon. Ils sont peinés de voir que Lucas ne sait pas comment la trouver. Il leur donne son serment : « J'ai promis à vous que je vous retrouverai Manon ! »",
+    "rejected":" La famille de Manon est là. Ils ont des yeux tristes et bruns. Le père de Manon a les mêmes yeux en amande que sa fille. Il dit à Lucas : \"Tu es gentil d'être venu ici. Nous avons appelé Flairtout pour dire qu'il manque notre fille. Elle s'est volatilisée pendant la nuit ! La police a fouillé tout le village, mais il ne l'a pas trouvé.\" Lucas comprend que les parents de Manon comptent sur lui pour retrouver leur fille. Il dit : \"Ne vous inquiétez pas, je vous donne ma parole qu'elle reviendra !\"",
+    "chosen_score":38.6015277232,
+    "rejected_score":36.9362000469
+  },
+  {
+    "sentence_id":6,
+    "chosen":" La famille de Manon arrive sur place. Ils ressemblent à Manon. Les parents sont bruns et ont des yeux clairs comme eux. Lucas voit que leurs mains se touchent : « Bonjour, Lucas, nous avons appelé Flairtout pour dire qu'il a disparu notre fille pendant la nuit ! » Les gens ont de l'angoisse sur le visage. Lucas leur promet qu'il va les trouver Manon. Ils sont peinés de voir que Lucas ne sait pas comment la trouver. Il leur donne son serment : « J'ai promis à vous que je vous retrouverai Manon ! »",
+    "rejected":"« Bonjour. Je suis Lucas. Je vais trouver votre fille. Ne vous inquiétez pas, je vais la retrouver. »",
+    "chosen_score":38.6015277232,
+    "rejected_score":36.4989379955
+  },
+  {
+    "sentence_id":6,
+    "chosen":" La famille de Manon arrive sur place. Ils ressemblent à Manon. Les parents sont bruns et ont des yeux clairs comme eux. Lucas voit que leurs mains se touchent : « Bonjour, Lucas, nous avons appelé Flairtout pour dire qu'il a disparu notre fille pendant la nuit ! » Les gens ont de l'angoisse sur le visage. Lucas leur promet qu'il va les trouver Manon. Ils sont peinés de voir que Lucas ne sait pas comment la trouver. Il leur donne son serment : « J'ai promis à vous que je vous retrouverai Manon ! »",
+    "rejected":"« Bonjour, vous êtes les parents de Manon ? Je suis désolé pour ce qui est arrivé. La police a cherché partout sans trouver quoi que ce soit ? Ne vous inquiétez pas, je vais tout faire pour retrouver votre fille. »",
+    "chosen_score":38.6015277232,
+    "rejected_score":35.5297133023
+  },
+  {
+    "sentence_id":6,
+    "chosen":" La famille de Manon arrive sur place. Ils ressemblent à Manon. Les parents sont bruns et ont des yeux clairs comme eux. Lucas voit que leurs mains se touchent : « Bonjour, Lucas, nous avons appelé Flairtout pour dire qu'il a disparu notre fille pendant la nuit ! » Les gens ont de l'angoisse sur le visage. Lucas leur promet qu'il va les trouver Manon. Ils sont peinés de voir que Lucas ne sait pas comment la trouver. Il leur donne son serment : « J'ai promis à vous que je vous retrouverai Manon ! »",
+    "rejected":"« Bonjour. Je suis désolé d'entendre cela. Nous allons retrouver votre fille. Ne vous inquiétez pas. »",
+    "chosen_score":38.6015277232,
+    "rejected_score":34.3801339454
+  },
+  {
+    "sentence_id":7,
+    "chosen":"« On cherche Lila ! » Ils cherchent partout. Dans la chambre de Manon. Flairtout : « Regarde sous l'oreiller ! » Lucas voit un cahier secret. C'est le journal de Manon ! Il lit : \"Mon safari en Afrique\".",
+    "rejected":"Flairtout a une idée. « Allons chercher Lila. » Les amis entrent dans la chambre de Manon. Ils regardent sous le lit et la table de nuit. Il y a un cahier ! Lucas ouvre le livre et lit : \"Mon safari en Afrique...\"",
+    "chosen_score":45.091148706,
+    "rejected_score":44.8642848881
+  },
+  {
+    "sentence_id":7,
+    "chosen":"« On cherche Lila ! » Ils cherchent partout. Dans la chambre de Manon. Flairtout : « Regarde sous l'oreiller ! » Lucas voit un cahier secret. C'est le journal de Manon ! Il lit : \"Mon safari en Afrique\".",
+    "rejected":"« On commence par chercher dans la chambre de Manon », dit Flairtout. Ils regardent partout. Lucas regarde sous l'oreiller et trouve un cahier. C'est le journal de Manon !",
+    "chosen_score":45.091148706,
+    "rejected_score":43.4009235504
+  },
+  {
+    "sentence_id":7,
+    "chosen":"« On cherche Lila ! » Ils cherchent partout. Dans la chambre de Manon. Flairtout : « Regarde sous l'oreiller ! » Lucas voit un cahier secret. C'est le journal de Manon ! Il lit : \"Mon safari en Afrique\".",
+    "rejected":"« On commence par chercher Lila dans ta chambre », dit Flairtout. Ils regardent partout. Lucas regarde sous l'oreiller. Il y trouve un cahier avec des mots écrits par Manon. Il lit les mots et voit que c'est son journal intime. Mais il doit savoir ce qui se passe, alors il continue à lire.",
+    "chosen_score":45.091148706,
+    "rejected_score":37.2674024862
+  },
+  {
+    "sentence_id":7,
+    "chosen":"« On cherche Lila ! » Ils cherchent partout. Dans la chambre de Manon. Flairtout : « Regarde sous l'oreiller ! » Lucas voit un cahier secret. C'est le journal de Manon ! Il lit : \"Mon safari en Afrique\".",
+    "rejected":" Mon ami aide Manon à trouver son journal. Nous allons fouiller toute sa chambre pour le lui trouver. Nous sommes dans un village avec des toits en paille. La pièce où nous sommes est petite et mal meublée. Manon est en proie à l'embarras. Lucas cherche sur la table de nuit de Manon, mais ne trouve rien de spécial. Il sent le lit et demande à Lucas de regarder sous l'oreiller. Lucas trouve le journal intime de Manon, Mon safari en Afrique. Lui qui n'est pas censé le lire, fait un effort pour le lui trouver.",
+    "chosen_score":45.091148706,
+    "rejected_score":37.0252251206
+  },
+  {
+    "sentence_id":7,
+    "chosen":"« On cherche Lila ! » Ils cherchent partout. Dans la chambre de Manon. Flairtout : « Regarde sous l'oreiller ! » Lucas voit un cahier secret. C'est le journal de Manon ! Il lit : \"Mon safari en Afrique\".",
+    "rejected":" Le cahier de Manon a été trouvé ! Lucas le lit tout de suite. C'est un journal de voyage en Afrique. Il y a des dessins et des photos. Manon est très triste. Elle a perdu son amie, une girafon nommée Zara. Flairtout veut l'aider à retrouver sa girafon.",
+    "chosen_score":45.091148706,
+    "rejected_score":36.8641976741
+  },
+  {
+    "sentence_id":7,
+    "chosen":"« On cherche Lila ! » Ils cherchent partout. Dans la chambre de Manon. Flairtout : « Regarde sous l'oreiller ! » Lucas voit un cahier secret. C'est le journal de Manon ! Il lit : \"Mon safari en Afrique\".",
+    "rejected":" L'ami de Flairtout aide Flairtout à trouver le journal de Manon. Ils arrivent chez elle et commencent à fouiller sa chambre. Ils trouvent son cahier et Flairtout lira son journal pour la sauver.",
+    "chosen_score":45.091148706,
+    "rejected_score":36.0492960222
+  },
+  {
+    "sentence_id":7,
+    "chosen":"« On cherche Lila ! » Ils cherchent partout. Dans la chambre de Manon. Flairtout : « Regarde sous l'oreiller ! » Lucas voit un cahier secret. C'est le journal de Manon ! Il lit : \"Mon safari en Afrique\".",
+    "rejected":" Ami sauve amie d'embarras. \"Commence par chercher dans sa chambre\", dit-il. Des petites maisons avec des toits en paille sont partout dans le village. Nous allons vers la famille de Manon jusqu'à leur maison. C'est une petite pièce presque meublée. La recherche doit être rapide. Lucas commence par explorer la table de nuit de la fille. Rien spécial. L'ami sent le lit et demande à Lucas de regarder sous l'oreiller. Lucas, qui croit toujours être le héros d'un film, soulève l'oreiller avec un air inspiré. Ah non, il trouve un cahier intitulé Mon safari en Afrique. Lucas reconnaît immédiatement l'écriture de Manon. Il sait qu'il ne devrait pas lire son journal personnel mais dans l'urgence de la situation, il décide de mettre ses scrupules à côté.",
+    "chosen_score":45.091148706,
+    "rejected_score":35.4636123782
+  },
+  {
+    "sentence_id":8,
+    "chosen":"Lucas se couche sur le lit de Léa. Il lit un journal pour trouver des indices. « MON SAFARI EN AFRIQUE ». Lucas lit : \"Lundi, nous arrivons à Nairobi. C'est mon premier voyage en Afrique ! Je suis excité ! Nous prenons une jeep et rencontrons Léo, notre guide, qui parle français. Nous partons pour Kasa.\"",
+    "rejected":"Lucas se couche sur le lit de sa sœur et lit un journal. « Mon safari en Afrique ! Je suis à Nairobi pour la première fois. C'est incroyable ! Une jeep me attendra. J'ai un guide, Léo. Il parle français. Nous allons au village Kasa. »",
+    "chosen_score":47.6654097156,
+    "rejected_score":46.5712739385
+  },
+  {
+    "sentence_id":8,
+    "chosen":"Lucas se couche sur le lit de Léa. Il lit un journal pour trouver des indices. « MON SAFARI EN AFRIQUE ». Lucas lit : \"Lundi, nous arrivons à Nairobi. C'est mon premier voyage en Afrique ! Je suis excité ! Nous prenons une jeep et rencontrons Léo, notre guide, qui parle français. Nous partons pour Kasa.\"",
+    "rejected":"Lucas se couche sur le lit de Léa et lit un journal. « MON SAFARI EN AFRIQUE » Lucas lit les mots forts : Nairobi, Afrique, cool ! Il lit que des gens attendent à l'aéroport avec une jeep. Ils rencontrent leur guide, Léo.",
+    "chosen_score":47.6654097156,
+    "rejected_score":44.6912834254
+  },
+  {
+    "sentence_id":8,
+    "chosen":"Lucas se couche sur le lit de Léa. Il lit un journal pour trouver des indices. « MON SAFARI EN AFRIQUE ». Lucas lit : \"Lundi, nous arrivons à Nairobi. C'est mon premier voyage en Afrique ! Je suis excité ! Nous prenons une jeep et rencontrons Léo, notre guide, qui parle français. Nous partons pour Kasa.\"",
+    "rejected":" J'ai couché sur le lit de mon ami Lucas. Je lis dans son journal pour trouver des indices. MON SAFARI EN AFRIQUE. « Lundi, j'arrive en Afrique pour la première fois ! » C'est trop cool ! Nous avons une voiture qui nous attend à l'aéroport. Léo, notre guide, nous parle français et nous emmène à Kasa. Il dit bonjour en swahili. Je suis triste car j'ai perdu mon journal.",
+    "chosen_score":47.6654097156,
+    "rejected_score":40.4814947864
+  },
+  {
+    "sentence_id":8,
+    "chosen":"Lucas se couche sur le lit de Léa. Il lit un journal pour trouver des indices. « MON SAFARI EN AFRIQUE ». Lucas lit : \"Lundi, nous arrivons à Nairobi. C'est mon premier voyage en Afrique ! Je suis excité ! Nous prenons une jeep et rencontrons Léo, notre guide, qui parle français. Nous partons pour Kasa.\"",
+    "rejected":" Lucas prends dehors ses chaussures et se couche sur le lit d'une amie. Il ouvre son journal pour trouver des réponses. MON JOUR EN AFRIQUE\n\nLundi, j'arrive à Nairobi. C'est ma première fois en Afrique ! Ça est génial ! Un véhicule nous attend à l'aéroport. Notre guide Léo nous parle et nous le connaissons. Il nous emmène à notre village, Kasa. Il parle français aussi. Nous prendrons la route.",
+    "chosen_score":47.6654097156,
+    "rejected_score":39.7112730335
+  },
+  {
+    "sentence_id":8,
+    "chosen":"Lucas se couche sur le lit de Léa. Il lit un journal pour trouver des indices. « MON SAFARI EN AFRIQUE ». Lucas lit : \"Lundi, nous arrivons à Nairobi. C'est mon premier voyage en Afrique ! Je suis excité ! Nous prenons une jeep et rencontrons Léo, notre guide, qui parle français. Nous partons pour Kasa.\"",
+    "rejected":"Lucas s'allonge sur le lit de Léa. Il lit son journal. « MON SAFARI EN AFRIQUE » Lucas espère trouver des indices pour retrouver Lila.",
+    "chosen_score":47.6654097156,
+    "rejected_score":39.0278795337
+  },
+  {
+    "sentence_id":8,
+    "chosen":"Lucas se couche sur le lit de Léa. Il lit un journal pour trouver des indices. « MON SAFARI EN AFRIQUE ». Lucas lit : \"Lundi, nous arrivons à Nairobi. C'est mon premier voyage en Afrique ! Je suis excité ! Nous prenons une jeep et rencontrons Léo, notre guide, qui parle français. Nous partons pour Kasa.\"",
+    "rejected":" Lucas met ses pieds dans son lit. Il ouvre le journal pour trouver des réponses.\n\nLucas est en Afrique pour la première fois. C'est trop cool ! Un véhicule nous attend à l'aéroport. Nous rencontrons Léo, notre guide qui nous mène vers Kasa. Il dit bonjour en swahili mais il parle aussi français. Nous partons en route.",
+    "chosen_score":47.6654097156,
+    "rejected_score":37.5937503985
+  },
+  {
+    "sentence_id":8,
+    "chosen":"Lucas se couche sur le lit de Léa. Il lit un journal pour trouver des indices. « MON SAFARI EN AFRIQUE ». Lucas lit : \"Lundi, nous arrivons à Nairobi. C'est mon premier voyage en Afrique ! Je suis excité ! Nous prenons une jeep et rencontrons Léo, notre guide, qui parle français. Nous partons pour Kasa.\"",
+    "rejected":" Lucas arrête de marcher. S'asseoir au lit de sa meilleure amie. Vouloir trouver des réponses. \"Mon safari en Afrique.\" Décollage hier du pays de France, atterrissage à Nairobi, première fois en Afrique ! Jalouse de l'aventure! Léo nous a attendus à l'aéroport. Il parle français et nous dirige vers Kasa, village d'Afrique où nous sommes allés.",
+    "chosen_score":47.6654097156,
+    "rejected_score":34.4467809668
+  },
+  {
+    "sentence_id":9,
+    "chosen":" En Afrique, j'ai vu beaucoup de verdure et des collines. Les enfants jouent avec des boîtes de conserve et des vieux pneus. Ils sont heureux. J'aime l'Afrique. Je suis dépaysée.",
+    "rejected":"Je voyage en Afrique ! J'ai imaginé autre chose. Voilà des champs avec des arbres fruitiers. Des villages pauvres mais des enfants qui s'amusent beaucoup ! Ils jouent au foot avec des boîtes de conserve et des pneus. Des femmes reviennent du puits avec une cruche sur la tête. Des personnes sur des mobylettes sans casques ! Je me sens déjà un peu étrangère.",
+    "chosen_score":42.7091665316,
+    "rejected_score":42.6645733308
+  },
+  {
+    "sentence_id":9,
+    "chosen":" En Afrique, j'ai vu beaucoup de verdure et des collines. Les enfants jouent avec des boîtes de conserve et des vieux pneus. Ils sont heureux. J'aime l'Afrique. Je suis dépaysée.",
+    "rejected":" En Afrique, j'ai vu beaucoup de verdure et de collines. Les enfants jouent avec des boîtes de conserve et des vieux pneus. Je suis touchée par la pauvreté des villages. J'aime bien mon voyage en Afrique.",
+    "chosen_score":42.7091665316,
+    "rejected_score":41.3646463945
+  },
+  {
+    "sentence_id":9,
+    "chosen":" En Afrique, j'ai vu beaucoup de verdure et des collines. Les enfants jouent avec des boîtes de conserve et des vieux pneus. Ils sont heureux. J'aime l'Afrique. Je suis dépaysée.",
+    "rejected":"Je voyage en Afrique. Je pensais à des broussailles, mais il y a des collines et des champs avec des arbres fruitiers. Les villages sont pauvres, les enfants jouent avec des boîtes et des pneus. Les femmes reviennent du puits avec leur cruche sur la tête, et les gens sont assis à plusieurs sur des mobylettes sans casques ! Je me sens un peu dépaysée, mais je suis ravie de voyager en Afrique !",
+    "chosen_score":42.7091665316,
+    "rejected_score":37.2592640383
+  },
+  {
+    "sentence_id":9,
+    "chosen":" En Afrique, j'ai vu beaucoup de verdure et des collines. Les enfants jouent avec des boîtes de conserve et des vieux pneus. Ils sont heureux. J'aime l'Afrique. Je suis dépaysée.",
+    "rejected":" Afrique. Broussailles, collines, verdure. Arbres fruitiers dans les champs. Villages pauvres. Enfants jouent avec des boîtes et des vieux pneus. Plus joyeux que avec les consoles de jeu. Femmes reviennent du puits avec une cruche sur la tête. Personnes sur les mobylettes. Pas de casques! Même si on ne voit pas d'autres animaux, je suis dépaysée. Joyeuse de voyager en Afrique.",
+    "chosen_score":42.7091665316,
+    "rejected_score":37.000598726
+  },
+  {
+    "sentence_id":9,
+    "chosen":" En Afrique, j'ai vu beaucoup de verdure et des collines. Les enfants jouent avec des boîtes de conserve et des vieux pneus. Ils sont heureux. J'aime l'Afrique. Je suis dépaysée.",
+    "rejected":"Je voyage en Afrique ! J'ai imaginé des champs vides, mais j'y vois des arbres fruitiers et des collines vertes. Les villages sont pauvres, mais les enfants s'amusent avec des boîtes de conserve et des pneus de voiture. Les femmes reviennent du puits, droites malgré leur charge. Je suis déjà dépaysée, mais je suis ravie !",
+    "chosen_score":42.7091665316,
+    "rejected_score":35.8401612495
+  },
+  {
+    "sentence_id":9,
+    "chosen":" En Afrique, j'ai vu beaucoup de verdure et des collines. Les enfants jouent avec des boîtes de conserve et des vieux pneus. Ils sont heureux. J'aime l'Afrique. Je suis dépaysée.",
+    "rejected":"Je voyage en Afrique. J'ai une idée fausse de ce que je trouverai. Mais voilà ! Les champs sont beaux, les arbres fruitiers sont nombreux. Les villages sont pauvres, mais les enfants s'amusent. Ils jouent avec des boîtes de conserve et des pneus de voiture. Les femmes reviennent du puits, droites malgré leur charge. Les gens montent à trois ou quatre sur des mobylettes sans casques ! Je suis déjà dépaysée. Mais je suis ravie de voyager en Afrique.",
+    "chosen_score":42.7091665316,
+    "rejected_score":35.6823247783
+  },
+  {
+    "sentence_id":9,
+    "chosen":" En Afrique, j'ai vu beaucoup de verdure et des collines. Les enfants jouent avec des boîtes de conserve et des vieux pneus. Ils sont heureux. J'aime l'Afrique. Je suis dépaysée.",
+    "rejected":"\nEn Afrique, j'ai découvert un monde différent. Les collines et la verdure m'ont surpris. Dans les champs, il y a des arbres fruitiers. Je me sens étonnée par la pauvreté des villages. J'ai vu des enfants jouer avec des boîtes de conserve et rouler des vieux pneus avec des bâtons. Ils étaient plus joyeux que quand ils jouent avec des consoles de jeu vidéo. J'ai vu aussi des femmes qui portaient une cruche sur la tête, ce qui ne semblait pas bien mais elles marchaient bien droites. Je me sens dépaysée en voyant autant d'animaux que des poules et des dindons. J'aime déjà mon voyage en Afrique.",
+    "chosen_score":42.7091665316,
+    "rejected_score":35.1102960904
+  },
+  {
+    "sentence_id":10,
+    "chosen":"Nous arrivons au village à la nuit. Les gens sont très amis. Ils nous font manger du riz et du poisson. Je mange avec les jeunes. On rit même si on ne parle pas la même langue. Mais mon père me dit de se coucher car demain, nous allons partir tôt pour notre safari photo. Dans ma hutte, j'ai peur d'une araignée. Maman vient vite et m'ordonne de reculer : c'est un scorpion ! Je suis fatiguée.",
+    "rejected":"Nous arrivons au village à la nuit. Les gens sont très amis. Ils nous font manger. Je mange avec les autres jeunes. On rit même si on ne parle pas la même langue. Mais puis, j'ai un peu peur après avoir confondu un piment avec une tomate ! Ma maman me rappelle de me coucher car nous partons tôt demain. Je vais dormir comme un bébé.",
+    "chosen_score":46.8501815055,
+    "rejected_score":43.2163008226
+  },
+  {
+    "sentence_id":10,
+    "chosen":"Nous arrivons au village à la nuit. Les gens sont très amis. Ils nous font manger du riz et du poisson. Je mange avec les jeunes. On rit même si on ne parle pas la même langue. Mais mon père me dit de se coucher car demain, nous allons partir tôt pour notre safari photo. Dans ma hutte, j'ai peur d'une araignée. Maman vient vite et m'ordonne de reculer : c'est un scorpion ! Je suis fatiguée.",
+    "rejected":" Nous arrivons au village à la tombée de la nuit. Le village est plus petit qu'imaginable. Les habitants sont très accueillants. Ils ont préparé le dîner : du riz jaune et du poisson grillé. Je mange avec les jeunes gens. Nous ne parlons pas la même langue, mais nous rigolions quand même. J'ai mangé un piment par erreur. J'étais rouge comme une tomate. Après le dessert, mes parents me rappellent à l'ordre : je dois dormir car nous allons prendre de l'avance demain pour notre première journée de safari-photo. Notre hutte est sommaire mais charmante. Je vois une araignée près de mon lit. Elle me fait peur. Maman m'a crié de reculer : c'est un scorpion, mamma mia, je l'ai échappé belle ! J'ai envie de dormir comme un bébé.",
+    "chosen_score":46.8501815055,
+    "rejected_score":42.685332623
+  },
+  {
+    "sentence_id":10,
+    "chosen":"Nous arrivons au village à la nuit. Les gens sont très amis. Ils nous font manger du riz et du poisson. Je mange avec les jeunes. On rit même si on ne parle pas la même langue. Mais mon père me dit de se coucher car demain, nous allons partir tôt pour notre safari photo. Dans ma hutte, j'ai peur d'une araignée. Maman vient vite et m'ordonne de reculer : c'est un scorpion ! Je suis fatiguée.",
+    "rejected":"Je mange avec les jeunes. On rigole ensemble. Mais je fais une erreur. J'ai confondu un piment avec un bout de tomate. Au moment du dessert, mes parents me disent : il est temps de se coucher. Demain, nous allons partir tôt pour notre safari-photo. Je vois quelque chose près de mon lit. Maman me dit de reculer. C'est un scorpion !",
+    "chosen_score":46.8501815055,
+    "rejected_score":41.5222049526
+  },
+  {
+    "sentence_id":10,
+    "chosen":"Nous arrivons au village à la nuit. Les gens sont très amis. Ils nous font manger du riz et du poisson. Je mange avec les jeunes. On rit même si on ne parle pas la même langue. Mais mon père me dit de se coucher car demain, nous allons partir tôt pour notre safari photo. Dans ma hutte, j'ai peur d'une araignée. Maman vient vite et m'ordonne de reculer : c'est un scorpion ! Je suis fatiguée.",
+    "rejected":" C'est le soir. Nous sommes dans un village petit et charmant. Les habitants sont très gentils. Ils nous ont préparé du riz jaune et du poisson grillé pour le dîner. Je mange avec les jeunes. On ne parle pas la même langue, mais on rigole quand même. J'ai confondu un piment avec une tomate. Cela m'a rendu rouge. Au dessert, mes parents veulent que je me couche. Demain, nous allons partir en safari-photo. Notre hutte est sommaire mais charmante. Il y a une araignée près de mon lit. J'approche. Maman m'appelle : c'est un scorpion ! Je suis fatiguée par toutes ces émotions. Je vais dormir comme un bébé.",
+    "chosen_score":46.8501815055,
+    "rejected_score":39.8383397388
+  },
+  {
+    "sentence_id":10,
+    "chosen":"Nous arrivons au village à la nuit. Les gens sont très amis. Ils nous font manger du riz et du poisson. Je mange avec les jeunes. On rit même si on ne parle pas la même langue. Mais mon père me dit de se coucher car demain, nous allons partir tôt pour notre safari photo. Dans ma hutte, j'ai peur d'une araignée. Maman vient vite et m'ordonne de reculer : c'est un scorpion ! Je suis fatiguée.",
+    "rejected":" Nous arrivons à la petite ville. Les gens sont très sympathiques. Ils nous ont préparé le dîner : riz jaune et poisson grillé. J'ai mangé avec les jeunes. On ne parle pas la même langue, mais on rigole quand même, surtout quand j'ai confondu un piment avec un bout de tomate. Le dessert est arrivé. Mon père vient me rappeler à l'ordre : je dois aller dormir car nous allons lever tôt pour notre première journée de safari-photo. Ma petite maison est simples mais joli. J'ai vu une araignée près de mon lit. Je m'en approche. Maman me crie de reculer : ça est un scorpion, oh la la ! J'ai envie de dormir comme un bébé.",
+    "chosen_score":46.8501815055,
+    "rejected_score":39.7586065664
+  },
+  {
+    "sentence_id":10,
+    "chosen":"Nous arrivons au village à la nuit. Les gens sont très amis. Ils nous font manger du riz et du poisson. Je mange avec les jeunes. On rit même si on ne parle pas la même langue. Mais mon père me dit de se coucher car demain, nous allons partir tôt pour notre safari photo. Dans ma hutte, j'ai peur d'une araignée. Maman vient vite et m'ordonne de reculer : c'est un scorpion ! Je suis fatiguée.",
+    "rejected":"Je mange avec les enfants. On rit ensemble. Mais quand le dessert arrive, mes parents me disent : « Il est temps de se coucher. Demain, nous partons pour notre safari. » J'ai une hutte simple mais jolie. Je vois une araignée près de mon lit. Maman me dit de reculer. C'est un scorpion !",
+    "chosen_score":46.8501815055,
+    "rejected_score":38.8410406911
+  },
+  {
+    "sentence_id":10,
+    "chosen":"Nous arrivons au village à la nuit. Les gens sont très amis. Ils nous font manger du riz et du poisson. Je mange avec les jeunes. On rit même si on ne parle pas la même langue. Mais mon père me dit de se coucher car demain, nous allons partir tôt pour notre safari photo. Dans ma hutte, j'ai peur d'une araignée. Maman vient vite et m'ordonne de reculer : c'est un scorpion ! Je suis fatiguée.",
+    "rejected":" J'arrive au village à la nuit tombante. C'est plus petit que je ne l'imaginais. Les habitants sont très sympathiques et nous préparent un dîner : du riz jaune et du poisson grillé. Je mange avec les enfants. Nous ne parlons pas la même langue mais on rigole quand même, surtout lorsque je prends un piment pour une tomate. Pendant le dessert, mon père me rappelle à l'ordre : je dois aller se coucher car nous allons nous lever très tôt demain pour notre première journée de safari-photo. Notre hutte est simple mais charmante. Je crois voir une araignée près de mon lit. Je me rapproche. Mère court sur moi en m'avertissant de me reculer : c'est un scorpion, non ! Je n'ai pas réussi à s'enfuir. Je suis très fatiguée par toutes ces émotions. J'espère dormir comme un bébé.",
+    "chosen_score":46.8501815055,
+    "rejected_score":36.3156493366
+  },
+  {
+    "sentence_id":11,
+    "chosen":"« Je suis réveillé ! Il est cinq heures du matin ! Quel bruit de jungle ! Éléphants ? Ouah, c'est trop fort ! Mais je me sens mieux que lorsque j'aille en classe. Léo nous attend déjà. Il fait trop chaud à dix heures. On monte dans la jeep ! On y va pour l'aventure ! »",
+    "rejected":"Ma première nuit de jungle est étrange. J'entends des bruits bizarres. Vers cinq heures du matin, les éléphants font un grand bruit. Mais je me sens un peu mieux que le matin où j'ai la classe. Léo, notre guide, nous attend déjà. Il faut partir tôt pour voir les animaux. À dix heures, il fait trop chaud. Nous montons dans la jeep et partons pour l'aventure !",
+    "chosen_score":41.767665045,
+    "rejected_score":40.8995552738
+  },
+  {
+    "sentence_id":11,
+    "chosen":"« Je suis réveillé ! Il est cinq heures du matin ! Quel bruit de jungle ! Éléphants ? Ouah, c'est trop fort ! Mais je me sens mieux que lorsque j'aille en classe. Léo nous attend déjà. Il fait trop chaud à dix heures. On monte dans la jeep ! On y va pour l'aventure ! »",
+    "rejected":"Je suis réveillé à 5h du matin par des bruits étranges. C'est comme une jungle ! Les éléphants font trop de bruit. Mais je me sens un peu mieux que le jour où j'aille en classe. Léo, notre guide, est déjà là. Il faut partir tôt pour voir les animaux. À 10h, il fait trop chaud et nous montons dans la jeep. On y va !",
+    "chosen_score":41.767665045,
+    "rejected_score":40.5803686674
+  },
+  {
+    "sentence_id":11,
+    "chosen":"« Je suis réveillé ! Il est cinq heures du matin ! Quel bruit de jungle ! Éléphants ? Ouah, c'est trop fort ! Mais je me sens mieux que lorsque j'aille en classe. Léo nous attend déjà. Il fait trop chaud à dix heures. On monte dans la jeep ! On y va pour l'aventure ! »",
+    "rejected":" J'ai passé ma première nuit en jungle. J'ai entendu des bruits bizarres. C'était le matin. J'étais réveillé par les éléphants. Cela m'a fait peur, mais je suis sorti de mon lit plus facilement que pour aller à l'école. Léo, mon guide, était déjà là. Les animaux sont visibles tôt le matin. Il faisait trop chaud vers dix heures. Nous montions dans la voiture. On allait en aventure !",
+    "chosen_score":41.767665045,
+    "rejected_score":38.2014798054
+  },
+  {
+    "sentence_id":11,
+    "chosen":"« Je suis réveillé ! Il est cinq heures du matin ! Quel bruit de jungle ! Éléphants ? Ouah, c'est trop fort ! Mais je me sens mieux que lorsque j'aille en classe. Léo nous attend déjà. Il fait trop chaud à dix heures. On monte dans la jeep ! On y va pour l'aventure ! »",
+    "rejected":" Le guide Léo nous attends. J'ai mal dormi parce que j'ai entendu des bruits bizarres. J'aime les animaux de jungle, mais ils sont parfois loufs. C'est beau de voir un éléphant au matin. Il fait trop chaud pour eux à midi. Nous montrons tout le pays dans la jeep. C'est un bon jour pour l'aventure !",
+    "chosen_score":41.767665045,
+    "rejected_score":37.0216004168
+  },
+  {
+    "sentence_id":11,
+    "chosen":"« Je suis réveillé ! Il est cinq heures du matin ! Quel bruit de jungle ! Éléphants ? Ouah, c'est trop fort ! Mais je me sens mieux que lorsque j'aille en classe. Léo nous attend déjà. Il fait trop chaud à dix heures. On monte dans la jeep ! On y va pour l'aventure ! »",
+    "rejected":" Ma première nuit est bizarre. J'entends des bruits étranges. Le guide Léo nous attend déjà à cinq heures du matin. Il est temps de monter dans la jeep et partir en aventure !",
+    "chosen_score":41.767665045,
+    "rejected_score":36.4084575473
+  },
+  {
+    "sentence_id":11,
+    "chosen":"« Je suis réveillé ! Il est cinq heures du matin ! Quel bruit de jungle ! Éléphants ? Ouah, c'est trop fort ! Mais je me sens mieux que lorsque j'aille en classe. Léo nous attend déjà. Il fait trop chaud à dix heures. On monte dans la jeep ! On y va pour l'aventure ! »",
+    "rejected":" Je veux raconter ma nuit en jungle. Bruits étranges. 5h : Éléphants. Quel boucan ! J'ai plus de difficultés à me lever que dans la classe. Léo attendait déjà. Animaux visibles tôt le matin. Puis trop chaud pour les animaux et nous aussi. Dans la voiture. Allons en aventure !",
+    "chosen_score":41.767665045,
+    "rejected_score":36.364802681
+  },
+  {
+    "sentence_id":11,
+    "chosen":"« Je suis réveillé ! Il est cinq heures du matin ! Quel bruit de jungle ! Éléphants ? Ouah, c'est trop fort ! Mais je me sens mieux que lorsque j'aille en classe. Léo nous attend déjà. Il fait trop chaud à dix heures. On monte dans la jeep ! On y va pour l'aventure ! »",
+    "rejected":"Ma première nuit de jungle est compliquée. J'entends des bruits étranges. À 5h, les éléphants rugissent. C'est un peu trop tôt pour moi, mais j'ai moins de mal à me lever que le matin où je vais en classe ! Léo, notre guide, nous attend. Il est temps d'y aller !",
+    "chosen_score":41.767665045,
+    "rejected_score":35.7808960096
+  },
+  {
+    "sentence_id":12,
+    "chosen":"Un lac ! Une maman éléphant baigne son bébé. Trop mignon ! Des babouins jouent dans les arbres. Ils tombent dans l'eau. Je suis morte de rire. J'ai envie de partager cela avec Lucas. Il me manque !",
+    "rejected":"Nous arrivons au lac. Une maman éléphant baigne son bébé. C'est trop mignon ! Des babouins jouent dans les arbres. Ils tombent parfois dans l'eau. Je suis morte de rire. J'aurais aimé partager cela avec Lucas.",
+    "chosen_score":55.4120863855,
+    "rejected_score":54.521320734
+  },
+  {
+    "sentence_id":12,
+    "chosen":"Un lac ! Une maman éléphant baigne son bébé. Trop mignon ! Des babouins jouent dans les arbres. Ils tombent dans l'eau. Je suis morte de rire. J'ai envie de partager cela avec Lucas. Il me manque !",
+    "rejected":"« Oh, c'est trop mignon ! Les éléphants se baignent au lac. Et les babouins, ils font des farces dans les arbres ! Ils tombent dans l'eau. Je suis morte de rire ! » Mais je voulais partager cela avec Lucas. Il me manque !",
+    "chosen_score":55.4120863855,
+    "rejected_score":50.5735815967
+  },
+  {
+    "sentence_id":12,
+    "chosen":"Un lac ! Une maman éléphant baigne son bébé. Trop mignon ! Des babouins jouent dans les arbres. Ils tombent dans l'eau. Je suis morte de rire. J'ai envie de partager cela avec Lucas. Il me manque !",
+    "rejected":"Nous arrivons à un lac. Une maman éléphant se lave son bébé. C'est trop mignon ! Des babouins jouent dans les arbres. Ils tombent parfois dans l'eau. Je ris beaucoup. J'ai envie de partager cela avec Lucas. Il me manque tellement !",
+    "chosen_score":55.4120863855,
+    "rejected_score":49.8712980362
+  },
+  {
+    "sentence_id":12,
+    "chosen":"Un lac ! Une maman éléphant baigne son bébé. Trop mignon ! Des babouins jouent dans les arbres. Ils tombent dans l'eau. Je suis morte de rire. J'ai envie de partager cela avec Lucas. Il me manque !",
+    "rejected":" Un beau jour, je suis allée à un lac. Puis j'ai vu un éléphant dans l'eau avec son bébé. C'était très mignon ! J'étais trop heureuse pour rire. Je souhaitais que mon frère y soit. Qu'est-ce qu'il me manque ? Mon frère est rougi. Il a poursuivi sa lecture.",
+    "chosen_score":55.4120863855,
+    "rejected_score":39.7850832266
+  },
+  {
+    "sentence_id":12,
+    "chosen":"Un lac ! Une maman éléphant baigne son bébé. Trop mignon ! Des babouins jouent dans les arbres. Ils tombent dans l'eau. Je suis morte de rire. J'ai envie de partager cela avec Lucas. Il me manque !",
+    "rejected":" L'éléphant maman baignait son petit enfant dans un lac. Babouins riaient en haut des arbres. Je voulais partager ces moments avec mon frère. Où est-il ?",
+    "chosen_score":55.4120863855,
+    "rejected_score":35.3980791424
+  },
+  {
+    "sentence_id":12,
+    "chosen":"Un lac ! Une maman éléphant baigne son bébé. Trop mignon ! Des babouins jouent dans les arbres. Ils tombent dans l'eau. Je suis morte de rire. J'ai envie de partager cela avec Lucas. Il me manque !",
+    "rejected":" Éléphanteau et babouins\n\nTrois heures de route en voiture. Puis un lac. Maman éléphant et bébé éléphanteau. Babouins dans les arbres. Je riais beaucoup. Voulais partager ces moments avec Lucas, ma copine. Qu'est-ce qu'il me manque ?\n\nLucas rougit. Continuait sa lecture.",
+    "chosen_score":55.4120863855,
+    "rejected_score":34.4386010979
+  },
+  {
+    "sentence_id":12,
+    "chosen":"Un lac ! Une maman éléphant baigne son bébé. Trop mignon ! Des babouins jouent dans les arbres. Ils tombent dans l'eau. Je suis morte de rire. J'ai envie de partager cela avec Lucas. Il me manque !",
+    "rejected":" Lac éléphant. Babouins. Bébé éléphanteau. Trop mignons. Rire. Je veux partager ces moments avec mon frère. Où est-il ?",
+    "chosen_score":55.4120863855,
+    "rejected_score":31.9744563811
+  },
+  {
+    "sentence_id":13,
+    "chosen":"Un guépard sur une branche ! Mon guide me dit : « Ne t'inquiète pas, tu es en sécurité. » Puis le guépard saute et poursuit un lapin. J'ai peur pour le lapin. Mais... il arrive à s'échapper juste à temps ! Le plus faible a gagné contre le plus fort. Je vais me souvenir de cela toute ma vie.",
+    "rejected":"Un guépard sur une branche ! Il saute et poursuit un lapin. J'ai peur pour le lapin. Mais il arrive à s'échapper juste à temps en se cachant sous un buisson. C'est cool ! Les petits peuvent gagner contre les grands. Je vais me souvenir de ça toute ma vie.",
+    "chosen_score":40.5311852824,
+    "rejected_score":40.0840483771
+  },
+  {
+    "sentence_id":13,
+    "chosen":"Un guépard sur une branche ! Mon guide me dit : « Ne t'inquiète pas, tu es en sécurité. » Puis le guépard saute et poursuit un lapin. J'ai peur pour le lapin. Mais... il arrive à s'échapper juste à temps ! Le plus faible a gagné contre le plus fort. Je vais me souvenir de cela toute ma vie.",
+    "rejected":"Un guépard saute d'un arbre et court après un lapin. J'ai peur pour le lapin, mais il parvient à s'échapper en se cachant derrière une plante. C'est incroyable ! Les plus faibles peuvent gagner contre les plus forts. Je vais me rappeler de cette histoire toute ma vie.",
+    "chosen_score":40.5311852824,
+    "rejected_score":39.4532578475
+  },
+  {
+    "sentence_id":13,
+    "chosen":"Un guépard sur une branche ! Mon guide me dit : « Ne t'inquiète pas, tu es en sécurité. » Puis le guépard saute et poursuit un lapin. J'ai peur pour le lapin. Mais... il arrive à s'échapper juste à temps ! Le plus faible a gagné contre le plus fort. Je vais me souvenir de cela toute ma vie.",
+    "rejected":"Un guépard dans l'arbre ! Mais il saute et poursuit un lapin. Je suis inquiète pour le lapin. Mais attends, le lapin s'échappe juste à temps en se cachant sous un buisson. C'est incroyable ! Les plus faibles peuvent gagner contre les plus forts. Je vais me souvenir de cela toute ma vie.",
+    "chosen_score":40.5311852824,
+    "rejected_score":36.4338631081
+  },
+  {
+    "sentence_id":13,
+    "chosen":"Un guépard sur une branche ! Mon guide me dit : « Ne t'inquiète pas, tu es en sécurité. » Puis le guépard saute et poursuit un lapin. J'ai peur pour le lapin. Mais... il arrive à s'échapper juste à temps ! Le plus faible a gagné contre le plus fort. Je vais me souvenir de cela toute ma vie.",
+    "rejected":" Guépard sur arbre. Lapin en danger. C'est le matin. Pas de danger. Lapin échappe à guépard. Le lapin gagne contre le plus rapide du monde. Bonne nouvelle. Je me souviendrai toujours de cette scène.",
+    "chosen_score":40.5311852824,
+    "rejected_score":35.6744232634
+  },
+  {
+    "sentence_id":13,
+    "chosen":"Un guépard sur une branche ! Mon guide me dit : « Ne t'inquiète pas, tu es en sécurité. » Puis le guépard saute et poursuit un lapin. J'ai peur pour le lapin. Mais... il arrive à s'échapper juste à temps ! Le plus faible a gagné contre le plus fort. Je vais me souvenir de cela toute ma vie.",
+    "rejected":" Guépard dans l'arbre. Securité dans la voiture. Lapin en danger. Lapin s'enfuit.\n\nJe suis inquiète. Lapin va mourir.\n\nPas le cas. Lapin se cache.\n\nBon signe. Les faibles peuvent gagner contre les forts.",
+    "chosen_score":40.5311852824,
+    "rejected_score":34.740908047
+  },
+  {
+    "sentence_id":13,
+    "chosen":"Un guépard sur une branche ! Mon guide me dit : « Ne t'inquiète pas, tu es en sécurité. » Puis le guépard saute et poursuit un lapin. J'ai peur pour le lapin. Mais... il arrive à s'échapper juste à temps ! Le plus faible a gagné contre le plus fort. Je vais me souvenir de cela toute ma vie.",
+    "rejected":" Lapin et guépard\n\nLe lapin a été poursuivi par un guépard rapide. Il est sûr qu'il va être dévoré. Mais le lapin a échappé en se cachant sous un buisson. Il arrive aux plus faibles de gagner contre les plus forts. Cela ne doit pas oublier.",
+    "chosen_score":40.5311852824,
+    "rejected_score":34.1034191742
+  },
+  {
+    "sentence_id":13,
+    "chosen":"Un guépard sur une branche ! Mon guide me dit : « Ne t'inquiète pas, tu es en sécurité. » Puis le guépard saute et poursuit un lapin. J'ai peur pour le lapin. Mais... il arrive à s'échapper juste à temps ! Le plus faible a gagné contre le plus fort. Je vais me souvenir de cela toute ma vie.",
+    "rejected":" Lapin s'échappe de justesse de la poursuite du guépard, le plus rapide du monde. C'est une bonne nouvelle : il arrive aux plus faibles de gagner contre les plus forts. Je me dis que je dois me souvenir de cette scène toute ma vie.",
+    "chosen_score":40.5311852824,
+    "rejected_score":30.5907534873
+  },
+  {
+    "sentence_id":14,
+    "chosen":"Je vois des girafes très grandes ! Des zèbres et des gazelles. Je découvre un grand koudou, une antilope belle. Nous voyons des autruches. Le guide dit : « Donnez-leur du pain ». J'étends la main. Mais une autruche prend ma barrette ! Tout le monde rit. Moi, j'ai eu peur !",
+    "rejected":"J'ai vu des girafes géantes, des zèbres et des gazelles. J'ai vu un koudou, c'est un animal superbe ! Puis on a rencontré des autruches. Le guide a dit : \"Donnez-leur du pain\". Je me suis avancée, mais une autruche m'a pris ma barrette ! Tout le monde riait, même moi ! J'avais eu peur, mais maintenant je souris.",
+    "chosen_score":45.1279892615,
+    "rejected_score":43.1562459333
+  },
+  {
+    "sentence_id":14,
+    "chosen":"Je vois des girafes très grandes ! Des zèbres et des gazelles. Je découvre un grand koudou, une antilope belle. Nous voyons des autruches. Le guide dit : « Donnez-leur du pain ». J'étends la main. Mais une autruche prend ma barrette ! Tout le monde rit. Moi, j'ai eu peur !",
+    "rejected":"Je vois des girafes super grandes ! Et des troupeaux de zèbres et de gazelles. Je découvre un grand koudou, un animal très beau. Les autruches arrivent. Le guide dit : « Donne-leur du pain ». Je tends la main, mais une autruche prend ma barrette et court ! Tout le monde rit. Mais moi, j'ai eu peur !",
+    "chosen_score":45.1279892615,
+    "rejected_score":42.6356291572
+  },
+  {
+    "sentence_id":14,
+    "chosen":"Je vois des girafes très grandes ! Des zèbres et des gazelles. Je découvre un grand koudou, une antilope belle. Nous voyons des autruches. Le guide dit : « Donnez-leur du pain ». J'étends la main. Mais une autruche prend ma barrette ! Tout le monde rit. Moi, j'ai eu peur !",
+    "rejected":"Je vois des girafes très grandes. J'aime les zèbres et les gazelles. Je découvre un grand koudou, c'est un animal superbe ! Quand nous voyons des autruches, le guide dit : \"Donnez-leur du pain.\" Je tends la main, mais une autruche prend ma barrette ! Tout le monde rit, même moi, malgré que j'ai eu peur.",
+    "chosen_score":45.1279892615,
+    "rejected_score":41.0877483603
+  },
+  {
+    "sentence_id":14,
+    "chosen":"Je vois des girafes très grandes ! Des zèbres et des gazelles. Je découvre un grand koudou, une antilope belle. Nous voyons des autruches. Le guide dit : « Donnez-leur du pain ». J'étends la main. Mais une autruche prend ma barrette ! Tout le monde rit. Moi, j'ai eu peur !",
+    "rejected":" J'ai vu des girafes géantes et des troupeaux de zèbres et de gazelles. J'ai découvert l'antilope koudou rayée aux cornes torsadées. Le guide nous a dit que les autruches veulent du pain. Je suis allé leur donner du pain, mais une autruche m'a volé ma barrette ! Cela a fait rire tout le monde ! J'ai eu peur de ma vie, mais je me suis joigni à la rigolade générale.",
+    "chosen_score":45.1279892615,
+    "rejected_score":39.154842857
+  },
+  {
+    "sentence_id":14,
+    "chosen":"Je vois des girafes très grandes ! Des zèbres et des gazelles. Je découvre un grand koudou, une antilope belle. Nous voyons des autruches. Le guide dit : « Donnez-leur du pain ». J'étends la main. Mais une autruche prend ma barrette ! Tout le monde rit. Moi, j'ai eu peur !",
+    "rejected":" Nous voyons plusieurs girafes qui sont très grandes. Il y a aussi des troupeaux de zèbres et de gazelles. J'ai découvert l'animal appelé grand koudou, une sorte d'antilope rayée aux cornes torsadées. Le guide nous donne du pain pour les autruches. Je le donne courageusement mais une autruche m'arrache ma barrette ! Cela fait rire tout le monde. J'ai peur mais je me joins à la rigolade générale.",
+    "chosen_score":45.1279892615,
+    "rejected_score":38.6540798601
+  },
+  {
+    "sentence_id":14,
+    "chosen":"Je vois des girafes très grandes ! Des zèbres et des gazelles. Je découvre un grand koudou, une antilope belle. Nous voyons des autruches. Le guide dit : « Donnez-leur du pain ». J'étends la main. Mais une autruche prend ma barrette ! Tout le monde rit. Moi, j'ai eu peur !",
+    "rejected":" J'ai vu des girafes, plus grandes que j'imaginais. Je vois aussi des troupeaux de zèbres et de gazelles. Il y a un grand koudou, une sorte d'antilope rayée avec des cornes torsadées. Les autruches ont mangé ma barrette ! Moi j'ai peur mais je me joins à la rigolade générale.",
+    "chosen_score":45.1279892615,
+    "rejected_score":38.0140919736
+  },
+  {
+    "sentence_id":14,
+    "chosen":"Je vois des girafes très grandes ! Des zèbres et des gazelles. Je découvre un grand koudou, une antilope belle. Nous voyons des autruches. Le guide dit : « Donnez-leur du pain ». J'étends la main. Mais une autruche prend ma barrette ! Tout le monde rit. Moi, j'ai eu peur !",
+    "rejected":" J'ai vu de grandes girafes qui sont encore plus grandes que j'imagineais. Il y avait aussi des troupeaux de zèbres et de gazelles. Je découvrais un grand koudou qui est une sorte d'antilope rayée avec des cornes torsadées, un beau animal. J'ai rencontré des autruches. Le guide nous a dit de leur donner du pain si nous voulions. J'ai tenté courageusement mais une autruche s'est précipitée sur mon cheveux et m'a volé ma barrette ! Cela fait rire tout le monde. Je suis peureuse mais j'apprécie la rigolade générale.",
+    "chosen_score":45.1279892615,
+    "rejected_score":36.615709994
+  },
+  {
+    "sentence_id":15,
+    "chosen":"On arrive où ? On voit des éléphants morts ! Les corps sentent très mauvais. Le guide dit que des méchants ont tués ces éléphants pour prendre leur défenses. C'est terrible !",
+    "rejected":"Nous allons à la réserve naturelle. Mais au bord du chemin, nous voyons des éléphants morts. C'est terrible ! Il sent mauvais. Le guide dit que des gens mauvais ont tué ces éléphants pour prendre leur défense. J'ai entendu parler de braconnage, mais je vois maintenant que c'est vraiment mal. Nous devons faire quelque chose.",
+    "chosen_score":44.1534246484,
+    "rejected_score":38.7902284309
+  },
+  {
+    "sentence_id":15,
+    "chosen":"On arrive où ? On voit des éléphants morts ! Les corps sentent très mauvais. Le guide dit que des méchants ont tués ces éléphants pour prendre leur défenses. C'est terrible !",
+    "rejected":"Nous allons au loin et voilà, des éléphants morts. C'est horrible ! Ils sentent mauvais. Le guide dit qu'ils ont été tués par des braconniers qui vendent leur ivoire. Je savais que le braconnage existait, mais voir cela, je me dis que nous ne pouvons pas rester silencieux.",
+    "chosen_score":44.1534246484,
+    "rejected_score":37.1728636136
+  },
+  {
+    "sentence_id":15,
+    "chosen":"On arrive où ? On voit des éléphants morts ! Les corps sentent très mauvais. Le guide dit que des méchants ont tués ces éléphants pour prendre leur défenses. C'est terrible !",
+    "rejected":"Nous allons voir quelque chose de terrible. Il y a trois éléphants morts sur le chemin. Ils ont été tués par des mauvais hommes qui veulent leur ivoire. C'est très triste et ça sent mauvais. Nous devons faire quelque chose pour arrêter cela.",
+    "chosen_score":44.1534246484,
+    "rejected_score":36.5111636146
+  },
+  {
+    "sentence_id":15,
+    "chosen":"On arrive où ? On voit des éléphants morts ! Les corps sentent très mauvais. Le guide dit que des méchants ont tués ces éléphants pour prendre leur défenses. C'est terrible !",
+    "rejected":" L'odeur d'éléphant mort effraye.\nNous avons vu trois cadavres de grands éléphants.\nTués par des braconniers, leur ivrogne.\nJ'ai compris pour la première fois le vrai prix que paient ces gens pour l'ivoire.\nMoi, je ne veux plus jouer les touristes.\nJe veux aider à protéger les éléphants.",
+    "chosen_score":44.1534246484,
+    "rejected_score":36.3388849977
+  },
+  {
+    "sentence_id":15,
+    "chosen":"On arrive où ? On voit des éléphants morts ! Les corps sentent très mauvais. Le guide dit que des méchants ont tués ces éléphants pour prendre leur défenses. C'est terrible !",
+    "rejected":"Ça sent mauvais voir ces éléphants morts. C'est affreux ! Ils ont été tués par des braconniers qui vendent leur ivore. Je me dis que nous ne pouvons pas continuer à jouer les touristes sans intervenir.",
+    "chosen_score":44.1534246484,
+    "rejected_score":36.1994420538
+  },
+  {
+    "sentence_id":15,
+    "chosen":"On arrive où ? On voit des éléphants morts ! Les corps sentent très mauvais. Le guide dit que des méchants ont tués ces éléphants pour prendre leur défenses. C'est terrible !",
+    "rejected":"Ça fait mal de voir des éléphants morts. On dit qu'ils ont été tués par des chasseurs illégaux pour leur défense d'ivoire. Ça sent mauvais. Je veux que tout le monde sache ce qui se passe autour d'eux, et que nous ne jouions plus les touristes indifférents.",
+    "chosen_score":44.1534246484,
+    "rejected_score":34.9491279253
+  },
+  {
+    "sentence_id":15,
+    "chosen":"On arrive où ? On voit des éléphants morts ! Les corps sentent très mauvais. Le guide dit que des méchants ont tués ces éléphants pour prendre leur défenses. C'est terrible !",
+    "rejected":"Ça sent mauvais ! Nous avons trouvé trois morts éléphants. Ils ont été tués par des braconniers qui vendent leur ivôre. Ça est affreux, je me dis qu'on ne peut pas continuer à voyager sans intervenir contre le braconnage.",
+    "chosen_score":44.1534246484,
+    "rejected_score":33.8334498586
+  }
+]
