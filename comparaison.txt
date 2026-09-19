@@ -1,0 +1,151 @@
+=== Average Performance Metrics (Comparison) ===
+                  rougeL    bert_f1       sari        srb        lix  compression  emotion_distance   emo_sad  emo_neutral  emo_anger   emo_joy  emo_surprise  emo_fear
+model                                                                                                                                                                  
+em_phrase      27.967857  74.791753  42.984967  40.924017  22.934763    55.725953          0.025271  0.104129     0.248239   0.073768  0.084891      0.092093  0.029192
+em_phrase_dpo  27.420433  73.081663  40.035450  38.994467  27.668563    16.204033          0.028341  0.152221     0.221972   0.024064  0.062781      0.065386  0.023260
+
+=== Performance Metrics Summary ===
+model                     em_phrase  em_phrase_dpo
+rougeL           mean  2.796786e+01   2.742043e+01
+                 min   1.764710e+01   1.481500e+00
+                 max   4.509800e+01   5.000000e+01
+bert_f1          mean  7.479175e+01   7.308166e+01
+                 min   6.746060e+01   6.471240e+01
+                 max   8.068980e+01   8.220110e+01
+sari             mean  4.298497e+01   4.003545e+01
+                 min   3.218870e+01   3.273320e+01
+                 max   5.974120e+01   5.267600e+01
+srb              mean  4.092402e+01   3.899447e+01
+                 min   3.121030e+01   4.160900e+00
+                 max   5.641680e+01   5.865190e+01
+lix              mean  2.293476e+01   2.766856e+01
+                 min   9.000000e+00   7.000000e+00
+                 max   5.640000e+01   4.653330e+01
+compression      mean  5.572595e+01   1.620403e+01
+                 min  -2.666670e+01  -6.266670e+01
+                 max   7.407410e+01   5.796180e+01
+emotion_distance mean  2.527133e-02   2.834145e-02
+                 min   5.919717e-07   3.206484e-07
+                 max   1.563406e-01   2.205970e-01
+emo_sad          mean  1.041291e-01   1.522211e-01
+                 min   3.056326e-04   4.612759e-04
+                 max   8.828836e-01   8.033614e-01
+emo_neutral      mean  2.482390e-01   2.219718e-01
+                 min   9.196089e-04   8.997321e-05
+                 max   9.517146e-01   9.721672e-01
+emo_anger        mean  7.376821e-02   2.406371e-02
+                 min   1.989260e-05   9.288068e-05
+                 max   8.434139e-01   2.853937e-01
+emo_joy          mean  8.489142e-02   6.278100e-02
+                 min   5.066143e-04   8.457340e-05
+                 max   9.407748e-01   9.663628e-01
+emo_surprise     mean  9.209347e-02   6.538568e-02
+                 min   6.832939e-06   4.663365e-06
+                 max   7.457208e-01   7.635666e-01
+emo_fear         mean  2.919233e-02   2.326030e-02
+                 min   8.236428e-06   7.922825e-05
+                 max   2.722982e-01   2.822229e-01
+
+Best overall FALC Simplification (SRB Score): em_phrase
+Best emotional fidelity (Lowest Emotion Distance): em_phrase
+
+📊 Plots generated successfully and saved to 'results/model_comparison_plots.png'!
+
+🎯 Sentence-level comparison plots saved to 'sentence_comparison_plots.png'!
+🎭 Emotion-specific breakdown plots saved to 'emotion_profile_comparison.png'!
+
+==================================================
+🔍 HEAD-TO-HEAD BEST PERFORMING PHRASES
+==================================================
+
+🏆 Best Phrase for [EM_PHRASE] (Sentence ID: 11)
+   Max SRB Score: 56.4168
+-----------------------------------------------------------------
+🔗 [em_phrase_dpo]:
+original text: Alors qu'ils s'enfonçaient toujours plus profondément dans les bois, Émilie demanda : – Où allons-nous ? – Nous allons voir la reine du monde magique. Je dois te présenter à elle. En outre, elle pourra certainement nous aider à retrouver ton frère, lui répondit-il. Bientôt, ils arrivèrent devant une grotte qu'Émilie n'avait jamais vue auparavant. Sans doute, cette grotte devait être invisible aux humains. Léo y entra sans hésitation. Émilie le suivit. Mais, plus ils avançaient dans la grotte, plus il faisait sombre et bientôt Émilie ne parvint plus à distinguer quoi que ce soit. – Léo, Léo ? appela-t-elle à plusieurs reprises. S'il te plaît, Léo, aide-moi à trouver mon chemin dans le noir. Ce n'est pas drôle. Léo lui répondit: – Prends la pierre du soleil dans ta poche et demandelui de t'aider. Suivant ses conseils, Émilie glissa sa main dans sa poche et en ressortit la pierre. Elle brillait doucement, éclairant la paume de sa main.
+falc pred: Émilie demanda : – Où nous allons-nous ? Léo répondit : Nous allons voir la reine magique. Elle peut nous aider à trouver ton frère. Ils arrivèrent devant une grotte. Léo entra. Émilie le suivit, mais plus ils avançaient, plus il faisait sombre. Elle appelait Léo pour l'aider. Il lui dit : Prends la pierre du soleil et demande-lui d'aider. Émilie la trouva et elle brillait, éclairant son chemin.
+   [Metrics] -> SRB: 48.4712 | SARI: 44.9 | LIX: 22.7 | Emo-Dist: 0.0015
+
+👉 [em_phrase]:
+original text: Alors qu'ils s'enfonçaient toujours plus profondément dans les bois, Émilie demanda : – Où allons-nous ? – Nous allons voir la reine du monde magique. Je dois te présenter à elle. En outre, elle pourra certainement nous aider à retrouver ton frère, lui répondit-il. Bientôt, ils arrivèrent devant une grotte qu'Émilie n'avait jamais vue auparavant. Sans doute, cette grotte devait être invisible aux humains. Léo y entra sans hésitation. Émilie le suivit. Mais, plus ils avançaient dans la grotte, plus il faisait sombre et bientôt Émilie ne parvint plus à distinguer quoi que ce soit. – Léo, Léo ? appela-t-elle à plusieurs reprises. S'il te plaît, Léo, aide-moi à trouver mon chemin dans le noir. Ce n'est pas drôle. Léo lui répondit: – Prends la pierre du soleil dans ta poche et demandelui de t'aider. Suivant ses conseils, Émilie glissa sa main dans sa poche et en ressortit la pierre. Elle brillait doucement, éclairant la paume de sa main.
+falc pred: « Où allons-nous ? » – Nous allons voir la reine du monde magique. – Pourquoi ? – C'est là qu'elle peut nous aider à trouver ton frère. Dans une grotte invisible, ils entrent dans le noir. Émilie appelle Léo : « Léo, s'il te plaît, aide-moi ! » Léo répond : « Prends la pierre du soleil et demande-lui d'aider. »
+   [Metrics] -> SRB: 56.4168 | SARI: 57.7 | LIX: 18.0 | Emo-Dist: 0.0011
+
+=================================================================
+
+🏆 Best Phrase for [EM_PHRASE_DPO] (Sentence ID: 5)
+   Max SRB Score: 58.6519
+-----------------------------------------------------------------
+👉 [em_phrase_dpo]:
+original text: Cette fois, le gâteau est bel et bien terminé. Maman se charge de verser la pâte dans un moule en forme d'ours.
+falc pred: Le gâteau est prêt. Maman verse la pâte dans un moule d'ours. (Joie forte)
+   [Metrics] -> SRB: 58.6519 | SARI: 52.7 | LIX: 7.0 | Emo-Dist: 0.0000
+
+🔗 [em_phrase]:
+original text: Cette fois, le gâteau est bel et bien terminé. Maman se charge de verser la pâte dans un moule en forme d'ours.
+falc pred: Maman fait un gâteau en forme d'ours pour Léa.
+   [Metrics] -> SRB: 45.0475 | SARI: 38.7 | LIX: 9.0 | Emo-Dist: 0.0016
+
+=================================================================
+
+==================================================
+📊 PHRASE-BY-PHRASE WIN-LOSS BREAKDOWN
+==================================================
+Analyzing 30 paired phrases:
+
+⭐ OVERALL QUALITY (SRB Score - Higher is Better)
+   • em_phrase_dpo was better for: 12 phrases (40.0%)
+   • em_phrase was better for:     18 phrases (60.0%)
+   • Tied phrases:                 0 phrases (0.0%)
+
+📖 READABILITY (LIX Index - Lower/Easier is Better)
+   • em_phrase_dpo was better for: 8 phrases (26.7%)
+   • em_phrase was better for:     22 phrases (73.3%)
+   • Tied phrases:                 0 phrases (0.0%)
+
+🎭 EMOTIONAL FIDELITY (Distance - Lower/Closer is Better)
+   • em_phrase_dpo was better for: 18 phrases (60.0%)
+   • em_phrase was better for:     12 phrases (40.0%)
+   • Tied phrases:                 0 phrases (0.0%)
+==================================================
+🏆 OVERALL PHRASE CHAMPION (Model winning the majority of the 3 dimensions)
+   • em_phrase_dpo was better overall for: 11 phrases (36.7%)
+   • em_phrase was better overall for:     10 phrases (33.3%)
+   • Tied overall:                         9 phrases (30.0%)
+==================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== Comparative Evaluation (71 sentences) ===
+
+--- 1. Emotion Similarity (dis_ori_pred) ---
+• Model_mbart_dpo higher: 38/71 (53.52%)
+• Model_mbart_grpo higher: 32/71 (45.07%)
+• Ties: 1 (1.41%)
+
+--- 2. Overall DPO Score (score_dpo) ---
+• Model_mbart_dpo higher: 25/71 (35.21%)
+• Model_mbart_grpo higher: 46/71 (64.79%)
