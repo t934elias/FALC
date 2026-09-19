@@ -1,0 +1,78 @@
+Léa, pourquoi tu sembles triste aujourd'hui ? Ce matin, Clément se réveille heureux. C'est l'anniversaire de ta petite sœur Léa. Il court vers ta chambre pour te souhaiter bon anniversaire. Il est impatient de te voir. Il frappe doucement à la porte et crie joyeusement : "Bon anniversaire, ma petite sœur !" Léa ouvre un œil. Elle a eu du mal à dormir cette nuit. C'est pourquoi, ce matin, elle est vraiment fatiguée. Elle aurait voulu se reposer encore un peu. Mais son frère ne s'arrête pas de sauter devant elle en disant : "Tu es grande maintenant !"
+/home/d3879/etr/etr-env/lib64/python3.9/site-packages/networkx/utils/backends.py:135: RuntimeWarning: networkx backend defined more than once: nx-loopback
+  backends.update(_get_backends("networkx.backends"))
+[nltk_data] Downloading package punkt to /home/d3879/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+BLEU Score: 10.5290
+ROUGE-L: 35.5263
+SARI Score: 40.3621
+
+BERTScore:
+Precision: 71.7711
+Recall:    84.6707
+F1:        77.6891
+
+Readability:
+flesch reading ease: 77.0720
+LIX:                 27.1048
+Compression Ratio:   19.1304
+
+Novelty:
+Novelty Score: 22.2222
+
+Combined Metric:
+SRB Score: 45.5957
+
+Number of Samples: 1
+Device set to use cuda:0
+
+Texte original :
+sad: 0.9346
+neutral: 0.0338
+anger: 0.0181
+joy: 0.0106
+surprise: 0.0020
+fear: 0.0009
+
+Texte FALC :
+sad: 0.8934
+neutral: 0.0599
+anger: 0.0319
+joy: 0.0064
+surprise: 0.0056
+fear: 0.0028
+
+Texte ref :
+sad: 0.8289
+joy: 0.1348
+neutral: 0.0231
+anger: 0.0105
+surprise: 0.0017
+fear: 0.0009
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.0412
+neutral: 0.0261
+anger: 0.0138
+joy: 0.0041
+surprise: 0.0036
+fear: 0.0019
+0.0006244956125642798
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.1057
+neutral: 0.0107
+anger: 0.0077
+joy: 0.1242
+surprise: 0.0002
+fear: 0.0000
+0.011258083310346945
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.0644
+neutral: 0.0368
+anger: 0.0214
+joy: 0.1284
+surprise: 0.0038
+fear: 0.0019
+0.012851601317344752

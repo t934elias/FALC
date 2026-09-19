@@ -1,0 +1,82 @@
+(etr-env) [d3879@gpus-hultig etr]$ python dpo_falc.py
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:01<00:00,  1.59it/s]
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Léa, pourquoi tu sembles triste aujourd'hui ? Ce matin, Clément se réveille heureux. C'est l'anniversaire de ta petite sœur Léa ! Il saute de son lit et court vers ta chambre. Il est impatient de te souhaiter bon anniversaire. Il frappe doucement à la porte avant d'entrer en criant joyeusement : "Bon anniversaire, ma petite sœur !" Léa ouvre un œil. Elle a eu du mal à dormir cette nuit. C'est pourquoi, ce matin, elle est vraiment fatiguée. Elle aurait voulu se reposer encore un peu. Mais son frère ne s'arrête pas de sauter devant elle en répétant gaiement : "Tu es grande maintenant !"
+/home/d3879/etr/etr-env/lib64/python3.9/site-packages/networkx/utils/backends.py:135: RuntimeWarning: networkx backend defined more than once: nx-loopback
+  backends.update(_get_backends("networkx.backends"))
+[nltk_data] Downloading package punkt to /home/d3879/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+BLEU Score: 9.6689
+ROUGE-L: 33.7500
+SARI Score: 37.9061
+
+BERTScore:
+Precision: 70.8906
+Recall:    84.3924
+F1:        77.0545
+
+Readability:
+flesch reading ease: 75.9622
+LIX:                 28.5748
+Compression Ratio:   14.7826
+
+Novelty:
+Novelty Score: 12.8205
+
+Combined Metric:
+SRB Score: 43.4856
+
+Number of Samples: 1
+Device set to use cuda:0
+
+Texte original :
+sad: 0.9346
+neutral: 0.0338
+anger: 0.0181
+joy: 0.0106
+surprise: 0.0020
+fear: 0.0009
+
+Texte FALC :
+sad: 0.8029
+neutral: 0.0743
+joy: 0.0542
+anger: 0.0451
+surprise: 0.0189
+fear: 0.0047
+
+Texte ref :
+sad: 0.8289
+joy: 0.1348
+neutral: 0.0231
+anger: 0.0105
+surprise: 0.0017
+fear: 0.0009
+
+Distance euclidienne entre text ori et falc predit
+sad: 0.1318
+neutral: 0.0404
+anger: 0.0270
+joy: 0.0436
+surprise: 0.0170
+fear: 0.0038
+0.00401567652753243
+
+Distance euclidienne entre text ori et falc ref
+sad: 0.1057
+neutral: 0.0107
+anger: 0.0077
+joy: 0.1242
+surprise: 0.0002
+fear: 0.0000
+0.011258083310346945
+
+Distance euclidienne entre falc pred et falc ref
+sad: 0.0261
+neutral: 0.0512
+joy: 0.0806
+anger: 0.0346
+surprise: 0.0172
+fear: 0.0037
+0.0076209871863573975
